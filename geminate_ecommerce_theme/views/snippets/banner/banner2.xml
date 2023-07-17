@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="banner2" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_banner2" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/banner/banner_2.png"/>
+            </xpath>
+        </template>
+        <template id="s_banner2" name="Banner2">
+			<section id="gem_banner_hero_2" class="d-flex align-items-center">
+			  	<div class="container-fluid">
+			    	<div class="row justify-content-center">
+			      		<div class="col-xl-5 col-lg-6 col-md-12 col-sm-12 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+			        		<div class="banner_2_content">
+			          			<h5><span></span></h5>
+			        		</div>
+			      		</div>
+				      	<div class="bnt_banner_2">
+				        	<a href="#" class="gem_banner_2_btn-get-started btn-primary">Get Started</a>
+				      	</div>
+				      	<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 order-1 order-lg-2 gem_bn_hero-img">
+				        	<div class="img_banner_hero_2">
+				          		<img src="https://bootstrapmade.com/demo/templates/Techie/assets/img/hero-img.png" class="img-fluid gem_bn_2_animated"/>
+			        		</div>
+				      	</div>
+			    	</div>
+			 	</div>
+			</section> 
+        </template>
+    </data>
+</odoo>

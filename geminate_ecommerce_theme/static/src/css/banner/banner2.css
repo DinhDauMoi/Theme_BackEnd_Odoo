@@ -1,0 +1,139 @@
+#gem_banner_hero_2 {
+  width: 100%;
+  height:120vh!important;
+  background: 
+  url("https://demo.themexbd.com/wpv/hostsell/wp-content/uploads/2021/02/slider.jpg") center center no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*position: absolute;*/
+}
+#gem_banner_hero_2 .gem_banner_2_btn-get-started {
+  position: absolute;
+  bottom:0%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 10px 28px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  border: 2px solid #fff;
+  margin-left:15px;
+}
+#gem_banner_hero_2 .gem_banner_2_btn-get-started:hover {
+  background: #fff;
+  color: #5846f9;
+  text-decoration: none;
+}
+#gem_banner_hero_2 .gem_bn_2_animated {
+  margin-left: 100px;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#gem_banner_hero_2 h5 {
+  justify-content: center;
+  font-size:50px;
+  color: white;
+  animation-duration: 2000ms;
+  animation-name: MoveUpDown;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+@keyframes MoveUpDown {
+  0% {
+    opacity:0;
+    transform: translatex(0);
+  }
+  25% {
+    opacity:0;
+    transform: translatex(0);
+  }
+}
+#gem_banner_hero_2 h5::before {
+  content: "";
+  animation: animate 11s infinite;
+}
+@keyframes animate {
+    25% {
+      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,";
+    }
+    65% {
+      content: "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+    }
+    100% {
+      content: "Ut enim ad minim veniam, nostrud consectetur adipiscing elit.";  
+    }
+}
+@media (max-width: 991px) {
+  #gem_banner_hero_2 {
+    text-align: center;
+  }
+  #gem_banner_hero_2 .gem_bn_2_animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #gem_banner_hero_2 .gem_bn_hero-img {
+    text-align: center;
+  }
+  #gem_banner_hero_2 .gem_bn_hero-img img {
+    width: 40%;
+  }
+  #gem_banner_hero_2 .gem_bn_2_animated {
+    margin-left: 0px;
+  }
+  #gem_banner_hero_2 h5 {
+    font-size: 20px;
+    height:150px;
+  }
+  .bnt_banner_2 {
+    display:contents;
+  }
+}
+@media (max-width: 768px) {
+  #gem_banner_hero_2 h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  #gem_banner_hero_2 h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #gem_banner_hero_2 .gem_bn_hero-img img {
+    width:50%%;
+  }
+}
+@media (max-width: 575px) {
+  #gem_banner_hero_2 .gem_bn_hero-img img {
+    width: 60%;
+  }
+  #gem_banner_hero_2 h5 {
+    font-size: 25px;
+    height: 200px;
+  }
+}
+@media (max-width: 575px), (max-height: 600px) {
+    #gem_banner_hero_2 {
+      height:100%;
+    }
+}
+@media (max-width:991px),(max-height:1200px) {
+    #gem_banner_hero_2 .gem_bn_2_animated {
+      margin-left: 0px;
+    }
+}
+@media only screen and (min-width:776px) and (max-width:992px) { 
+  .banner_2_content {
+    text-align: center;
+  }
+}
+

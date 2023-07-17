@@ -1,0 +1,191 @@
+#gem_baner_4_hero {
+    width: 100%; 
+    background: url("https://cutesolution.com/html/axiom/Axiom/assets/img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+#gem_baner_4_hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 91%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#gem_baner_4_hero .gem_bn4_btn-get-started {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    position: absolute;
+    bottom:15%;
+}
+#gem_baner_4_hero .gem_bn4_btn-get-started:hover {
+    background: #17b57d;
+    text-decoration: none;
+}
+#gem_baner_4_hero .animated {
+    position: absolute;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#gem_baner_4_hero .gem_bn4_hero-waves{
+  display: block;
+  bottom:0%;
+  width: 100%;
+  height: 70px;
+  z-index: 5;
+  position:absolute;
+}
+#gem_baner_4_hero .gem_wave1 use {
+  -webkit-animation: move-forever1 10s linear infinite;
+  animation: move-forever1 10s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+#gem_baner_4_hero .gem_wave2 use {
+  -webkit-animation: move-forever2 8s linear infinite;
+  animation: move-forever2 8s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+#gem_baner_4_hero .gem_wave3 use {
+  -webkit-animation: move-forever3 6s linear infinite;
+  animation: move-forever3 6s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+@-webkit-keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@-webkit-keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+#gem_baner_4_hero .gem_ityped {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#gem_baner_4_hero .ityped-cursor {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+#gem_baner_4_hero .span_typed {
+  display: block;
+  margin-top:150px;
+  height:500px;
+}
+@media (max-width: 991px) {
+  #gem_baner_4_hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #gem_baner_4_hero .gem_bn4_hero-img {
+    text-align: center;
+  }
+  #gem_baner_4_hero .gem_bn4_hero-img img {
+    max-width: 50%;
+  }
+  #gem_baner_4_hero .span_typed {
+    margin-top:40px;
+    text-align: center;
+  }
+  #gem_baner_4_hero .gem_ityped {
+    font-size:40px;
+    height:154px;
+  }
+}
+@media (max-width: 575px) {
+  #gem_baner_4_hero .gem_bn4_hero-img img {
+    width: 80%;
+  }
+  #gem_baner_4_hero .gem_ityped { 
+    font-size: 25px!important;
+  }
+}
+@media only screen and (min-width:280px) and (max-width: 992px) {
+  #gem_baner_4_hero .animated {
+    position: relative;
+  }
+  .btn_centre_bannner_4 {
+    position: absolute;
+    bottom: 15%;
+    left: 0px;
+    right: 0px;
+  }
+  #gem_baner_4_hero .gem_bn4_btn-get-started {
+    position: unset;
+  }
+}

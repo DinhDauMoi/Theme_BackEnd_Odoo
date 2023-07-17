@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="banner6_gem" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_banner6" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/banner/banner_6.png"/>
+            </xpath>
+        </template>
+        <template id="s_banner6" name="Banner6">
+			<section class="main_gem_banner_6">
+				<div class="container">
+					<div classr="row">
+						<div class="main_banner_content col-lg-7">
+							<h1>Welcome to Odoo</h1><br/>
+							<div class="typed_bn_6" style="height:500px;">
+    							<span class="ityped_bn6_gem"></span>
+    						</div>
+							<div class="btn_bn6">
+								<a href="#" class="comn_btn_bn_6 btn_bn6_1 btn-primary">Get Start Now </a>
+								<a href="#" class="comn_btn_bn_6 btn_bn6_2 btn-primary">Contact Us</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+        </template>
+    </data>
+</odoo>

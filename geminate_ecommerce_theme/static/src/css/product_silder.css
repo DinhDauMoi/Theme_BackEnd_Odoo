@@ -1,0 +1,24 @@
+.s_product_silder_222 h4 {
+  font-weight: bold!important;
+}
+
+.s_product_silder_222 {
+  margin-bottom: 20px;
+}
+
+.s_product_silder_222 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.text-heading_product_silder {
+  margin-top: 20px;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1500px){
+    .swiper_new_pro_snippet .swiper-slide {
+        width: calc((95%) / 4) !important;
+    }
+}

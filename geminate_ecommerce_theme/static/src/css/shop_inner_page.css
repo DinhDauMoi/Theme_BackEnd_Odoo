@@ -1,0 +1,787 @@
+a,a:hover,a:focus{
+    box-shadow: none!important;
+    outline: none!important;
+    text-decoration: none!important;
+}
+u{
+    text-decoration: none;
+    color: #fff;
+}
+
+.custom_product_ecom_gem_main {
+    padding: 0px!important;
+}
+
+.custom_product_ecom_gem_main .custom_product_header {
+    padding: 20px 50px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+.custom_products_ecom_gem{
+    top: 10px;
+    width: 100%;
+    position: relative;
+    background-color:#fff;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed!important;
+    background-size: cover!important;
+    font-family: 'Poppins', sans-serif;
+    background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=740&t=st=1687940406~exp=1687941006~hmac=9fd7d8404cf52724eda8d1b37c7ec6f108a4f0a38d48c078ed8b32d12b991eec);
+}
+.custom_products_ecom_gem .o_wsale_product_images .o_carousel_product_left_indicators img{
+    border-radius: 5px!important; 
+}
+.custom_products_ecom_gem #product_details .my-2,.custom_products_ecom_gem #product_details .js_add_cart_variants li,.custom_products_ecom_gem #product_details .oe_price{
+    color: #000!important;
+}
+.custom_products_ecom_gem #product_details .js_add_cart_variants .variant_attribute  {
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #000!important;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_products_ecom_gem #product_details .custom_h1_autoparts{
+    font-size: 30px;
+    color: #000!important;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_products_ecom_gem #product_details .o_website_rating_static{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+ .custom_products_ecom_gem #product_details .custom_prize_ecom_gem .css_editable_mode_hidden{
+    font-size: 25px!important;
+    letter-spacing: 1px!important;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .css_quantity {
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .js_check_product,.custom_products_ecom_gem #product_details .custom_prize_ecom_gem  .o_we_buy_now,.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .o_add_wishlist_dyn{
+    border:none;
+    color: #fff;
+    background: #000;
+    letter-spacing: 1px;
+    padding: 5px 20px 5px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .js_check_product i, .custom_products_ecom_gem #product_details .custom_prize_ecom_gem .o_we_buy_now i,.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .o_add_wishlist_dyn i{
+    color: #000;
+    padding: 10px;
+    background: #fff;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .o_add_wishlist_dyn i{
+    margin-left: 10px;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .attribute_name{
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .attribute_name:after{
+   display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    margin: 0px!important;
+    background: rgb(238, 177, 119);
+
+}
+.custom_products_ecom_gem #product_details .o_product_terms_and_share_custom p{
+    padding: 5px 10px;
+    line-height: 35px;
+    display: inline-block;
+    background: #000;
+    border-radius: 5px;
+    color: #fff!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.custom_products_ecom_gem #product_details .o_website_rating_static .text-muted{
+    color: #000!important;
+}
+.custom_products_ecom_gem #product_details .o_product_terms_and_share_custom .s_share a{
+    width: 45px;
+    height: 45px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff!important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.custom_products_ecom_gem #product_details .o_product_terms_and_share_custom .s_share i {
+    line-height: 47px;
+}
+
+.custom_wish_list_ecom_gem .wishlist-section h3{
+    font-size: 20px!important;
+    letter-spacing: 1px!important;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #000;
+    color: #fff;
+}   
+.custom_wish_list_ecom_gem .wishlist-section .fa-heart {
+    color: #fff;
+    margin-right: 10px;
+}
+.custom_wish_list_ecom_gem .wishlist-section .checkbox label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .pcustom_wish_list{
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .o_add_to_compare,.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .addtocart_wish_list{
+    color: #fff;
+    background: #000;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    border: none!important;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .o_add_to_compare {
+    display: none;
+    background: #000;
+}
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .addtocart_wish_list {
+    background: #000;
+}
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .o_add_to_compare i,.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .o_wish_rm i,.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .addtocart_wish_list i{
+    width: 30px;
+    height: 30px;
+    color: #000;
+    line-height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+/*.custom_inner_cart_ecom_gem_header{
+    margin-top: 100px;
+}*/
+.custom_right_side_detalis .js_cart_summary{
+    border:none!important;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background: url(https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?w=740&t=st=1687941126~exp=1687941726~hmac=ba02f0c926dc60ba119832c3ba78867b19e3c989c49205f2c2428997fb6a4234);    
+    background-size: cover!important;
+    background-position: center;
+}
+.custom_right_side_detalis .js_cart_summary h4{
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.custom_right_side_detalis .js_cart_summary .btn {
+    width: 100%;
+    background: #000;
+}
+.custom_inner_cart_ecom_gem .js_cart_lines{
+    padding: 10px;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.custom_inner_cart_ecom_gem .js_cart_lines .js_delete_product {
+    background: #000;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.custom_inner_cart_ecom_gem .js_cart_lines .js_add_cart_json,.custom_inner_cart_ecom_gem .js_cart_lines .js_quantity{
+    border:none;
+    margin-top: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.custom_inner_cart_ecom_gem .js_cart_lines .oe_currency_value{
+    margin-top: 10px;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_inner_cart_ecom_gem_header .progress-wizard-steplabel{
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_inner_cart_ecom_gem .float-end{
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background: #000;
+}   
+.custom_inner_cart_ecom_gem .mb32 {
+    border:none;
+     font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    background: #000;
+}
+
+.custom_products_ecom_gem .o_carousel_product_indicators  {
+    margin-top: 20px;
+}
+/*hovercart*/
+
+.mycart-popover {
+    border:none;
+    color: #fff;
+    transform: translate(899px, 69px)!important;
+}
+.mycart-popover .popover-header{
+    color: #fff;
+    font-size: 20px;
+    background: #000;
+    margin: 0px!important;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.mycart-popover .popover-body .cart_line, .mycart-popover .popover-body .text-center{
+    position: inherit!important;
+}
+.mycart-popover .popover-body {
+    color: #fff;
+    position: relative;
+    letter-spacing: 1px;
+    background-size: cover!important;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+    background: url(https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?w=740&t=st=1687941126~exp=1687941726~hmac=ba02f0c926dc60ba119832c3ba78867b19e3c989c49205f2c2428997fb6a4234);    
+}
+.mycart-popover .popover-body:before{
+    content: "";
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;   
+}
+.mycart-popover #order_total_untaxed td,.mycart-popover #order_total_taxes td,.mycart-popover #order_total td{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.mycart-popover .popover-body .btn-primary,#product_full_description .btn-primary{
+    background: #000;
+    border:none;
+}
+
+/*hovercart*/
+#product_full_description .align-items-center{
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+    background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=740&t=st=1687940406~exp=1687941006~hmac=9fd7d8404cf52724eda8d1b37c7ec6f108a4f0a38d48c078ed8b32d12b991eec);
+}
+#product_full_description .align-items-center .pt16 h2{
+    font-family: 'Poppins', sans-serif;
+}   
+#product_full_description .align-items-center .pt16 img{
+    border-radius: 5px;
+}
+#product_full_spec {
+    border:none;
+}
+#product_full_spec .container {
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+    background: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=740&t=st=1687940406~exp=1687941006~hmac=9fd7d8404cf52724eda8d1b37c7ec6f108a4f0a38d48c078ed8b32d12b991eec);
+}
+#product_full_spec .container h3{
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+#product_full_spec .container .o_add_compare_dyn {
+    padding: 5px 20px;
+    background: #000;
+    display: inline-block!important;
+    color: #fff;
+    width: 130px;
+}
+.custom_products_ecom_gem .carousel-indicators {
+    justify-content: center!important;
+}
+.custom_products_ecom_gem .carousel-indicators li,.custom_products_ecom_gem .carousel-indicators img{
+    border:#000;
+    border-radius: 5px;
+}
+.custom_product_header {
+    font-family: 'Poppins', sans-serif;
+}
+.custom_products_ecom_gem #o-carousel-product .carousel-control-prev > span,.custom_products_ecom_gem #o-carousel-product .carousel-control-next > span{
+    color: #000;
+    border:none;
+    background: #fff;
+    border-radius: 5px!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.o_product_feature_panel .popover-body{
+    color: #fff;
+    position: relative;
+    letter-spacing: 1px;
+    background-size: cover!important;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+    background: url(https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?w=740&t=st=1687941126~exp=1687941726~hmac=ba02f0c926dc60ba119832c3ba78867b19e3c989c49205f2c2428997fb6a4234);    
+}
+.o_product_feature_panel .popover-body:before{
+    content: "";
+    background: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+}
+.o_product_feature_panel .o_comparelist_products {
+    position: inherit!important;
+}
+.o_product_feature_panel {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.o_product_feature_panel .o_product_icon i{
+    background: #000;
+    padding: 5px 10px;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 25px;
+    border-radius: 50%;
+    animation: pulse-animations 2s infinite;
+}
+@keyframes pulse-animations{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+
+.o_product_feature_panel .popover-header{
+    color: #fff;
+    font-size: 20px;
+    background: #000;
+    margin: 0px!important;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.o_product_feature_panel .popover-body h6{
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.o_product_feature_panel .popover-body .o_remove{
+    padding: 5px 10px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    display: unset!important;
+}
+.custom_product_header .input-group input{
+    color: #000!important;
+    margin: 0px!important;
+    background-color: #fff!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.custom_product_header .o_pricelist_dropdown .btn-light{
+    margin: 0px!important;
+    background: #000!important;
+    color: #fff!important;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+.custom_product_header .form-control::placeholder{
+    color: #000!important;
+}
+.custom_product_header .oe_search_button{
+    margin: 0px;
+    border: none;
+    background: #000;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_products_ecom_gem .carousel-inner {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.o_product_feature_panel .popover-body .o_comparelist_products .o_product_row a{
+    display: block;
+    color:#fff!important;
+}
+.mycart-popover .popover-body .h6{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_products_ecom_gem .o_wsale_product_images .o_carousel_product_outer{
+    height: auto;
+    width: 450px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f4f6f8 !important;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .css_quantity .js_add_cart_json{
+    border:none;
+    line-height: 40px;
+    margin: 0px!important;
+}
+.custom_products_ecom_gem #product_details .custom_prize_ecom_gem .form-control{
+    border:none;
+}
+
+.custom_inner_cart_ecom_gem .js_cart_lines th{
+    color: #fff;
+    background: #000;
+}
+
+/*wishlist-box*/
+.tabele_custom_ecom_gem .wishlist-box td{
+    display: block !important;
+    max-height: 420px;
+    border-radius: 5px !important;
+    padding: 10px 20px !important;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .o_wish_rm i{
+    width: 40px;
+    height: 40px;
+    color: #000;
+    line-height: 40px;
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+    right: 3px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.5s;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px; 
+}
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .o_wish_rm i:hover {
+    background: #000;
+    color: #fff;
+}
+
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem .oe_currency_value{
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom_wish_list_ecom_gem .tabele_custom_ecom_gem tr,.custom_wish_list_ecom_gem .tabele_custom_ecom_gem td{
+    border: none;
+    background: #fff;
+    --table-accent-bg: none!important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom_wish_list_ecom_gem .product_disc_wishlist_5646545{
+    height: 80px;
+}
+
+/*wishlist-box*/
+
+
+.product_desc_custom .custom_desc_564654 h2,.product_desc_custom .custom_desc_564654 p{
+    font-family: 'Poppins', sans-serif;
+}
+.product_desc_custom .custom_desc_564654 .btn-primary{
+    border: none;
+    background: #000;
+}
+#product_specifications .custom_table {
+    border-radius: 5px;
+    border: 1px solid #dee2e6 !important;
+}
+
+.product_desc_custom .pb16{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.oe_website_sale .order-xl-2 .card{  
+    border:none;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: url(https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?w=740&t=st=1687941126~exp=1687941726~hmac=ba02f0c926dc60ba119832c3ba78867b19e3c989c49205f2c2428997fb6a4234);
+}
+.oe_website_sale .order-xl-2 .card #cart_products thead th{
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.oe_website_sale .order-xl-2 .card #cart_products td {
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    --table-accent-bg: rgba(0, 0, 0, 0.025)!important;
+}
+.oe_website_sale .oe_cart #address_on_payment .custom_card_billing_gem{
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.oe_website_sale .oe_cart .mt-2 .btn-link{
+    color: #fff;
+    padding: 10px;
+    background: #000;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.billing_ad_gem .custom_billing_ad2315 h3,.oe_website_sale .oe_cart .o_page_header{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.billing_ad_gem .custom_billing_ad2315 .card{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border:none!important;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.billing_ad_gem .custom_billing_ad2315 .card .card-body i{
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    line-height: 30px;
+    padding-left: 5px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+}
+.billing_ad_gem .custom_billing_ad2315 .btn-secondary,.oe_website_sale .oe_cart .checkout_autoformat .btn-secondary{
+    color: #fff;
+    border:none;
+    background: #000;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.billing_ad_gem .custom_billing_ad2315 .btn-primary,.oe_website_sale .oe_cart .checkout_autoformat .btn-primary{
+    color: #fff;
+    border:none;
+    background: #000;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.oe_website_sale .oe_cart .checkout_autoformat {
+    color: #ffff;
+    padding: 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    background: url(/geminate_jewellery_theme/static/src/img/jew_bg_1.png);
+}
+
+/*shopinner page*/
+
+.custom_table_popup_cart {
+    text-align: left;
+}
+
+.custom_table_popup_cart .custom_tr_popcart_gem {
+    border-radius: 5px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_table_popup_cart .td-product_name,.js_product .td-price{
+    --table-accent-bg:none!important;
+}
+.custom_table_popup_cart .o_select_options h4{
+    margin:0px!important;
+}
+.o_legacy_dialog .modal-footer .btn-secondary{
+    border: none;
+    background: #000;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.o_legacy_dialog .modal-footer .btn-primary {
+    border: none;
+    background: #000;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_table_popup_cart .input-group{
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_table_popup_cart .js_add_cart_json{
+    color: #000;
+    border: none;
+    background: none;
+}
+.custom_table_popup_cart .form-control{
+    border:none;
+}
+.custom_table_popup_cart .js_product{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.custom_table_popup_cart .td-price .js_add {
+    border: none;
+    background: #000;
+    margin-top: 10px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_prize_auto_parts .css_attribute_color.active,.custom_prize_auto_parts .css_attribute_color:hover{
+    border-color: red!important;
+}
+.o_product_feature_panel .o_product_text{
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+.custom_products_ecom_gem .o_product_terms_and_share_custom h4{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom_products_ecom_gem .o_product_terms_and_share_custom .design_box_terms_gem{
+    padding: 10px;
+    background: #fff;
+    color: #000!important;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px!important;
+}
+
+.oe_website_sale .oe_cart #address_on_payment .card{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.billing_ad_gem .custom_billing_ad2315 {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.oe_product .o_legacy_dialog {
+    left:0px!important;
+    right: 0px!important;
+    position: fixed!important;
+}
+.oe_product .o_legacy_dialog  .modal-dialog{
+    width: auto!important;
+}
+.oe_product .modal-content{
+    background: #fff;
+}
+.oe_product .o_wsale_product_grid_wrapper .custom_table_popup_cart_246 .btn,.oe_product .o_legacy_dialog .btn{
+    width: auto!important;
+    height: auto!important;
+    border-radius: 5px!important;
+}
+
+
+/*customer_review*/
+
+.custom_o_product_page_reviews {
+    background: url(https://img.freepik.com/free-vector/organic-flat-feedback-concept_52683-62653.jpg?w=740&t=st=1687940714~exp=1687941314~hmac=d1a18b6d2a8cc98ae129d3e23b34c06619fa2414b789e6750b299e12eebd353f);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}   
+.custom_o_product_page_reviews .o_product_page_reviews_title .mb32{
+    width: 100%;
+    color: #000;
+    padding: 15px;
+    font-size: 25px;
+    background: #fff;
+    letter-spacing: 1px;
+    border-radius: 5px;  
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_o_product_page_reviews .btn-success{
+    border:none;
+    background: #000;
+    padding: 5px 20px; 
+}
+.custom_o_product_page_reviews #o_product_page_reviews_content  hr{
+    display: none;
+}
+.custom_o_product_page_reviews #o_product_page_reviews_content .custom_o_website_rating_card_container {
+    padding: 8px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_o_product_page_reviews .o_portal_rating_chatter_messages .o_portal_chatter_message{
+    border: none;
+    padding: 16px!important;
+    background: rgb(255 255 255 / 80%);
+    border-radius: 30px 30px 0px 30px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_o_product_page_reviews .offset-lg-1 {
+    margin-left: 0px!important;
+}
+.custom_o_product_page_reviews .o_portal_chatter .col-lg-5{
+    width: 50%;
+}
+.custom_o_product_page_reviews .o_portal_chatter_composer{
+    border: none;
+    padding: 16px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+.custom_o_product_page_reviews .o_portal_chatter_composer_btn,.custom_o_product_page_reviews .o_portal_chatter_attachment_btn{
+    border: none;
+    padding: 5px 30px;
+    background: #000;
+}
+.custom_o_product_page_reviews .o_portal_chatter_attachment_btn {
+    background: #000;
+}
+.custom_o_product_page_reviews .o_portal_chatter_message .o_portal_chatter_message_title h5{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*end_customer_review*/

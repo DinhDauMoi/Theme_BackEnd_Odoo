@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="fancy_box_4" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_4_fancy_box" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/fancy_box/fancy_4_box.png"/>
+            </xpath>
+        </template>
+        <template id="s_4_fancy_box" name="Fancy Box 4">
+            <section class="gem_box_ofr_product_4">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="gem_left_side_img">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://mahardhi.com/wordpress/MT04/affix/wp-content/uploads/2021/08/sub-banner-1.jpg"/>
+                                </a>
+                            </div>
+                            <div class="side_left_content">
+                                <h3 class="promo-title">Save 70%<br/>Protective Masks</h3>
+                            </div>
+                            <a href="#" class="btn_4_box btn_left_box btn-primary">Shop Now</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="col-lg-12">
+                                <div class="gem_cntr_img_1">
+                                    <a href="#">
+                                        <img class="img-fluid" src="https://mahardhi.com/wordpress/MT04/affix/wp-content/uploads/2021/08/sub-banner-2.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="side_centr_content">
+                                    <h3 class="promo-title_centre">UP TO<br/><span>20% OFF</span><br/>ON ALL MEDICINE</h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="gem_cntr_img_2">
+                                    <a href="#">
+                                        <img class="img-fluid" src="https://mahardhi.com/wordpress/MT04/affix/wp-content/uploads/2021/08/sub-banner-3.jpg"/>
+                                    </a>
+                                </div>
+                                <div class="side_centr_content_24">
+                                    <h3 class="promo-title_centre_2">40% SAVE<br/><span>BIG SAVING DEAL OFFERS</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gem_right_side_img">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://mahardhi.com/wordpress/MT04/affix/wp-content/uploads/2021/08/sub-banner-4.jpg"/>
+                                </a>
+                            </div>
+                            <div class="side_left_content side_right_content">
+                                <h3 class="promo-title">Anti-bacterial<br/>Hand Gel’s</h3>
+                            </div>
+                                <a href="#" class="btn_4_box btn_right_box btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>  
+                </section>
+        </template>
+    </data>
+</odoo>

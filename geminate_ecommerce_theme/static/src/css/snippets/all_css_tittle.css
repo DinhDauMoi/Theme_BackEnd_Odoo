@@ -1,0 +1,261 @@
+/*tittle_1_css*/
+
+.s_gem_title_section_1 {
+	padding: 5rem 0;
+}
+.s_gem_title_section_1 .s_gem_sec_tittle {
+	position: relative;
+    padding-left: 30px;
+    margin-bottom: 65px;
+}
+.s_gem_title_section_1 .s_gem_sec_tittle:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 4px;
+    background-color: #00a94f;
+    content: '';
+}
+.s_gem_title_section_1 .s_gem_sec_tittle:after {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    height: 40px;
+    width: 2px;
+    background-color: #00a94f;
+    content: '';
+}
+.s_gem_title_section_1 .s_gem_sec_tittle span {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 1.2em;
+    color: #00a94f;
+    font-weight: 700;
+    top: -4px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.s_gem_title_section_1 .s_gem_sec_tittle h2 {
+    color: #001935;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/*tittle_2_css*/
+
+ .s_gem_title_section_2 {
+        padding: 100px 0 70px;
+    }
+    .s_gem_title_section_2 .section-title {
+        position: relative;
+        max-width: 640px;
+    }
+    .s_gem_title_section_2 .section-title.centered {
+        text-align: center;
+        margin: 0 auto 50px;
+    }
+    .s_gem_title_section_2 .section-title .subtitle {
+        display: inline-flex;
+        color: #ff6a26;
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: 500;
+        position: relative;
+    }
+    .s_gem_title_section_2 .section-title.has-element .subtitle {
+        padding: 0 26px;
+    }
+    .s_gem_title_section_2 .section-title.has-element .subtitle:before, .section-title.has-element .subtitle:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%) skewX(-15deg);
+        width: 8px;
+        height: 18px;
+        border-left: 2px solid #ff6a26;
+        border-right: 2px solid #ff6a26;
+    }
+    .s_gem_title_section_2 .section-title.has-element .subtitle:after {
+        left: auto;
+        right: 0;
+    }
+    .s_gem_title_section_2 .section-title .title {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 1.2;
+        position: relative;
+    }
+    .s_gem_title_section_2 .color_change {
+        color: #ff6a26;
+        margin-left: 15px;
+    }
+
+/*tittle_3_css*/
+
+    .s_gem_title_section_3 {
+        padding: 100px 0;
+
+    }
+    .gem_section-title_3 {
+        text-align: center;
+    }
+    .gem_section-title_3 h5 {
+        border: 1px solid #c50501;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 5px;
+        display: inline-table;
+        padding: 2px 23px;
+    }
+    .gem_section-title_3 h2 {
+        color: #000;
+        font-weight: 700;
+        text-transform: capitalize;
+        line-height: 1.3;
+        font-size: 60px;
+    }
+
+/*tittle_4_css*/
+
+.s_gem_title_section_4 .title-block_gem_24 {
+        display: inline-block;
+        width: 100%;
+        padding: 100px 0px 60px 0;
+    }
+    .s_gem_title_section_4 .text-center {
+        text-align: center;
+    }
+    .s_gem_title_section_4 .title-block_gem_24 .top-title {
+        display: block;
+        width: 70px;
+        height: 24px;
+        border: 4px solid #d32525;
+        border-bottom: 0;
+        margin: 0 auto;
+    }
+    .s_gem_title_section_4 .title-block_gem_24 .bottom-title {
+        clear: both;
+        display: block;
+        width: 70px;
+        height: 4px;
+        background: #d32525;
+        margin: 0 auto;
+    }
+    .s_gem_title_section_4 .title-block_gem_24 h2 {
+        margin: 10px 0 4px 0;
+        font-weight: 700;
+    }
+    .s_gem_title_section_4 .title-block_gem_24 .sub-title {
+        clear: both;
+        color: #979797;
+        line-height: 13px;
+        margin-bottom: 16px;
+    }
+
+/*tittle_5_css*/
+
+.s_gem_title_section_5 .section-title_gem_07 {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0 120px;
+}
+.s_gem_title_section_5 .section-title_gem_07 h2::before {
+    position: absolute;
+    left: 50%;
+    content: "";
+    width: 100px;
+    border-top: 2.5px solid #00B16A;
+    bottom: -1px;
+    margin-left: -63px;
+}
+.s_gem_title_section_5 .section-title_gem_07 h2::after {
+    position: absolute;
+    left: 50%;
+    content: "";
+    width: 100px;
+    border-top: 2.5px solid #00B16A;
+    bottom: -8px;
+    margin-left: -50px;
+}
+.s_gem_title_section_5 .section-title_gem_07 h2 {
+    font-size: 38px;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+    position: relative;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+.s_gem_title_section_5 .section-title_gem_07 h2 span {
+    color: #00B16A;
+}
+.section-title_gem_07 p{
+    font-size: 15px;
+    color: #666;
+}
+
+/*tittle_6_css*/
+
+ .s_gem_title_section_6_ani .site-title-tagline {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 18px;
+        color: #8cbc43;
+        padding-left: 60px;
+        position: relative;
+    }
+    .s_gem_title_section_6_ani .site-title-tagline::before{
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 2px;
+        top: 10px;
+        left: 0;
+        background: #8cbc43;
+    }
+    .s_gem_title_section_6_ani .heading-divider {
+        display: inline-block;
+        position: relative;
+        height: 5px;
+        background-color: #8cbc43;
+        width: 90px;
+        overflow: hidden;
+    }
+    .s_gem_title_section_6_ani .site-title {
+        font-weight: 900;
+        text-transform: capitalize;
+        font-size: 40px;
+        color: #222d35;
+        margin-top: 5px;
+        margin-bottom: 10;
+    }
+    .s_gem_title_section_6_ani .site-title span {
+        color: #8cbc43;
+        margin-left: 10px;
+    }
+    .s_gem_title_section_6_ani .heading-divider:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -1.1px;
+        height: 7px;
+        width: 8px;
+        background-color: #fff;
+        -webkit-animation: heading-move 1s infinite linear;
+        animation: heading-move 4s infinite linear;
+    }
+    @-webkit-keyframes heading-move {
+        0% {
+            left: 0;
+        }
+        50% {
+            left:90%;
+        }
+        100% {
+            left: 0; 
+        }
+    }

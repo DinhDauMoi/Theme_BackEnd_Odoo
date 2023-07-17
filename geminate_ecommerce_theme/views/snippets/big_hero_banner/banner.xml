@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="ecom_banner" inherit_id="website.snippets" name="2_image_medium" >
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_ecom_banner" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/banner.png"/>
+            </xpath>
+        </template>
+        <template id="s_ecom_banner" name="Banner">
+              <section class="geminate_ecommerce_theme_banner">
+                    <div class="container text-center">
+                        <h1>Easy start with Vlava</h1>
+                        <h2>We are team of talented designers making websites with Bootstrap</h2>
+                    </div>
+                </section>
+        </template>
+    </data>
+</openerp>

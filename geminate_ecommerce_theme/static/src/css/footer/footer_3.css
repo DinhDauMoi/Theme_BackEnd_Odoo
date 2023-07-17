@@ -1,0 +1,99 @@
+	.main_gem_footer_3 {
+		background: #000;
+		padding: 25px 0 25px 0px;
+		color: #fff;
+	}
+	.main_gem_footer_3 .comn_h4 {
+		font-size: 15px;
+		font-weight: 700;
+		border-left: 3px solid white;
+		padding-left: 10px;
+		margin-bottom:25px;
+	}
+	.main_gem_footer_3 ul li{
+		padding-bottom: 15px;
+		font-weight: 700;
+		font-size: 13px;
+	}
+	.main_gem_footer_3 ul li a {
+		transition: 0.5s;
+	}
+	.main_gem_footer_3 ul li a:hover {
+		color: #fff!important;
+		text-decoration: none;
+	}
+	.main_gem_footer_3 .logo_place h3 {
+		text-align:left;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 1;
+	}
+	.clear {
+		clear: both;
+	}
+	.main_gem_footer_3 .bg_deisgn {
+		margin-left: 10px;
+		background: #fff;
+		color: #000;
+		padding: 10px;
+		width: 35px;	
+		height: 35px;	
+		border-radius:50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.main_gem_footer_3 .bg_deisgn a {
+		color: #fff;
+		font-weight: bold;
+	}
+	.main_gem_footer_3 .fb_hvr{
+		background: #45568e;
+	}
+	.main_gem_footer_3 .tw_hvr{
+		background: #1c96e8;
+	}
+	.main_gem_footer_3 .yo_hvr{
+		background: #f70000;
+	}
+	.main_gem_footer_3 .in_hvr{
+		background: #d81c3f;
+	}
+
+	@media (min-width: 210px) and (max-width:575px){
+		.main_gem_footer_3 .first_ul_list,.sec_ul_list,.three_ul_list,.four_ul_list {
+			text-align: center;
+			margin-bottom: 30px;			
+		}
+		.main_gem_footer_3 .comn_h4 {
+			border: none;
+		}
+		.main_gem_footer_3 .comn_h4 {
+			font-size: 25px;
+		}
+		.main_gem_footer_3 ul li {
+			font-size: 15px;
+		}
+		.logo_place,.social_icons_ft_3 {
+			float: unset!important;
+		}
+		.main_gem_footer_3 .logo_place h3,p,.text-centre {
+			text-align: center!important;
+		}
+		.social_icons_ft_3 {
+			display: inline-flex!important;
+		}
+	}
+	@media (min-width: 576px) and (max-width:767px){ 
+		.logo_place,.social_icons_ft_3 {
+			float: unset!important;
+		}
+		.social_icons_ft_3 {
+			margin-left: -11px;
+		}
+	}
+	@media (min-width: 767px) and (max-width:992px){ 
+		.padding-0px {
+			padding: 0px!important;
+		}
+	}

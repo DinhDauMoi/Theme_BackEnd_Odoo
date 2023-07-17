@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="banner8" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_banner8" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/banner/banner_8.png"/>
+            </xpath>
+        </template>
+        <template id="s_banner8" name="Banner8">
+			<section class="main_banner_8_gem">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6">
+							<div class="content_bn_8_gem">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing elit.
+								</p>
+							</div>
+							<div class="home_bnt_bn_8">
+								<a href="#" class="comn_btn_bn_8 bn_8_btn_1 btn-primary">Support Team</a>
+								<a href="#" class="comn_btn_bn_8 bn_8_btn_2 btn-primary">Live Support</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6">
+							<div class="img_bn_8_gem">
+								<img src="https://demo.themexbd.com/rtl/dizital/wp-content/uploads/2021/09/skill.png" class="img-fluid"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+        </template>
+    </data>
+</odoo>

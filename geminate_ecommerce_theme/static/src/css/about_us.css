@@ -1,0 +1,194 @@
+	.ecom_aboutus_section {
+		background: url(/geminate_ecommerce_theme/static/src/img/aboutUs/ab_banner.png);
+		height: 350px!important;
+		background-position: center;
+		background-size: cover;
+		padding-top:120px;
+	}
+	.ecom_aboutus_section h4 {
+		text-align: center;
+		color: #fff;
+		font-size: 55px;
+		font-weight: bold;
+	}
+	.ecom_abus_info_why,.ecom_aboutus_customer {
+		padding-top: 70px;
+		padding-bottom:70px;
+	}
+	.ecom_abus_info_why .ecom_span_tittle{
+		color: #ffc300;
+		font-size:20px;
+		font-weight:bold;
+		margin: 0 0 11px 0;
+    	padding: 0;
+    	font-weight: 900;
+    	display: block;
+	}
+	.ecom_abus_info_why h1 {
+		font-size: 30px;
+		line-height: 35px;
+		font-weight: 900;
+	}
+	.ecom_abus_info_why p {
+		margin: 25px 0 20px 0;
+    	font-size: 16px;
+    	line-height: 24px;
+    	font-weight: 600;
+	}
+	.ecom_abus_info_why .eco_text_vision,.eco_text_mission {
+		font-weight: 800;
+	}
+	.ecom_abus_info_why .eco_ul_vision li {
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	.ecom_aboutus_customer .ecom_txt_customer h3 {
+		font-weight:800;
+		font-size:31px;
+		margin: 0 0 20px 0;
+		display: block;
+	}
+	.ecom_aboutus_customer .ecom_txt_customer p{ 
+		font-weight: 700;
+	}
+
+	.ecom_abus_team {
+	  	background: #fff;
+	  	padding: 60px 0;
+	}
+	.ecom_abus_team .ecom_abus_member {
+		  text-align: center;
+		  margin-bottom: 20px;
+		  background: #343a40;
+		  position: relative;
+		  overflow: hidden;
+	}
+.ecom_abus_team .ecom_abus_member .ecom_abus_member-info {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+.ecom_abus_team .ecom_abus_member .ecom_abus_member-info-content {
+  position: absolute;
+  left: 50px;
+  right: 0;
+  bottom: 0;
+  transition: bottom 0.4s;
+}
+.ecom_abus_team .ecom_abus_member .ecom_abus_member-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+.ecom_abus_team .ecom_abus_member .ecom_abus_member-info-content span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+.ecom_abus_team .ecom_abus_member .social {
+  position: absolute;
+  left: -50px;
+  top: 0px;
+  bottom: 0;
+  width: 50px;
+  transition: left ease-in-out 0.3s;
+  background: none;
+  text-align: center;
+}
+.ecom_abus_team .ecom_abus_member .social a {
+  transition: color 0.3s;
+  display: block;
+  color: #fff;
+  margin-top: 15px;
+} 
+.ecom_abus_team .ecom_abus_member .social i {
+  font-size:20px;
+  margin: 0 2px;
+  font-weight: bold;
+}
+.ecom_abus_team .ecom_abus_member:hover .ecom_abus_member-info {
+  opacity: 1;
+  transition: 0.4s;
+}
+.ecom_abus_team .ecom_abus_member:hover .ecom_abus_member-info-content {
+  bottom: 5px;
+  transition: bottom 0.4s;
+}
+.ecom_abus_team .ecom_abus_member:hover .social {
+  left: 0;
+  transition: left ease-in-out 0.3s;
+}
+.ecom_image_cus img:before {
+  content: "";
+  width: 5px;
+  height: 340px;
+  background-color: red;
+  position: absolute;
+  left: 0px;
+  bottom: 0;
+  z-index: 1;
+}
+.ecom_clients {
+  padding-top: 30px;
+}
+.ecom_clients .clients-wrap_ecom {
+  border-top: 1px solid #e7e7e7;
+  border-left: 1px solid #e7e7e7;
+}
+.ecom_clients .ecom_client-logo_24 {
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  overflow: hidden;
+  background: #fff;
+  height: 140px;
+}
+.ecom_clients .ecom_client-logo_24:hover img {
+  transform: scale(1.1);
+}
+.ecom_clients img {
+  transition: all 0.4s ease-in-out;
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width:767px){
+  .ecom_image_cus {
+    margin-bottom:30px;
+    margin-left:5px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.ecom_image_cus img{
+  margin-top: 150px;
+  }
+
+  .ecom_image_cus_2 img {
+    margin-top:75px;
+  }
+}
+
+@media only screen and (min-width:355px) and (max-width:767px) {
+  .ecom_clients .ecom_client-logo_24 {
+    padding:100px;
+  }
+}
+
+@media only screen and (min-width:280px) and (max-width:991px) { 
+
+  .ecom_contact_form .ecom_form h4 {
+    text-align: center!important;
+  }
+
+}

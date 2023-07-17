@@ -1,0 +1,36 @@
+.mycart-popover .popover-header{
+    text-align: center;
+    font-weight: 900;
+    display: none;
+}
+.mycart-popover .popover-body{
+	box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+    padding: 30px;
+    background: url(/extra_snippet/static/src/img/bg_3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mycart-popover .popover-body .cart_line .h6{
+	font-weight: 900;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+.mycart-popover .popover-body {
+    scrollbar-width: thin;
+    scrollbar-color: #dedede #f9ecec;
+}
+/* Chrome, Edge, and Safari */
+.mycart-popover .popover-body::-webkit-scrollbar {
+	width: 4px;
+}
+.mycart-popover .popover-body::-webkit-scrollbar-track {
+    background: #f9ecec;
+}
+.mycart-popover .popover-body::-webkit-scrollbar-thumb {
+    background-color: #dedede;
+    border-radius: 9px;
+    border: 10px solid #0a0000;
+}

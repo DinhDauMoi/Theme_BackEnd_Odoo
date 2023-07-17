@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_4" inherit_id="website.layout" name="Bottom_Details_Boxes" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="main_gem_footer_4">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 text-centre" style="margin-bottom: 20px;">
+                                    <div class="logo_place" style="float:left;">
+                                        <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                        <p style="text-align:left; font-size:13px; font-weight: 700;">Lorem ipsum dolor sit amet<br/>consectetur adipiscing elit</p>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div class="social_icons_ft_4" style="float:left; display: flex;">
+                                        <div class="bg_deisgn fb_hvr" style="margin-left: 0px!important;">
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </div>
+                                        <div class="bg_deisgn in_hvr">
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                        <div class="bg_deisgn tw_hvr">
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="bg_deisgn yo_hvr">
+                                            <a href="#">
+                                                <i class="fa fa-youtube-play"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <h4 class="comn_h4">Company</h4>
+                                            <ul style="list-style: none; padding: 0px;">
+                                                <li>
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Contact Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Blog</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <h4 class="comn_h4">Quick Links</h4>
+                                            <ul style="list-style: none; padding: 0px;">
+                                                <li>
+                                                    <a href="#">My account</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cart</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">whishlist</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Product compare</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <h4 class="comn_h4">Information</h4>
+                                            <ul style="list-style: none; padding: 0px;">
+                                                <li>
+                                                    <a href="#">Privacy Policy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Refund Policy</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Term &amp; conditions</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Legal</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <h4 class="comn_h4">Categories</h4>
+                                            <ul style="list-style: none; padding: 0px;">
+                                                <li>
+                                                    <a href="#">Appliances</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Computers &amp; Laptop</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cameras</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Mobile Phones</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="comn_box ">
+                                        <a href="#">
+                                            <div class="icon_section icon_section_1" style="float:left;">
+                                                <i class="fa fa-map-o"></i>
+                                            </div>
+                                            <div class="content_details content_details_1">
+                                                <p style="color:#000">3987 Jadewood Farms<br/>Haledon,New Jersey</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="comn_box ">
+                                        <a href="#">
+                                            <div class="icon_section icon_section_2" style="float:left;">
+                                                <i class="fa fa-envelope"></i>
+                                            </div>
+                                            <div class="content_details content_details_2">
+                                                <p style="color:#000; margin-top:15px!important;">
+                                                    <a href="#" style="color:#000;">goseco2569@shbiso.com</a>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="comn_box ">
+                                        <a href="tel:+496170961709">
+                                            <div class="icon_section icon_section_3" style="float:left;">
+                                                <i class="fa fa-phone"></i>
+                                            </div>
+                                            <div class="content_details content_details_3">
+                                                <p style="color:#000; margin-top:15px!important;">
+                                                    <a href="tel:+496170961709" style="color:#000;">+496170961709</a>
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

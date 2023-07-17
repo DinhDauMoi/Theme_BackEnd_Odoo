@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+         <template id="right_text_image_1" inherit_id="website.snippets" name="2_image_medium" >
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.right_text_image" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/right_txt_img.png"/>
+            </xpath>
+        </template>
+        <template id="right_text_image" name="Right Text Image" active="True" customize_show="True">
+            <section class="s_features_main">
+                <div class="container">    
+                    <div class="row">
+                        <div class="col-md-5 order-1 order-md-2 img_right_snippet_247">
+                            <img src="/geminate_ecommerce_theme/static/src/img/main_image/right_txt_img/txt_img.jpg" class="img-fluid"/>
+                        </div>
+                        <div class="col-md-7 pt-5 order-2 order-md-1 desc_right_text">
+                            <h3 style="font-weight: bold;">Section Tittle</h3>
+                            <p>
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt mollit anim id est laborum
+
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+            </section>
+        </template>
+    </data>
+</openerp>

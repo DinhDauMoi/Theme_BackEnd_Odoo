@@ -1,0 +1,74 @@
+.main_banner_8_gem {
+  background: url(https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.main_banner_8_gem h2 {
+  color: #000;
+  font-size: 56px;
+  font-weight: 800;
+  text-transform:uppercase;
+  line-height: 1.4em;
+  letter-spacing: .3px;
+  margin-bottom: 20px;
+}
+.main_banner_8_gem p {
+  color: #000;
+  font-weight:500;
+  margin-bottom:50px;
+}
+.main_banner_8_gem .img_bn_8_gem img{
+  animation: action 1s infinite  alternate;
+}
+@keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+.main_banner_8_gem .comn_btn_bn_8 {
+  padding: 16px 30px;
+  font-weight:500;
+  border-radius: 5px;
+  transition: 0.8s;
+}
+.main_banner_8_gem .bn_8_btn_1:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1B2644;
+}
+.main_banner_8_gem .bn_8_btn_2 {
+  background-color: #1B2644;
+  margin-left: 10px;
+}
+.main_banner_8_gem .bn_8_btn_2:hover{
+  background-color: #7243DE;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:280px) and (max-width: 767px) {
+  .content_bn_8_gem{
+    text-align: center;
+  }
+  .content_bn_8_gem p{
+    color: #000;
+  }
+  .home_bnt_bn_8 {
+    text-align: center;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1199px) {
+  .content_bn_8_gem p{
+    color: #000!important;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+  .main_banner_8_gem h2 {
+    font-size: 30px;
+    letter-spacing: 0px;
+  }
+}

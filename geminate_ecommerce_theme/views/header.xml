@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="geminate_header0" inherit_id="website.template_header_default" name='Geminate Header'>
+        <xpath expr="//t[@t-call='website.navbar']" position="replace">
+            <div class="nav_bar">
+                <div class="body-inner">
+                    <div id="top-bar" class="top-bar">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-8 col-md-8">
+                                  <ul class="top-info text-center text-md-left">
+                                    <li><i class="fa fa-map-marker"></i> <p class="info-text">USA</p>
+                                    </li>
+                                  </ul>
+                                </div>
+                                <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                          <t t-set="config_setting" t-value="request.env['website'].get_current_website()"/>
+                                          <a t-if="config_setting.social_facebook" title="Facebook" t-att-href="config_setting.social_facebook">
+                                              <span class="social-icon"><i class="fa fa-facebook-f"></i></span>
+                                          </a>
+                                          <a t-if="config_setting.social_twitter" title="Twitter" t-att-href="config_setting.social_twitter">
+                                              <span class="social-icon"><i class="fa fa-twitter"></i></span>
+                                          </a>
+                                          <a t-if="config_setting.social_instagram" t-att-href="config_setting.social_instagram" title="Instagram">
+                                              <span class="social-icon"><i class="fa fa-instagram"></i></span>
+                                          </a>
+                                          <a title="Linkdin" t-if="config_setting.social_linkedin" t-att-href="config_setting.social_linkedin">
+                                              <span class="social-icon"><i class="fa fa-github"></i></span>
+                                          </a>
+                                        </li>
+                                    </ul>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white_ecom_4564654" style="padding: 1%;">
+                <div class="container">
+                    <div class="logo-area">
+                        <div class="row align-items-center">
+                            <t t-call="website.placeholder_header_brand">
+                                <t t-set="_link_class" t-valuef="mr-4"/>
+                            </t>
+                            <div class="col-lg-9 header-right">
+                                <ul class="top-info-box">
+                                    <li>
+                                        <div class="info-box">
+                                            <div class="info-box-content">
+                                                <p class="info-box-title">Call Us</p>
+                                                <p class="info-box-subtitle"><a href="tel:">(+9)9285647231</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="info-box">
+                                            <div class="info-box-content">
+                                                <p class="info-box-title">Email Us</p>
+                                                <p class="info-box-subtitle"><a href="">office@demo.com</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="last">
+                                        <div class="info-box last">
+                                            <div class="info-box-content">
+                                                <p class="info-box-title">Global Certificate</p>
+                                                <p class="info-box-subtitle">ISO 92000:2017</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="header-get-a-quote">
+                                         <t t-call="website.placeholder_header_call_to_action"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-navigation_ecom_5453" style="background: black;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <t t-call="website.navbar_nav">
+                                        <t t-set="_nav_class" t-valuef="flex-grow-1"/>
+                                        <!-- Menu -->
+                                        <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                            <t t-call="website.submenu">
+                                                <t t-set="item_class" t-valuef="nav-item"/>
+                                                <t t-set="link_class" t-valuef="nav-link"/>
+                                            </t>
+                                        </t>
+                                        <!-- Sign In -->
+                                        <t t-call="portal.placeholder_user_sign_in">
+                                            <t t-set="_item_class" t-valuef="nav-item ml-lg-auto"/>
+                                            <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                        </t>
+                                        <!-- User Dropdown -->
+                                        <t t-call="portal.user_dropdown">
+                                            <t t-set="_user_name" t-value="true"/>
+                                            <t t-set="_item_class" t-valuef="nav-item dropdown ml-lg-auto"/>
+                                            <t t-set="_link_class" t-valuef="nav-link font-weight-bold"/>
+                                        </t>
+                                        <!-- Cart -->
+                                        <t t-call="website_sale.header_cart_link">
+                                            <t t-set="_icon" t-value="True"/>
+                                            <t t-set="_item_class" t-value="'nav-item mx-lg-3'"/>
+                                            <t t-set="_link_class" t-value="'nav-link'"/>
+                                        </t>
+                                        <!-- Wishlist -->
+                                        <t t-call="website_sale_wishlist.header_wishlist_link">
+                                            <t t-set="_icon" t-value="True"/>
+                                            <t t-set="_item_class" t-value="'nav-item mr-lg-3'"/>
+                                            <t t-set="_link_class" t-value="'nav-link'"/>
+                                        </t>
+                                    </t>
+                                    <!-- Language Selector -->
+                                    <t t-call="website.placeholder_header_language_selector">
+                                        <t t-set="_div_classes" t-valuef="my-auto ml-lg-2"/>
+                                    </t>
+                                </div> 
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

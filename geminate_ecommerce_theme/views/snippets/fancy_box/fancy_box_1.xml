@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="fancy_box_1" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_1_fancy_box" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/fancy_box/fancy_1_box.png"/>
+            </xpath>
+        </template>
+        <template id="s_1_fancy_box" name="Fancy Box 1">
+            <section class="gem_box_ofr_product">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 slick-slide_bottom_pading">
+                            <div class="banner_style24">
+                                <span class="banner_label">Lorem ipsum dolor</span>
+                                <h2 class="banner_title">sit amet</h2>
+                                <p class="banner_text">Sed ut perspiciatis unde omnis</p>
+                                <div class="banner_img_24">
+                                    <img src="https://templatemonster.vecuro.com/html/vendora/demo/assets/img/banner/banner-10-1.png"/>
+                                </div>
+                                <a href="#" class="comn_btn">Explore Items</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 slick-slide_bottom_pading">
+                            <div class="banner_style0724">
+                                <span class="banner_label">Lorem ipsum dolor</span>
+                                <h2 class="banner_title">sit amet</h2>
+                                <div class="banner_discount">
+                                    50<span class="text">% off</span>
+                                </div>
+                                <a href="#" class="centre_ofr_btn btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 slick-slide_bottom_pading">
+                            <div class="banner_style24">
+                                <span class="banner_label">Lorem ipsum dolor</span>
+                                <h2 class="banner_title">sit amet</h2>
+                                <p class="banner_text">Sed ut perspiciatis unde omnis</p>
+                                <div class="banner_img_24">
+                                    <img src="https://templatemonster.vecuro.com/html/vendora/demo/assets/img/banner/banner-10-3.png"/>
+                                </div>
+                                <a href="#" class="comn_btn">Explore Items</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

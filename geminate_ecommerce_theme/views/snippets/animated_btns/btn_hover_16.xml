@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="btn_hvr_16" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_16_hvr_btn" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/btn/btn_main.png"/>
+            </xpath>
+        </template>
+        <template id="s_16_hvr_btn" name="Btn 16">
+            <div class="gem_com_border_hvr_eft gem_com_border_hvr_eft_6">
+                <div class="container">
+                    <button class="btn-6_gem_border border_efecct_comn">
+                        <span class="border_span">Hover Me</span>
+                    </button>
+                </div>
+            </div>
+        </template>
+        <template id="ani_btn16_snippet_options" inherit_id="website.snippet_options" name="ani_btn16 snippet options">
+            <xpath expr="//*[@t-set='so_content_addition_selector']" position="inside">, .gem_com_border_hvr_eft, .gem_com_border_hvr_eft_6</xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,220 @@
+ .content-103_main{
+	background: #fff;
+	padding-bottom:50px;
+}
+ .content-103_main .sercies-title{
+	text-align:center;
+	padding: 50px 0;
+}
+ 
+ .service-post {
+  background: #fff;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 12;
+  margin-bottom: 30px;
+  -moz-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+  -webkit-box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 4px -4px rgba(0, 0, 0, 0.08);
+}
+.s_service_main .content-103_main .service-content {
+  position: relative;
+  z-index: 13;
+}
+.s_service_main .content-103_main .service-icon {
+  margin: 10px 0 20px 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+  border: 2px solid #eb7a5c;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+  -moz-transition: color, 250ms;
+  -o-transition: color, 250ms;
+  -webkit-transition: color, 250ms;
+  transition: color, 250ms;
+}
+.s_service_main .content-103_main .service-post:hover .service-icon {
+  border-color: #fff;
+}
+.s_service_main .content-103_main .service-icon i {
+  font-size: 22px;
+  margin-top:11px;
+}
+.s_service_main .content-103_main .service-post:hover .service-icon i {
+  color: #fff;
+}
+.s_service_main .content-103_main .service-title {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  -moz-transition: color, 250ms;
+  -o-transition: color, 250ms;
+  -webkit-transition: color, 250ms;
+  transition: color, 250ms;
+}
+.s_service_main .content-103_main .service-post:hover .service-title {
+  color: #fff;
+}
+.s_service_main .content-103_main .service-description {
+  -moz-transition: color, 250ms;
+  -o-transition: color, 250ms;
+  -webkit-transition: color, 250ms;
+  transition: color, 250ms;
+}
+.s_service_main .content-103_main .service-post:hover .service-description {
+  color: #fff;
+}
+.s_service_main .content-103_main .service-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+  height: 0px;
+  background: #eb7a5c;
+  -moz-transition: width, 250ms;
+  -o-transition: width, 250ms;
+  -webkit-transition: width, 250ms;
+  transition: width, 250ms;
+}
+/*hover-background-color effect*/
+.s_service_main .content-103_main .service-post:hover .service-hover {
+  height: 100%;
+}
+@media (min-width: 375px) and (max-width: 375px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:27px;
+    font-size:25px;
+  }
+}
+@media (min-width:414px) and (max-width:414px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:45px;
+    font-size:25px;
+  }
+}
+@media (min-width:390px) and (max-width:390px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:35px;
+    font-size:25px;
+  }
+}
+@media (min-width:393px) and (max-width:393px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:35px;
+    font-size:25px;
+  }
+}
+@media (min-width:360px) and (max-width:360px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:40px;
+    font-size:22px;
+  }
+}
+@media (min-width:412px) and (max-width:412px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:40px;
+    font-size:25px;
+  }
+}
+@media (min-width:820px) and (max-width:820px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:205px;
+    font-size:25px;
+  }
+}
+@media (min-width:768px) and (max-width:768px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:215px;
+    font-size:25px;
+  }
+}
+@media (min-width:912px) and (max-width:912px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:215px;
+    font-size:25px;
+  }
+}
+@media (min-width:540px) and (max-width:540px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:120px;
+    font-size:25px;
+  }
+}
+@media (min-width:280px) and (max-width:280px) and (orientation: portrait) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:10px;
+    font-size:20px;
+  }
+}
+@media (min-width:1024px) and (max-width:1024px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:345px;
+    font-size:24px;
+  }
+}
+@media (min-width:667px) and (max-width:667px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:120px;
+    font-size:24px;
+  }
+}
+@media (min-width:896px) and (max-width:896px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:250px;
+    font-size:24px;
+  }
+}
+@media (min-width:844px) and (max-width:844px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:200px;
+    font-size:24px;
+  }
+}
+@media (min-width:851px) and (max-width:851px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:220px;
+    font-size:24px;
+  }
+}
+@media (min-width:740px) and (max-width:740px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:150px;
+    font-size:24px;
+  }
+}
+@media (min-width:915px) and (max-width:915px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:240px;
+    font-size:24px;
+  }
+}
+@media (min-width:1180px) and (max-width:1180px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:340px;
+    font-size:24px;
+  }
+}
+@media (min-width:720px) and (max-width:720px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:120px;
+    font-size:24px;
+  }
+}
+@media (min-width:653px) and (max-width:653px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:120px;
+    font-size:24px;
+  }
+}
+@media (min-width:914px) and (max-width:914px) and (orientation:landscape) {
+  .s_service_main .content-103_main .sercies-title {
+    margin-left:220px;
+    font-size:24px;
+  }
+}

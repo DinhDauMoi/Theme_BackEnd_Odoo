@@ -1,0 +1,317 @@
+.gem_hot_deals h1{
+  color: red;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+#clockdiv{
+  font-family: GalaxieCondensedMedium,Arial,sans-serif;
+  color:#e7ab3c;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 40px;
+}
+#clockdiv > div{
+  display: inline-block;
+  margin-right: 35px;
+  margin-bottom:30px;
+}
+#clockdiv div > span{
+  padding: 10px 14px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+}
+.gem_hot_deals .smalltext{
+  padding-top: 15px;
+  font-size: 16px;
+  color: #b2b2b2;
+  font-weight: bold;
+}
+
+.gem_hot_deals .section-title {
+  text-align: center;
+}
+.gem_hot_deals .section-title h2:before {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -14px;
+  width: 80px;
+  height: 3px;
+  content: "";
+  margin: 0 auto;
+}
+.gem_hot_deals .section-title h2 {
+    color: #252525;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom:10px;
+    position: relative;
+}
+
+.gem_hot_deals .hot__deal__sticker {
+    height: 100px;
+    width: 100px;
+    background: #111111;
+    border-radius: 50%;
+    padding-top: 22px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: -36px;
+}
+
+
+.gem_hot_deals .categories__hot__deal {
+    position: relative;
+    z-index: 5;
+}
+
+
+.gem_hot_deals .hot__deal__sticker span {
+    display: block;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+
+.gem_hot_deals .hot__deal__sticker h5 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.gem_hot_deals .primary-btn {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    color: #ffffff;
+    background: #000000;
+    letter-spacing: 4px;
+}
+
+.gem_hot_deals .section-title h3 {color: #111111;
+    font-weight: 700;
+    line-height: 46px;
+    font-size:30px;
+    margin-top:50px;
+}
+
+
+.gem_hot_deals .categories {
+    background: #f3f2ee;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 125px;
+}
+
+.gem_hot_deals .categories__hot__deal img {
+    min-width: 100%;
+}
+
+@media only screen and (min-width: 375px) and (orientation: portrait) {
+ 
+ #clockdiv div > span {
+  padding: 10px 20px;
+  margin-left:40px;
+ }
+
+ .gem_hot_deals .smalltext {
+  margin-left:40px;
+ }
+
+ .gem_hot_deals .categories__hot__deal img {
+  margin-bottom: 40px;
+ }
+
+}
+
+
+@media only screen and (min-width: 540px) and (max-width: 540px) and (orientation: portrait) {
+ 
+ #clockdiv div > span {
+  padding: 10px 20px;
+  margin-left:50px;
+ }
+
+ .gem_hot_deals .smalltext {
+  margin-left:40px;
+ }
+
+ .gem_hot_deals .categories__hot__deal img {
+  margin-bottom: 40px;
+ }
+
+}
+
+
+
+@media only screen and (min-width: 280px) and (max-width: 280px) and (orientation: portrait) {
+ 
+ #clockdiv div > span {
+  padding: 0px 10px;
+  margin-left:19px;
+ }
+
+ .gem_hot_deals .smalltext {
+margin-left:16px;
+ }
+
+ .gem_hot_deals .categories__hot__deal img {
+  margin-bottom: 40px;
+ }
+
+}
+
+
+
+@media only screen and (min-width:896px) and (max-width:896px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:35px;
+  }
+
+  .gem_hot_deals .primary-btn {
+    margin-left:20px;
+    margin-right:45px;
+  }
+}
+
+
+@media only screen and (min-width:844px) and (max-width:844px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:35px;
+  }
+
+  .gem_hot_deals .primary-btn {
+    margin-left:20px;
+    margin-right:45px;
+  }
+}
+
+
+@media only screen and (min-width:851px) and (max-width:851px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:35px;
+  }
+
+  .gem_hot_deals .primary-btn {
+    margin-left:20px;
+    margin-right:45px;
+  }
+}
+
+
+@media only screen and (min-width:915px) and (max-width:915px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:35px;
+  }
+
+  .gem_hot_deals .primary-btn {
+    margin-left:20px;
+    margin-right:45px;
+  }
+}
+
+
+@media only screen and (min-width:1180px) and (max-width:1180px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:19px;
+    font-size: 30px;
+  }
+
+}
+
+
+
+@media only screen and (min-width:1024px) and (max-width:1024px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:19px;
+    font-size: 30px;
+  }
+
+}
+
+
+
+@media only screen and (min-width:914px) and (max-width:914px) and (orientation:landscape) { 
+
+  #clockdiv {
+    margin-left:35px;
+  }
+
+  .gem_hot_deals .primary-btn {
+    margin-left:20px;
+    margin-right:45px;
+  }
+}
+    
+
+
+@media (min-width:300px) and (orientation: portrait) {
+  .gem_hot_deals .section-title h2 {font-size:25px;}
+}
+
+@media (min-width:280px) and (max-width:280px) and (orientation: portrait) {
+  .gem_hot_deals .section-title h2 {font-size:20px;}
+}
+.gem_hot_deals .btn-24 {
+  border: none;
+  background: none;
+}
+.gem_hot_deals .btn_24 {
+  background-color: #000;
+  color: #fff;
+  font-size:15px;
+  font-weight:600;
+  position: relative;
+  border-radius: 0 !important;
+  border: none;
+  transition:all 0.7s ease 0s;
+}
+.gem_hot_deals .btn_24:hover,
+.gem_hot_deals .btn_24.active:hover{
+color: #ffffff;
+}
+.gem_hot_deals .btn_24:before{
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: 0;
+  background-color:#2E0014;
+  width: 15%;
+  height: 3px;
+  transition:all 0.7s ease 0s;
+}
+  .gem_hot_deals .btn_24:after{
+  content: "";
+  position: absolute; 
+  bottom: -7px;
+  right: 0;
+  background-color:#2E0014;
+  width: 15%;
+  height: 3px;
+  transition: transition:all 0.7s ease 0s;
+}
+.gem_hot_deals .btn_24:hover:before,
+.gem_hot_deals .btn_24:hover:after,
+.gem_hot_deals .btn_24.active:before,
+.gem_hot_deals .btn_24.active:after{
+width: 100%;
+}
+
+
+section.categories.set-bg.spad.gem_hot_deals.o_colored_level {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}

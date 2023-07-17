@@ -1,0 +1,179 @@
+.s_multi_deals .shop-home-list{
+    padding:0;
+    padding-bottom:100px;
+}
+.s_multi_deals .shop-home-list .shop-section-title{
+    margin-bottom:20px;
+}
+.s_multi_deals .shop-home-list .shop-section-title h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    position: relative;
+    color: #2c2d3f;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: 100;
+
+}
+.s_multi_deals .shop-section-title h1::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background: #F7941D;
+    left: 147px;
+    bottom: -1px;
+}
+.s_multi_deals .single-list {
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.s_multi_deals .shop-home-list .single-list .list-image{
+    position:relative;
+}
+.s_multi_deals .shop-home-list .single-list .list-image.overlay:before{
+    background:#000;
+    opacity:0;
+    visibility:hidden;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    transition:all 0.4s ease;
+}
+.s_multi_deals .shop-home-list .single-list .list-image.overlay:hover:before{
+    opacity:0.3;
+    visibility:visible;
+}
+.s_multi_deals .shop-home-list .single-list .list-image .buy{
+    height:40px;
+    width:40px;
+    line-height:40px;
+    font-size:14px;
+    color:#fff;
+    background:#F7941D;
+    border-radius:100%;
+    display:block;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-20px;
+    margin-top:-20px;
+    text-align:center;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    transition:all 0.4s ease;
+    transform:scale(0);
+    opacity:0;
+    visibility:hidden;
+}
+.s_multi_deals .shop-home-list .single-list .list-image .buy:hover{
+    background:#fff;
+    color:#333;
+}
+.s_multi_deals .shop-home-list .single-list .list-image:hover .buy{
+    opacity:1;
+    visibility:visible;
+    transform:scale(1);
+}
+.s_multi_deals .shop-home-list .single-list .no-padding{
+    padding-right:0px;
+}
+.s_multi_deals .shop-home-list .single-list img{
+    width:100%;
+    height:100%;
+}
+.s_multi_deals .shop-home-list .single-list .single-list_content {
+    padding-top: 45px;
+    padding-right: 12px;
+}
+.s_multi_deals .shop-home-list .single-list .single-list_content .title {
+    line-height: 18px;
+}
+.s_multi_deals .shop-home-list .single-list .single-list_content .title a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.s_multi_deals .shop-home-list .single-list .single-list_content .titlea {
+    color: #333;
+}
+.s_multi_deals .shop-home-list .single-list .single-list_content a:hover{
+    color: #F7941D;
+}
+.s_multi_deals .shop-home-list .single-list .single-list_content .price {
+    margin-top: 15px;
+    font-weight: 500;
+    background: #f7941d;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.s_multi_deals .shop-home-list .fa {
+    margin-top: 10px;
+}
+@media (min-width:414px) and (max-width:414px) and (orientation: portrait){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:165px;
+    }
+}
+@media (min-width:390px) and (max-width:390px) and (orientation: portrait){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:155px;
+    }
+}
+@media (min-width:393px) and (max-width:393px) and (orientation: portrait){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:155px;
+    }
+}
+@media (min-width:280px) and (max-width:280px) and (orientation: portrait){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:100px;
+    }
+}
+@media (min-width:540px) and (max-width:540px) and (orientation: portrait){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:230px;
+    }
+}
+@media (min-width:412px) and (max-width:412px) and (orientation: portrait){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:169px;
+    }
+}
+@media (min-width: 667px) and (max-width: 667px) and (orientation: landscape){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left: 230px;
+    }
+}
+@media (min-width:740px) and (max-width:740px) and (orientation: landscape){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left: 230px;
+    }
+}
+@media (min-width:1180px) and (max-width:1180px) and (orientation: landscape){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:120px;
+    }
+}
+@media (min-width:1024px) and (max-width:1024px) and (orientation: landscape){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:120px;
+    }
+}
+@media (min-width:720px) and (max-width:720px) and (orientation: landscape){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:235px;
+    }
+}
+@media (min-width:653px) and (max-width:653px) and (orientation: landscape){
+    .s_multi_deals .shop-home-list .shop-section-title h1::before {
+        left:235px;
+    }
+}

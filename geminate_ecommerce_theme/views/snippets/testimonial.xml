@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+         <template id="1_testimonial" inherit_id="website.snippets" >
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.testimonial" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/testimonial_block.png"/>
+            </xpath>
+        </template>
+        <template id="testimonial" name="Testimonial">
+            <section class="testimonial_12" style="overflow:hidden!important; background:#fff;">
+                <div class="container-fluid s_testimonial_12">
+                    <div class="row">
+                        <div class="col-sm-12">         
+                            <div id="carouselExampleControls_slider" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <div class="site-heading text-center">
+                                    <h2 style="font-size:2rem;">Testimonial</h2>
+                                </div>
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleControls_slider" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleControls_slider" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleControls_slider" data-slide-to="2"></li>
+                                </ol>   
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="testimonial">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
+                                                </div>
+                                                <div class="media">
+                                                    <img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" class="mr-3" alt=""/>
+                                                    <div class="media-body">
+                                                        <div class="overview">
+                                                            <div class="name"><b>Paula Wilson</b></div>
+                                                            <div class="details">Media Analyst / SkyNet</div>
+                                                            <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="testimonial">
+                                                    <p>Vestibulum quis quam ut magna consequat faucibu. Eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus quam.</p>
+                                                </div>
+                                                <div class="media">
+                                                    <img src="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" class="mr-3 mr-4" alt=""/>
+                                                    <div class="media-body">
+                                                        <div class="overview">
+                                                            <div class="name"><b>Antonio Moreno</b></div>
+                                                            <div class="details">Web Developer / SoftBee</div>
+                                                            <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>          
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="testimonial">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
+                                                </div>
+                                                <div class="media">
+                                                    <img src="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" class="mr-3" alt=""/>
+                                                    <div class="media-body">
+                                                        <div class="overview">
+                                                            <div class="name"><b>Michael Holz</b></div>
+                                                            <div class="details">Web Developer / DevCorp</div>                                          
+                                                            <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="testimonial">
+                                                    <p>Vestibulum quis quam ut magna consequat faucibu. Eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus quam.</p>
+                                                </div>
+                                                <div class="media">
+                                                    <img src="https://www.tutorialrepublic.com/examples/images/clients/4.jpg" class="mr-3 mr-4" alt=""/>
+                                                    <div class="media-body">
+                                                        <div class="overview">
+                                                            <div class="name"><b>Mary Saveley</b></div>
+                                                            <div class="details">Graphic Designer / MarsMedia</div>
+                                                            <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>          
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="testimonial">
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante.</p>
+                                                </div>
+                                                <div class="media">
+                                                    <img src="https://www.tutorialrepublic.com/examples/images/clients/5.jpg" class="mr-3" alt=""/>
+                                                    <div class="media-body">
+                                                        <div class="overview">
+                                                            <div class="name"><b>Martin Sommer</b></div>
+                                                            <div class="details">SEO Analyst / RealSearch</div>
+                                                            <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="testimonial">
+                                                    <p>Vestibulum quis quam ut magna consequat faucibu. Eget mi suscipit tincidunt. Utmtc tempus dictum. Pellentesque virra. Quis quam ut magna consequat faucibus quam.</p>
+                                                </div>
+                                                <div class="media">
+                                                    <div class="media-left d-flex mr-3 ">
+                                                        <img src="https://www.tutorialrepublic.com/examples/images/clients/6.jpg" alt="" class="mr-4"/>                                       
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <div class="overview">
+                                                            <div class="name"><b>John Williams</b></div>
+                                                            <div class="details">Web Designer / UniqueDesign</div>
+                                                            <div class="star-rating">
+                                                                <ul class="list-inline">
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star"></i></li>
+                                                                    <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>                                      
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>          
+                                    </div>
+                                </div>
+                                 <a class="carousel-control-prev" href="#carouselExampleControls_slider" role="button" data-slide="prev" style="width: 30px; height: 30px; background:#272d33; text-shadow: none; 
+                                  top: 4px;">
+                                    <span class="carousel-control-prev-icon"></span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselExampleControls_slider" role="button" data-slide="next" style="width: 30px; height: 30px; background:#272d33; text-shadow: none; 
+                                  top: 4px;">
+                                    <span class="carousel-control-next-icon"></span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </template>
+    </data>
+</openerp>

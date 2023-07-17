@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="fancy_box_5" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_5_fancy_box" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/fancy_box/fancy_5_box.png"/>
+            </xpath>
+        </template>
+        <template id="s_5_fancy_box" name="Fancy Box 5">
+            <section class="gem_box_ofr_product_5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3">
+                            <div class="img_com_class gem_img_sec_left_1">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.onthemes.net/Prestashop/Presta01/OTP009_blooming/img/c/11_thumb.jpg"/>
+                                </a>
+                                <span class="top_btn_position">
+                                    <a href="#" class="fancy_box_btns btn-primary">Shop Now</a>
+                                </span>
+                            </div>
+                            <div class="img_com_class gem_img_sec_left_2">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.onthemes.net/Prestashop/Presta01/OTP009_blooming/img/c/12_thumb.jpg"/>
+                                </a>
+                                <span class="bottom_btn_position">
+                                    <a href="#" class="fancy_box_btns fancy_box_btns_2 btn-primary">Shop Now</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="img_com_class gem_img_sec_cntre_2">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.onthemes.net/Prestashop/Presta01/OTP009_blooming/img/c/3_thumb.jpg"/>
+                                </a>
+                                <span class="cntr_btn_position">
+                                    <a href="#" class="fancy_box_btns fancy_box_btns_2 btn-primary">Shop Now</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3">
+                            <div class="img_com_class gem_img_sec_right_1">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.onthemes.net/Prestashop/Presta01/OTP009_blooming/img/c/13_thumb.jpg"/>
+                                </a>
+                                <span class="top_btn_position">
+                                    <a href="#" class="fancy_box_btns fancy_box_btns_2 btn-primary">Shop Now</a>
+                                </span>
+                            </div>
+                            <div class="img_com_class gem_img_sec_left_2">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.onthemes.net/Prestashop/Presta01/OTP009_blooming/img/c/14_thumb.jpg"/>
+                                </a>
+                                <span class="bottom_btn_position">
+                                    <a href="#" class="fancy_box_btns fancy_box_btns_2 btn-primary">Shop Now</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

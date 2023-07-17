@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="client_block" inherit_id="website.snippets" name="2_image_medium" >
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.client_1" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/client_silder.png"/>
+            </xpath>
+        </template>
+        <template id="client_1" name="Client">
+            <section class="s_client_sec">
+            <div class="container-fluid">
+                <div class="tittle_cilent_snippet">
+                    <h2>Our Partners</h2>
+                </div>
+                <section class="customer-logos slider">
+                    <div class="swiper swiper_client_snippet">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide active">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/client/cilent_1.jpg" class="img-fluid"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/client/cilent_2.jpg" class="img-fluid"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/client/cilent_3.jpg" class="img-fluid"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/client/cilent_4.jpg" class="img-fluid"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/client/cilent_5.jpg" class="img-fluid"/>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/client/cilent_6.jpg" class="img-fluid"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        </template>
+    </data>
+</openerp>

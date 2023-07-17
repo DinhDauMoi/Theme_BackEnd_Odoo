@@ -1,0 +1,177 @@
+.mainfooter a:hover{
+  text-decoration: none;
+  padding-left: 8px;
+  transition: 0.5s
+}
+
+.mainfooter.o_colored_level {
+  text-align: left;
+}
+.mainfooter ul {
+    margin: 0px;
+    padding: 0px;
+    text-align:left!important;
+}
+.mainfooter .footer-section {
+  background: #151414;
+  position: relative;
+}
+.mainfooter .footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.mainfooter .single-cta i {
+  color: #ffb600;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.mainfooter .cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.mainfooter .cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.mainfooter .cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.mainfooter .footer-content {
+  position: relative;
+  z-index: 2;
+}
+.mainfooter .footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.mainfooter .footer-logo {
+  margin-bottom: 30px;
+}
+.mainfooter .footer-logo img {
+    max-width: 200px;
+}
+.mainfooter .footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #7e7e7e;
+  line-height: 28px;
+}
+.mainfooter .footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.mainfooter .footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.mainfooter .footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.mainfooter .facebook-bg{
+  background: #3B5998;
+}
+.mainfooter .twitter-bg{
+  background: #55ACEE;
+}
+.mainfooter .google-bg{
+  background: #DD4B39;
+}
+.mainfooter .footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.mainfooter .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  /*background: #ffb600;*/
+}
+.mainfooter .footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+/*.mainfooter .footer-widget ul li a:hover{
+  color: #ffb600;
+  text-decoration: none;
+}*/
+.mainfooter .footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.mainfooter .subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.mainfooter .subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.mainfooter .subscribe-form button{
+  position: absolute;
+  right: 0;
+  padding: 18px 20px!important;
+  border: none!important;
+  top: 0;
+  font-weight: bold;
+}
+
+.mainfooter .subscribe-form input:focus {
+  outline: none;
+}
+
+.mainfooter .subscribe-form button i{
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.mainfooter .copyright-area{
+  background: rgb(255, 182, 0);
+  padding: 25px 0;
+}
+.mainfooter .copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #111111;
+}
+.mainfooter .copyright-text p a{
+  color: #ff5e14;
+}
+.mainfooter .footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.mainfooter .footer-menu li:hover a{
+  color: #fff;
+  text-decoration: none ;
+}
+.mainfooter .footer-menu li a {
+  font-size: 14px;
+  color: #111111;
+}

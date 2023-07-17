@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="test_index1" name="index">
+	    <t t-call="portal.frontend_layout">
+	    	
+	    	<t t-raw="temp_id.description_html"/>
+	    </t>
+	</template>
+
+</odoo>

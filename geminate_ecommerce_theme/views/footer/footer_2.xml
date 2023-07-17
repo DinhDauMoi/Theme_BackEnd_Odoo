@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_2" inherit_id="website.layout" name="Up_Column_Details" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                <section class="main_gem_footer_2">
+                <div class="container">
+                    <div class="upper_icon_section">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="comn_section_ft_2 email_ft_2">
+                                    <a href="#">
+                                        <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/footer_2/email.png"/>
+                                        <a href="#">
+                                            <h5>fognafakki@vusra.com</h5>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">  
+                                <div class="comn_section_ft_2 phone_ft_2">
+                                    <a href="tel:6031112298">
+                                        <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/phone.png"/>
+                                        <a href="#">
+                                            <h5>6031112298</h5>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="comn_section_ft_2 add_ft_2">
+                                    <a href="#">
+                                        <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/footer_2/address.png"/>
+                                        <a href="#">
+                                            <h5>2869 Nixon Avenue,Knoxville</h5>
+                                        </a>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-6 detalis_box_ft_2">
+                                        <ul style="list-style:none; padding-left:0px;">
+                                            <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                            <li>
+                                                <span>A108 Adam Street<br/> NY 535022, USA</span>
+                                            </li>
+                                        </ul>
+                                        <div class="social_icons_ft_2" style="margin-top:40px; display:flex;">
+                                            <div class="comn_icon_ft_2 fb_icon_ft_2">
+                                                <a href="#">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/facebook.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="comn_icon_ft_2 in_icon_ft_2">
+                                                <a href="#">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/instagram.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="comn_icon_ft_2 tw_icon_ft_2">
+                                                <a href="#">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/twitter.png"/>
+                                                </a>
+                                            </div>
+                                            <div class="comn_icon_ft_2 yo_icon_ft_2">
+                                                <a href="#">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/youtube.png"/>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 link_box_2_ft_2 comn_link_box">
+                                        <ul  class="ul_comn_class_ft_1" style="list-style:none; padding-left:0px;">
+                                            <h4>Useful Links</h4>
+                                            <li>
+                                                <a href="#">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">About us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Services</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Terms of service</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 link_box_3_ft_2 comn_link_box">
+                                        <ul class="ul_comn_class_ft_1" style="list-style:none; padding-left:0px;">
+                                            <h4>Services</h4>
+                                            <li>
+                                                <a href="#">App design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">web design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Logo design</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Banner design</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-3 col-sm-6 link_box_4_ft_2 comn_link_box">
+                                        <ul class="ul_comn_class_ft_1" style="list-style:none; padding-left:0px;">
+                                            <h4>Courses</h4>
+                                            <li>
+                                                <a href="#">HTML &amp; CSS</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">JavaScript</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Photography</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Photoshop</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="subscribe_area">
+                                    <h4>Subscribe</h4>
+                                    <input type="email" class="sub_design" placeholder="Enter your email"/>
+                                    <input type="button" value="Subscribe" class="sub_btn_ft_2 badge-primary"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

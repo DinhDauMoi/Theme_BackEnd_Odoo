@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="auto_count_block" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.auto_count" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/auto_count_block.png"/>
+            </xpath>
+        </template>
+        <template id="auto_count" name="Auto Count">
+            <section id="counts" class="s_counts" style="background: #252525;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="count-box">
+                                <i class="fa fa-smile-o badge-primary" aria-hidden="true"></i>
+                                <div class="counter" style="font-size:44px; 
+                                    font-weight: bold; color: #fff; 
+                                    font-family:'Montserrat',sans-serif; margin-top:27px; margin-bottom:10px;">30
+                                </div>
+                                <p class="text-primary">Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                            <div class="count-box">
+                                <i class="fa fa-file-text badge-primary" aria-hidden="true"></i>
+                                <div class="counter" style="font-size:44px; font-weight: bold; color: #fff; font-family:'Montserrat',sans-serif;  margin-top:27px; margin-bottom:10px;">200
+                                </div>
+                                <p class="text-primary">Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                            <div class="count-box">
+                                <i class="fa fa-headphones badge-primary" aria-hidden="true"></i>
+                                <div class="counter" style="font-size:44px; font-weight: bold; color: #fff; font-family:'Montserrat',sans-serif;  margin-top:27px; margin-bottom:10px;">1463
+                                </div>
+                                <p class="text-primary">Hours Of Support</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                            <div class="count-box">
+                                <i class="fa fa-user badge-primary" aria-hidden="true"></i>
+                                <div class="counter" style="font-size:44px; font-weight: bold; color: #fff; font-family:'Montserrat', sans-serif;  margin-top:27px; margin-bottom:10px;">15
+                                </div>
+                                <p class="text-primary">Hard Workers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </template>
+    </data>
+</openerp>

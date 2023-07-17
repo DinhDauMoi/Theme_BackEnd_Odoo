@@ -1,0 +1,27 @@
+.s_card_silder .slide_carousel_1 {
+	background: #fff;
+	box-shadow: none;
+}
+.text_heading_card_silder{
+	text-align: center;
+}
+.text_heading_card_silder h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.s_card_silder .card {
+	padding: 15px;
+}
+.s_card_silder .card-body{
+	padding-left: 0px;
+	text-align: center;
+}
+.s_card_silder .card-body h4{ 
+	font-weight: 600;
+}
+
+@media only screen and (min-width:1200px) and (max-width:1500px){
+    .swiper_card_snippet .swiper-slide {
+        width: calc((96%) / 3) !important;
+    }
+}

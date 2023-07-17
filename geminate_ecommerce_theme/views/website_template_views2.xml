@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- this one is for terms and conditions -->
+    <template id="website_sale.product_custom_text" inherit_id="website_sale.product" name="Terms and Conditions">
+        <xpath expr="//div[@id='o_product_terms_and_share']" position="inside">
+            <div class="text-muted mb-0">
+                <div class="term_con_custom_gem">
+                    <h4>Terms and Conditions:</h4>
+                    <div class="box_deisgn_custom_641564">
+                        <a href="/terms" class="text-muted design_box_terms_gem">
+                            <span class="terms_1_gem_custom">
+                                <i class="fa fa-certificate"></i>
+                                Lorem ipsum dolor sit amet consectetur
+                            </span>
+                        </a>
+                    </div>
+                    <div class="box_deisgn_custom_641564">
+                        <a href="/terms" class="text-muted design_box_terms_gem">
+                            <span class="terms_2_gem_custom">
+                                <i class="fa fa-money"></i>
+                                Lorem ipsum dolor sit amet consectetur
+                            </span>
+                        </a>
+                    </div>
+                    <div class="box_deisgn_custom_641564">
+                        <a href="/terms" class="text-muted design_box_terms_gem">
+                            <span class="terms_3_gem_custom">
+                                <i class="fa fa-exchange"></i>
+                                Lorem ipsum dolor sit amet consectetur
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </xpath>
+    </template>
+
+    <!-- this one is for reviews -->
+    <template id="website_sale.product_comment" inherit_id="website_sale.product" name="Discussion and Rating">
+        <xpath expr="//div[@t-field='product.website_description']" position="after">
+            <div class="o_shop_discussion_rating" data-anchor='true'>
+                <section id="o_product_page_reviews" class="custom_o_product_page_reviews container pt32 pb32" data-anchor='true'>
+                    <a class="o_product_page_reviews_title d-flex justify-content-between text-decoration-none collapsed" readonly="readonly" type="button" data-bs-toggle="collapse" data-bs-target="#o_product_page_reviews_content" aria-expanded="false" aria-controls="o_product_page_reviews_content">
+                        <h3 class="mb32">Customer Reviews</h3>
+                    </a>
+                    <div id="o_product_page_reviews_content" class="collapse show">
+                        <t t-call="portal.message_thread">
+                            <t t-set="object" t-value="product"/>
+                            <t t-set="display_rating" t-value="True"/>
+                            <t t-set="message_per_page" t-value="5"/>
+                            <t t-set="two_columns" t-value="true"/>
+                        </t>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+
+
+    <!-- this one address is for specification -->
+    <template id="website_sale_comparison.product_attributes_body" inherit_id="website_sale.product" name="Product attributes table">
+        <xpath expr="//div[@id='product_attributes_simple']" position="replace"/>
+        <xpath expr="//div[@id='product_full_description']" position="after">
+            <t t-set="categories" t-value="product.valid_product_template_attribute_line_ids._prepare_categories_for_display()"/>
+            <t t-if="categories">
+                <section class="pt32 pb32" id="product_full_spec">
+                    <div class="container">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h3 class="m-0">Specifications</h3>
+                            <t t-if="is_view_active('website_sale_comparison.add_to_compare')">
+                                <t t-set="product_variant" t-value="product_variant or product._create_first_product_variant()"/>
+                            </t>
+                        </div>
+                        <div id="product_specifications">
+                            <div class="row">
+                                <t t-foreach="categories" t-as="category">
+                                    <div class="col-lg-12">
+                                        <table class="table custom_table">
+                                            <t t-if="len(categories) > 1">
+                                                <tr>
+                                                    <th class="text-start" t-att-colspan="2">
+                                                        <span t-if="category" t-field="category.name"/>
+                                                        <span t-else="">Uncategorized</span>
+                                                    </th>
+                                                </tr>
+                                            </t>
+                                            <tr t-foreach="categories[category].filtered(lambda l: len(l.value_ids) > 1)" t-as="ptal" class="custom">
+                                                <td class="w-25"><span t-field="ptal.attribute_id.name"/></td>
+                                                <td class="w-75 text-muted">
+                                                    <t t-foreach="ptal.value_ids" t-as="pav">
+                                                        <span t-field="pav.name"/><t t-if="not pav_last"> or</t>
+                                                    </t>
+                                                </td>
+                                            </tr>
+                                            <t t-set="single_value_attributes" t-value="categories[category]._prepare_single_value_for_display()"/>
+                                            <tr t-foreach="single_value_attributes" t-as="attribute">
+                                                <td class="w-25"><span t-field="attribute.name"/></td>
+                                                <td class="w-75 text-muted">
+                                                    <t t-foreach="single_value_attributes[attribute]" t-as="ptal">
+                                                        <span t-field="ptal.product_template_value_ids._only_active().name"/><t t-if="not ptal_last">, </t>
+                                                    </t>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </t>
+        </xpath>
+    </template>
+
+
+    <!-- this one is for address -->
+    <template id="website_sale.address_on_payment" name="Address on payment">
+        <div class="card custom_card_billing_gem">
+            <div class="card-body" id="shipping_and_billing">
+                <a class="float-end no-decoration" href="/shop/checkout"><i class="fa fa-edit"/> Edit</a>
+                <t t-set="same_shipping" t-value="bool(order.partner_shipping_id==order.partner_id or only_services)" />
+                <div>
+                    <b>Billing<t t-if="same_shipping and not only_services"> &amp; Shipping</t>: </b>
+                    <span t-esc="order.partner_id" t-options="dict(widget='contact', fields=['address'], no_marker=True, separator=', ')" class="address-inline"/>
+                </div>
+                <div t-if="not same_shipping and not only_services" groups="account.group_delivery_invoice_address">
+                    <b>Shipping: </b>
+                    <span t-esc="order.partner_shipping_id" t-options="dict(widget='contact', fields=['address'], no_marker=True, separator=', ')" class="address-inline"/>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <!-- this one is for address edit button -->
+    <template id="website_sale.checkout">
+        <t t-call="website.layout">
+            <t t-set="additional_title">Shop - Checkout</t>
+            <t t-set="no_footer" t-value="1"/>
+            <div id="wrap">
+                <div class="container oe_website_sale py-2 billing_ad_gem">
+                    <t t-set="same_shipping" t-value="bool(order.partner_shipping_id==order.partner_id or only_services)" />
+                    <div class="row">
+                        <div class="col-12">
+                            <t t-call="website_sale.wizard_checkout">
+                                <t t-set="step" t-value="20" />
+                            </t>
+                        </div>
+                        <div class="col-12 col-xl-auto order-xl-2 d-none d-xl-block">
+                            <t t-call="website_sale.cart_summary">
+                                <t t-set="redirect" t-valuef="/shop/checkout"/>
+                            </t>
+                        </div>
+                        <div class="col-12 col-xl order-xl-1 oe_cart custom_billing_ad2315">
+                            <div class="row">
+                                <div class="billing_ad_gem_456465">
+                                    <div class="col-lg-12">
+                                        <h3 class="o_page_header mt8">Billing Address</h3>
+                                    </div>
+                                    <div class="col-lg-6 one_kanban">
+                                        <t t-call="website_sale.address_kanban">
+                                            <t t-set='contact' t-value="order.partner_id"/>
+                                            <t t-set='selected' t-value="1"/>
+                                            <t t-set='readonly' t-value="1"/>
+                                            <t t-set='allow_edit' t-value="1"/>
+                                        </t>
+                                    </div>
+                                </div>
+                            </div>
+                            <t t-if="not only_services" groups="account.group_delivery_invoice_address">
+                                <div class="row">
+                                    <div class="shipping_ad_gem_456465">
+                                        <div class="col-lg-12">
+                                            <h3 class="o_page_header mt16 mb4">Shipping Address</h3>
+                                        </div>
+                                        <div class="row all_shipping">
+                                            <div class="col-lg-12">
+                                                <div class="row mt8">
+                                                    <t t-foreach="shippings" t-as="ship">
+                                                        <div class="col-md-12 col-lg-6 one_kanban mb-2">
+                                                            <t t-call="website_sale.address_kanban">
+                                                                <t t-set='contact' t-value="ship"/>
+                                                                <t t-set='selected' t-value="order.partner_shipping_id==ship"/>
+                                                                <t t-set='readonly' t-value="bool(len(shippings)==1)"/>
+                                                                <t t-set='edit_billing' t-value="bool(ship==order.partner_id)"/>
+                                                                <t t-set="allow_edit" t-value="not order.partner_id or (ship.id in order.partner_id.child_ids.ids)" />
+                                                            </t>
+                                                        </div>
+                                                    </t>
+                                                    <div class="col-md-12 col-lg-12 one_kanban">
+                                                        <form action="/shop/address" method="post" class=''>
+                                                            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()" t-nocache="The csrf token must always be up to date."/>
+                                                            <a role="button" href="#" class='a-submit btn btn-secondary mb-2 btn-block'>
+                                                                <i class="fa fa-plus-square"/>
+                                                                <span>Add an address</span>
+                                                            </a>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </t>
+                            <div class="d-flex justify-content-between mt-3">
+                                <a role="button" href="/shop/cart" class="btn btn-secondary mb32">
+                                    <i class="fa fa-chevron-left"/>
+                                    <span>Return to Cart</span>
+                                </a>
+                                <a role="button" href="/shop/confirm_order" class="btn btn-primary mb32">
+                                    <span>Confirm</span>
+                                    <i class="fa fa-chevron-right"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+
+
+    <!-- this one is for add to cart -->
+    <template id="sale_product_configurator.configure_optional_products">
+        <div class="custom_table_popup_cart_246">
+            <table class="table table-striped table-sm custom_table_popup_cart">
+                <thead>
+                    <tr class="custom_tr_popcart_gem">
+                        <th class="td-img"><span class='label'>Product</span></th>
+                        <th><span class='label'></span></th>
+                        <th class="text-center td-qty"><span class='label'>Quantity</span></th>
+                        <th class="text-center td-price"><span class='label'>Price</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="js_product in_cart main_product">
+                        <t t-set="combination_info" t-value="product.product_tmpl_id._get_combination_info(combination, product.id, add_qty or 1, pricelist)"/>
+                        <t t-set="product_variant" t-value="product.env['product.product'].browse(combination_info['product_id'])"/>
+
+                        <input type="hidden" class="product_template_id" t-att-value="product.product_tmpl_id.id"/>
+                        <input type="hidden" class="product_id" t-att-value="product_variant.id"/>
+                        <td class='td-img'>
+                            <img class="product_detail_img" t-if="product_variant" t-att-src="'/web/image/product.product/%s/image_128' % product_variant.id" alt="Product Image"/>
+                            <img class="product_detail_img" t-else="" t-att-src="'/web/image/product.template/%s/image_128' % product.id" alt="Product Image"/>
+                        </td>
+                        <td class='td-product_name'>
+                            <strong class="product-name product_display_name" t-out="combination_info['display_name']"/>
+                            <div class="text-muted small">
+                                <div t-field="product.description_sale"/>
+                                <div class="js_attributes"/>
+                                <div t-if="product_custom_attribute_values">
+                                    <t t-foreach="product_custom_attribute_values" t-as="custom_value">
+                                        <span t-esc="custom_value.get('attribute_value_name', None)"/>: <span t-esc="custom_value['custom_value']"/>
+                                        <input type="hidden" class="variant_custom_value"
+                                            t-att-data-custom_product_template_attribute_value_id="custom_value['custom_product_template_attribute_value_id']"
+                                            t-att-data-attribute_value_name="custom_value.get('attribute_value_name', None)"
+                                            t-att-value="custom_value['custom_value']"/>
+                                        </t>
+                                    </div>
+                                </div>
+                                <div>
+                                    <t t-if="product.product_tmpl_id and not combination">
+                                        <t t-set="combination" t-value="product.product_tmpl_id._get_first_possible_combination()"/>
+                                    </t>
+                                    <t t-if="combination and not already_configured" t-call="sale.variants">
+                                        <t t-set="ul_class" t-valuef="flex-column" />
+                                        <t t-set="product" t-value="product.product_tmpl_id"/>
+                                    </t>
+                                    <t t-else="">
+                                        <ul class="d-none js_add_cart_variants mb-0" t-att-data-attribute_exclusions="{'exclusions: []'}"/>
+                                        <div class="d-none oe_unchanged_value_ids" t-att-data-unchanged_value_ids="variant_values" ></div>
+                                        <!-- Keep the information to use it later (when leaving the modal window) -->
+                                        <div class="d-none no-attribute-info" t-att-data-attribute-value='json.dumps(no_attribute)'></div>
+                                        <div class="d-none custom-attribute-info" t-att-data-attribute-value='json.dumps(custom_attribute)'></div>
+                                    </t>
+                                </div>
+                            </td>
+                            <td class="text-center td-qty">
+                                <t t-call='sale_product_configurator.product_quantity_config' />
+                            </td>
+                            <td class="text-center td-price" name="price">
+                                <div t-attf-class="text-danger oe_default_price oe_striked_price {{'' if combination_info['has_discounted_price'] else 'd-none'}}"
+                                    t-out="combination_info['list_price']"
+                                    t-options='{
+                                    "widget": "monetary",
+                                    "display_currency": (pricelist or product).currency_id
+                                    }'
+                                    />
+                                    <span class="oe_price product_id" style="white-space: nowrap;"
+                                        t-att-data-product-id="product.id"
+                                        t-out="combination_info['price']"
+                                        t-options='{
+                                        "widget": "monetary",
+                                        "display_currency": (pricelist or product).currency_id
+                                        }'/>
+                                        <span class="js_raw_price d-none" t-out="product._get_contextual_price()"/>
+                                        <p class="css_not_available_msg alert alert-warning">Option not available</p>
+                                    </td>
+                                </tr>
+                                <tr class="o_total_row">
+                                    <td colspan="4" class="text-end">
+                                        <strong>Total:</strong>
+                                        <span class="js_price_total fw-bold" style="white-space: nowrap;"
+                                            t-att-data-product-id="product.id"
+                                            t-out="combination_info['price'] * (add_qty or 1)"
+                                            t-options='{
+                                            "widget": "monetary",
+                                            "display_currency": (pricelist or product).currency_id
+                                            }'/>
+                                        </td>
+                                    </tr>
+                                    <t t-if="product.optional_product_ids and mode != 'edit'">
+                                        <tr class="o_select_options"><td colspan="4"><h4>Available Options:</h4></td></tr>
+                                        <t t-call="sale_product_configurator.optional_product_items">
+                                            <t t-set="parent_combination" t-value="combination"/>
+                                        </t>
+                                    </t>
+                                </tbody>
+                            </table>
+                        </div>
+                    </template>
+
+                </odoo>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="template_header_geminate_vertical_gem_header_2" inherit_id="website.layout" name="Geminate Single double heder" active="False">
+	    <xpath expr="//header//nav" position="replace">
+
+	        <!-- Topbar -->
+	        <div class="oe_structure oe_structure_solo" id="oe_structure_header_magazine_1"/>
+	        
+			<div class="detalis_header_2">
+		    <div class="container">    
+		      <div class="row">
+		        <div class="col-lg-6 col-6 margin-left">
+		          <a href="tel:455564564654">
+		            <div class="comn_details call_detalis phone_color">
+		              <i class="fa fa-phone" style="margin-left:2px; font-weight:700"></i>
+		              <span class="phone_header_2" style="margin-left:31px; margin-top: -3px; float: left;">+11321548646</span>
+		            </div>
+		          </a>
+		          <a href="mailto:someone@example.com">
+		             <div class="comn_details email_details email_color" style="margin-left:150px;">
+		              <i class="fa fa-envelope"></i>
+		              <span class="email_header_2" style="margin-left:32px; margin-top: -3px; float: left;">demo@gmail.com</span>
+		            </div>
+		          </a>
+		        </div>
+		        <div class="col-lg-6 col-5 postion_class">
+		          <a href="#">
+		            <div class="social_bg_design_comn facebook_icon">
+		              <i class="fa fa-facebook"></i>
+		            </div>
+		          </a>
+		          <a href="#">
+		            <div class="social_bg_design_comn instagram_icon">
+		              <i class="fa fa-instagram"></i>
+		            </div>
+		          </a>
+		          <a href="#">
+		            <div class="social_bg_design_comn twitter_icon">
+		              <i class="fa fa-twitter"></i>
+		            </div>
+		          </a>
+		          <a href="#">
+		            <div class="social_bg_design_comn linkedin_icon">
+		              <i class="fa fa-linkedin"></i>
+		            </div>
+		          </a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+
+
+			<nav class="nav_gem_header_2">
+
+		   		<input type="checkbox"  class="checkbox" id="click_gem_hd_2"/>
+		   		<label for="click_gem_hd_2" class="menu-btn_gem_">
+		      		<i class="fa fa-bars"></i>
+		    	</label>
+			   
+			    <div class="logo_gem_header_2">
+	                <t t-call="website.placeholder_header_brand">
+	                    <t t-set="_link_class" t-valuef="mr-4"/>
+	                </t>
+			    </div>
+
+			    <t t-set="_nav_class" t-valuef="text-right align-items-sm-end"/>
+                <t t-call="website.navbar_nav" style="display:content !important">
+                    <!-- Menu -->
+                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                        <t t-call="website.submenu">
+                            <t t-set="item_class" t-valuef="nav-item"/>
+                            <t t-set="link_class" t-valuef="nav-link"/>
+                        </t>
+                    </t>
+                    <li class="nav-item">
+                        <!-- Language Selector -->
+                        <t t-call="website.placeholder_header_language_selector">
+                            <t t-set="_div_classes" t-valuef="pb-2"/>
+                        </t>
+                    </li>
+                </t>
+ 
+			    <div class="icon_sec_header_2">
+	                <ul class="nav navbar-nav o_header_centered_logo justify-content-end flex-row">
+	                    <!-- Sign In -->
+	                    <t t-call="portal.placeholder_user_sign_in">
+	                        <t t-set="_item_class" t-valuef="nav-item ml-3"/>
+	                        <t t-set="_link_class" t-valuef="nav-link"/>
+	                    </t>
+	                    <!-- User Dropdown -->
+	                    <t t-call="portal.user_dropdown">
+	                        <t t-set="_icon" t-value="true"/>
+	                        <t t-set="_item_class" t-valuef="nav-item dropdown ml-3"/>
+	                        <t t-set="_link_class" t-valuef="nav-link"/>
+	                        <t t-set="_dropdown_menu_class" t-valuef="position-absolute dropdown-menu-right"/>
+	                    </t>
+                        <!-- Cart -->
+	                    <t t-call="website_sale.header_cart_link">
+	                        <t t-set="_icon" t-value="True"/>
+	                        <t t-set="_item_class" t-value="'nav-item mx-lg-3'"/>
+	                        <t t-set="_link_class" t-value="'nav-link'"/>
+	                    </t>
+	                    <!-- Wishlist -->
+	                    <t t-call="website_sale_wishlist.header_wishlist_link">
+	                        <t t-set="_icon" t-value="True"/>
+	                        <t t-set="_item_class" t-value="'nav-item mr-lg-3'"/>
+	                        <t t-set="_link_class" t-value="'nav-link'"/>
+	                    </t>
+	                    <!-- Call To Action -->
+	                    <!-- <t t-call="website.placeholder_header_call_to_action">
+	                        <t t-set="_div_classes" t-valuef="ml-2"/>
+	                    </t> -->
+	                </ul>
+			    </div>
+			</nav>  
+
+	         
+	    </xpath>
+	</template>
+
+</odoo>

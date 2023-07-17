@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="fancy_box_7" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_7_fancy_box" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/fancy_box/fancy_7_box.png"/>
+            </xpath>
+        </template>
+        <template id="s_7_fancy_box" name="Fancy Box 7">
+            <section class="gem_box_ofr_product_7">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6" style="text-align:right;">
+                            <div class="gem_top_left_side_img_1_24 box_shadow_comn">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.codezeel.com/prestashop/PRS15/PRS150353/img/cms/cms-banner-1.jpg"/>
+                                </a>
+                            </div>
+                            <div class="content_txt_ofr_07">
+                                <span>20% Discount</span>
+                                <h3>Best Money Plant</h3>
+                                <a href="#" class="pro_7_btn_gem_ofr_24 btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="text-align: center;">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="gem_top_right_side_img_1_24 box_shadow_comn">
+                                        <a href="#">
+                                            <img class="img-fluid" src="https://demo.codezeel.com/prestashop/PRS15/PRS150353/img/cms/cms-banner-4.jpg"/>
+                                        </a>
+                                    </div>
+                                    <div class="content_txt_ofr_right_07 content_txt_ofr_right_01">
+                                        <span>20% Discount</span>
+                                        <h3>Best Gift Plants</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6">
+                                    <div class="gem_top_right_side_img_2_24 box_shadow_comn">
+                                        <a href="#">
+                                            <img class="img-fluid" src="https://demo.codezeel.com/prestashop/PRS15/PRS150353/img/cms/cms-banner-5.jpg"/>
+                                        </a>
+                                    </div>
+                                    <div class="content_txt_ofr_right_07 content_txt_ofr_right_02">
+                                        <span>30% Discount</span>
+                                        <h3>Best Cactus Plant</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+                                    <div class="gem_bottom_left_side_img_1_24 box_shadow_comn">
+                                        <a href="#">
+                                            <img class="img-fluid" src="https://demo.codezeel.com/prestashop/PRS15/PRS150353/img/cms/cms-banner-2.jpg"/>
+                                        </a>
+                                    </div>
+                                    <div class="content_txt_ofr_right_07 content_txt_ofr_left_bottom_1">
+                                        <span>30% Discount</span>
+                                        <h3>Best Outdoor Plants</h3>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+                                    <div class="gem_bottom_left_side_img_2_24 box_shadow_comn">
+                                        <a href="#">
+                                            <img class="img-fluid" src="https://demo.codezeel.com/prestashop/PRS15/PRS150353/img/cms/cms-banner-3.jpg"/>
+                                        </a>
+                                    </div>
+                                    <div class="content_txt_ofr_right_07 content_txt_ofr_left_bottom_2">
+                                        <span>30% Discount</span>
+                                        <h3>New Garden Plants</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" style="text-align:left;">
+                            <div class="gem_bottom_right_side_img_1_24 box_shadow_comn">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://demo.codezeel.com/prestashop/PRS15/PRS150353/img/cms/cms-banner-6.jpg"/>
+                                </a>
+                            </div>
+                            <div class="content_txt_ofr_07 content_txt_ofr_07_bottom_right">
+                                <span>Best House Plant</span>
+                                <h3>Philodendron Plant</h3>
+                                <a href="#" class="pro_7_btn_gem_ofr_24 pro_7_btn_gem_ofr_24_buttom_right btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

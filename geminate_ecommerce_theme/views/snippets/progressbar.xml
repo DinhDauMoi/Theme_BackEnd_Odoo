@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+         <template id="progressbar" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.progressbar_1" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/progressbar.png"/>
+            </xpath>
+        </template>
+        <template id="progressbar_1" name="Progressbar">
+            <section class="progressbar_0 s_progressbar">
+                <div class="skillbar-wrapper">
+                    <div class="skillbar clearfix html5" data-percent="75%">
+                        <h4 class=" skillbar-title"><span>HTML5</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">75%</div>
+                    </div>
+                    <div class="skillbar clearfix css" data-percent="82%">
+                        <h4 class="skillbar-title"><span>CSS</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">82%</div>
+                    </div>
+                    <div class="skillbar clearfix javascript" data-percent="35%">
+                        <h4 class="skillbar-title"><span>JavaScript</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">35%</div>
+                    </div>
+                    <div class="skillbar clearfix jquery" data-percent="45%">
+                        <h4 class="skillbar-title"><span>jQuery</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">45%</div>
+                    </div>
+                    <div class="skillbar clearfix php" data-percent="80%">
+                        <h4 class="skillbar-title"><span>PHP</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">80%</div>
+                    </div>
+                    <div class="skillbar clearfix wordpress" data-percent="90%">
+                        <h4 class="skillbar-title"><span>WordPress</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">90%</div>
+                    </div>
+                    <div class="skillbar clearfix server" data-percent="85%">
+                        <h4 class="skillbar-title"><span>Server</span></h4>
+                        <div class="skillbar-bar"></div>
+                        <div class="skill-bar-percent">85%</div>
+                    </div>
+                </div>
+            </section> 
+        
+        </template>
+    </data>
+</openerp>

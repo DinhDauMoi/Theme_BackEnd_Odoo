@@ -1,0 +1,18 @@
+.s_portfolio .big_pic_sec {
+    text-align: center;
+    padding-bottom:10px;
+}
+.s_portfolio .big_pic_sec h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    color: #052c3f;
+}
+.s_portfolio .portfolio-item {
+    text-align: center;
+}
+.s_portfolio img {
+  margin-bottom: 10px;
+}

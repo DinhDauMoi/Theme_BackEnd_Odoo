@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="banner3" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_banner3" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/banner/banner_3.png"/>
+            </xpath>
+        </template>
+        <template id="s_banner3" name="Banner3">
+			<section class="gem_banner_3_animation">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="banner_3_content">
+								<h1>Lorem ipsum dolor sit amet, &amp; consectetur adipiscing elit, sed do eiusmod </h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing elit.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<div class="banner_3_home_img">
+								<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/home-front.png" class="img-fluid"/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="home-shape-animation">
+					<div class="shape-1">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/1.png"/>
+					</div>
+
+					<div class="shape-2">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/2.png"/>
+					</div>
+
+					<div class="shape-3">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/7.png"/>
+					</div>
+
+					<div class="shape-4">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/4.png"/>
+					</div>
+
+					<div class="shape-5">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/5.png"/>
+					</div>
+
+					<div class="shape-6">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/6.png"/>
+					</div>
+
+					<div class="shape-7">
+						<img src="https://cutesolution.com/html/axiom/Axiom/assets/img/shape/3.png"/>
+					</div>
+				</div>
+
+			</section>
+        </template>
+    </data>
+</odoo>

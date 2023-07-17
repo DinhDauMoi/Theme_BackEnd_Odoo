@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+         <template id="team_member" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.team_block" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/team_member.png"/>
+            </xpath>
+        </template>
+        <template id="team_block" name="Team Block">
+            <section id="team" class="s_team_main">
+                <div class="container">
+                    <div class="team_section-title">
+                        <h2>Team</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="member">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/team_m/tm_1.jpg" class="img-fluid" alt=""/>
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>Walter White</h4>
+                                        <span>Chief Executive Officer</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="member">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/team_m/tm_2.jpg" class="img-fluid" alt=""/>
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>Sarah Jhonson</h4>
+                                        <span>Product Manager</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="member">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/team_m/tm_3.jpg" class="img-fluid" alt=""/>
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>William Anderson</h4>
+                                        <span>CTO</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="member">
+                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/team_m/tm_4.jpg" class="img-fluid" alt=""/>
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>Amanda Jepson</h4>
+                                        <span>Accountant</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- End Team Section -->
+        
+        </template>
+    </data>
+</openerp>

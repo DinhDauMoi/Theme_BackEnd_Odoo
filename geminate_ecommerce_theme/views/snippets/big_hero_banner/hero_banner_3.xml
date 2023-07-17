@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="hero_banner_3" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_3_banner" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/hero_banner/big_banner_1.png"/>
+            </xpath>
+        </template>
+        <template id="s_3_banner" name="Hero Banner 3">
+            <section class="s_gem_hero_big_banner_1">   
+                <div class="container padding_area">
+                    <div class="gem_banner_txt_area_1">
+                        <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+                        <h3 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Ut enim ad minim veniam, nostrud consectetur adipiscing elit.</h3>
+                        <a href="#" class="hero_banner_btn_1 btn-primary">More Info</a>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

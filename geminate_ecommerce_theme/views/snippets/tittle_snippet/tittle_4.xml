@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="up_down_border_tittle" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_4_tittle" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/tittle/tittle_4.png"/>
+            </xpath>
+        </template>
+        <template id="s_4_tittle" name="Tittle 4">
+            <div class="s_gem_title_section_4">
+                <div class="container">
+                    <div class="title-block_gem_24 text-center title-pd">
+                        <span class="top-title"></span>
+                            <h2>Our Partners</h2>
+                            <p class="sub-title">As always, partners grows with you!</p>
+                        <span class="bottom-title"></span>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template id="tittle_btn4_snippet_options" inherit_id="website.snippet_options" name="tittle_btn4 snippet options">
+            <xpath expr="//*[@t-set='so_content_addition_selector']" position="inside">, .s_gem_title_section_4</xpath>
+        </template>
+    </data>
+</odoo>

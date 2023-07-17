@@ -1,0 +1,134 @@
+	.main_gem_footer_5 .footer-newsletter_ft_gem h4 {	
+    	font-size: 24px;
+    	margin: 0 0 20px 0;
+    	padding: 0;
+    	line-height: 1;
+    	font-weight: 700;
+    	color: #fff;
+	}
+	.main_gem_footer_5 .footer-newsletter_ft_gem p {
+    	font-weight: 700;
+    	color: #fff;
+    	font-size: 14px;
+	}
+    .main_gem_footer_5 .footer-newsletter_ft_gem {
+    	padding: 20px 0;
+    	background: #424040;
+    	
+	}
+	.main_gem_footer_5 .footer-newsletter_ft_gem form {
+    	margin-top: 30px;
+    	background: #fff;
+    	padding: 6px 10px;
+    	position: relative;
+    	border-radius: 5px;
+	}	
+	.main_gem_footer_5 .footer-newsletter_ft_gem .email_ft_5 {
+    	border: 0;
+    	padding: 4px;
+    	width: calc(100% - 100px);
+    	outline: none;
+    	font-weight: 700;
+	}
+	.main_gem_footer_5 .footer-newsletter_ft_gem .btn_ft_5_gem {
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	bottom: 0;
+    	border: 0;
+    	font-size: 16px;
+    	padding: 0 20px;
+    	margin: 3px;
+    	color: #fff;
+    	transition: 0.3s;
+    	border-radius: 5px;
+    	font-weight: 700;
+	}
+	.main_gem_footer_5 .main_details_bg {
+		background: #000;
+		padding: 25px 0 25px 0px;
+		color: #fff;
+	}
+	.main_gem_footer_5 .comn_h4_ft_5 {
+		font-weight: 700;
+		font-size: 15px;
+		margin-bottom:25px;
+		border-right: 2px solid #fff;
+		border-left: 2px solid #fff;
+		padding-left: 10px;
+		padding-right: 10px;
+		display: inline-block;
+	}
+	.main_gem_footer_5 ul li{
+		padding-bottom: 15px;
+		font-weight: 700;
+		font-size: 13px;
+	}
+	.main_gem_footer_5 ul a {
+		transition: 0.7s;
+	}
+	.main_gem_footer_5 ul a:hover {
+		padding-left:8px;
+		text-decoration: none;
+	}
+	.main_gem_footer_5 .logo_area_ft_gem {
+		float: right;
+		background: #fff;
+		color: #000;
+		text-align: center;
+		width: 300px;
+		height: 90px;
+		padding-top: 4px;
+		border-radius: 50px 0px 50px 0px;
+		margin-bottom: 15px;
+	}
+	.main_gem_footer_5 .logo_area_ft_gem h3 {
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 1;
+		color: #000!important;
+	}
+	.social_area_ft_5_gem h3{
+		color: #000!important;
+	}
+	.main_gem_footer_5 .social_area_ft_5_gem {
+		float: right;
+		background: #fff;
+		color: #000;
+		text-align: center;
+		width: 300px;
+		height: 90px;
+		padding-top: 14px;
+		border-radius: 0px 50px 0px 50px;
+		margin-bottom: 15px;
+	}
+	@media (min-width:280px) and (max-width: 575px) {
+		.main_gem_footer_5 .text-centre {
+			text-align: center;
+		}
+		.main_gem_footer_5 .right_side_area {
+			display: inline-flex;
+		}
+		.main_gem_footer_5 .logo_area_ft_gem {
+			margin-right: 10px;
+		}
+		.main_gem_footer_5 .logo_area_ft_gem h3,.social_area_ft_5_gem h3{
+			font-size: 20px!important;
+		}
+		.main_gem_footer_5 .logo_area_ft_gem p {
+			font-size: 10px!important;
+		}
+	}
+	@media (min-width:575px) and (max-width:992px) { 
+		.main_gem_footer_5 .right_side_area {
+			display: inline-flex;
+		}
+		.main_gem_footer_5 .logo_area_ft_gem {
+			margin-right: 10px;
+		}
+	}
+	@media (max-width:991px){
+		.main_gem_footer_5 .text-centre, .details_text-centre {
+    		display: block!important; 
+		}
+	}

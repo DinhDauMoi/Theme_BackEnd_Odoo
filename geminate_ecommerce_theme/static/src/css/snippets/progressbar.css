@@ -1,0 +1,99 @@
+.s_progressbar .skillbar-wrapper {
+    margin: 1.5em auto;
+    max-width: 960px;
+}
+.s_progressbar .skillbar {
+    position:relative;
+    margin-bottom: 15px;
+    width: 100%;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px; 
+}
+.s_progressbar .skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+    width:110px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin: 0;
+}
+.s_progressbar .skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height:35px;
+    line-height: 35px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.s_progressbar .skillbar-bar {
+    height: 35px;
+    width: 0%;
+    border-radius: 3px;
+    transition: 500ms linear;
+    transition-property: width, background-color;
+}
+.s_progressbar .skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: rgba( 0, 0, 0, 0.4 );
+    transition: color 500ms ease-out;
+}
+.s_progressbar .complete .skill-bar-percent {
+    color: #333;
+}
+.s_progressbar .complete.server .skill-bar-percent {
+    color: #333;
+}
+.s_progressbar .html5 .skillbar-title {
+    background: #d35400;    
+}
+.s_progressbar .html5 .skillbar-bar {
+    background: #e67e22;    
+}
+.s_progressbar .css .skillbar-title {
+    background: #2980b9;    
+}
+.s_progressbar .css .skillbar-bar {
+    background: #3498db;    
+}
+.s_progressbar .javascript .skillbar-title {
+    background: #fac552;
+}
+.s_progressbar .javascript .skillbar-bar {
+    background: #f1ac18;
+}
+.s_progressbar .jquery .skillbar-title {
+    background: #2c3e50;    
+}
+.s_progressbar .jquery .skillbar-bar {
+    background: #2c3e50;    
+}
+.s_progressbar .php .skillbar-title {
+    background: #46465e;    
+}
+.s_progressbar .php .skillbar-bar {
+    background: #5a68a5;    
+}
+.s_progressbar .wordpress .skillbar-title {
+    background: #333333;    
+}
+.s_progressbar .wordpress .skillbar-bar {
+    background: #525252;    
+}
+.s_progressbar .server .skillbar-title {
+    background: #604058;    
+}
+.s_progressbar .server .skillbar-bar {
+    background: #964581;    
+}

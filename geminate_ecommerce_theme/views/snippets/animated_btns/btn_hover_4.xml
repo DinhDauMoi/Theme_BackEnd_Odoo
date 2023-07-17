@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="btn_hvr_4" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_4_hvr_btn" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/btn/btn_main.png"/>
+            </xpath>
+        </template>
+        <template id="s_4_hvr_btn" name="Btn 4">
+          <div class="gem_border_left_right_efect">
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-md-12"> 
+                            <a href="#" class="btn_svg_gem fadein" style="">
+                                <svg class="svg_border">
+                                    <rect class="rect_border" x="2" y="2" rx="0" fill="none" width="266" height="50"></rect>
+                                </svg> 
+                                <span>What we do</span> 
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template id="ani_btn4_snippet_options" inherit_id="website.snippet_options" name="ani_btn4 snippet options">
+            <xpath expr="//*[@t-set='so_content_addition_selector']" position="inside">, .gem_border_left_right_efect</xpath>
+        </template>
+    </data>
+</odoo>

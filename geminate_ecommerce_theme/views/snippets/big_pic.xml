@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="big_pic" inherit_id="website.snippets" name="2_image_medium" >
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.big_pic_1" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/big_pic.png"/>
+            </xpath>
+        </template>
+        <template id="big_pic_1" name="Big Pic">
+            <section id="portfolio" class="s_portfolio">
+                <div class="container">
+                    <div class="section-title big_pic_sec">
+                        <h2>Tittle</h2>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="col-lg-12 col-md-6 portfolio-item filter-app">
+                            <img src="/geminate_ecommerce_theme/static/src/img/main_image/b_pic/pic_b.jpg" class="img-fluid" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </template>
+    </data>
+</openerp>

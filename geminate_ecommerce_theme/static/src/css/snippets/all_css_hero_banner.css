@@ -1,0 +1,140 @@
+ 	/*Hero_banner_1*/
+
+.s_gem_hero_big_banner_1 {
+		background: url(https://codezeel.com/opencart/OPC02/OPC020041/image/catalog/parallax-bg.jpg);
+		width: 100%;
+		background-position: 50% 200.0632%;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.padding_area {
+		text-align: center;
+		padding: 110px 0 160px;
+		letter-spacing: .9px;
+		color: #fff;
+	}
+	.gem_banner_txt_area_1 h2{
+		font-size: 24px;
+    	letter-spacing: .5px;
+    	line-height: 22px;
+    	font-weight: 400;
+	}
+	.gem_banner_txt_area_1 h3 {
+		text-transform: uppercase;
+    	font-size: 55px;	
+    	letter-spacing: .5px;
+    	line-height: 47px;
+    	padding-top: 40px;
+    	padding-bottom: 60px;
+    	font-weight: 600;
+	}
+	.hero_banner_btn_1 {
+		font-size: 14px;
+    	font-weight: 600;
+    	text-transform: uppercase;
+    	letter-spacing: .5px;
+    	padding: 10px 23px;
+    	padding-bottom: 8px;
+    	display: inline-block;
+	}
+	.hero_banner_btn_1:hover{
+		text-decoration: none;
+	}
+
+
+
+/*Hero_banner_2*/
+
+.s_gem_hero_big_banner_2 {
+		background: url(https://elementor.dostguru.com/greenesta/wp-content/uploads/2021/12/slider-15.jpg);
+		width: 100%;
+		background-position: 50% 200.0632%;
+		background-size: cover;
+		background-repeat:no-repeat;
+	}
+	.s_gem_hero_big_banner_2 .padding_area_2 {
+		text-align: center;
+		padding: 110px 0 160px;
+		letter-spacing: .9px;
+		color: #fff;
+	}
+	.s_gem_hero_big_banner_2 .gem_banner_txt_area_2{
+		color: #000;
+		text-align: center;
+		display:inline-grid;
+		background: #fff;
+		width: 24%;
+		left: 0;
+		right: 0;
+		outline: 2px solid #fff;
+		outline-offset: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.s_gem_hero_big_banner_2 .gem_banner_txt_area_2 .text1_gem_hero {
+		font-size:42px;
+		font-weight:600;
+	}
+	.s_gem_hero_big_banner_2 .gem_banner_txt_area_2 .text2_gem_hero {
+		font-weight: 900;
+		font-size: 45px;
+	}
+	.s_gem_hero_big_banner_2 .gem_banner_txt_area_2 .text3_gem_hero {
+		color: #518432;
+    	text-align: center;
+    	font-weight:700;
+    	font-size:10px;
+	}
+
+	@media only screen and (min-width:280px) and (max-width:767px) {  
+		.s_gem_hero_big_banner_2 .gem_banner_txt_area_2 {
+			width:50%;
+		}
+	}
+
+	@media only screen and (min-width:768px) and (max-width: 991px) {  
+		.s_gem_hero_big_banner_2 .gem_banner_txt_area_2 {
+			width:30%;
+		}
+	}
+
+/*Hero_banner_3*/
+
+	.s_gem_hero_big_banner_3 {
+		background: url(https://rubiktheme.com/demo/at_junior_demo/themes/at_junior/assets/img/modules/appagebuilder/images/home5-banner3.jpg);
+		width: 100%;
+		background-size: cover;
+		background-position: center;
+	}
+	.s_gem_hero_big_banner_3 .padding_area_3 {
+		text-align:left;
+		padding: 110px 0 160px;
+		letter-spacing: .9px;
+		color: #000;
+	}
+	.s_gem_hero_big_banner_3 .padding_area_3 h4 {
+		font-size:20px;
+		font-weight:600;
+		margin-bottom:50px;
+	}
+	.s_gem_hero_big_banner_3 .simple_btn_hero_banner {
+		min-width: 400px;
+		border: 3px solid #000;
+		height: 95px;
+    	line-height: 90px;
+    	margin: 30px 0;
+    	font-size: 35px;
+    	padding:15px 70px;
+    	font-weight: 700;
+    	color: #000;
+    	transition: 1s;
+	}
+	.s_gem_hero_big_banner_3 .simple_btn_hero_banner:hover{
+		color: #f43434;
+		text-decoration: none;
+		border: 3px solid #f43434;
+	}
+	.s_gem_hero_big_banner_3 .gem_banner_txt_area_3 p {
+		text-transform: uppercase;
+		margin-top:50px;
+	}

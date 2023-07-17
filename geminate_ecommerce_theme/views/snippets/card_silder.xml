@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="card_silder" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.silder_card_1" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/card_silder.png"/>
+            </xpath>
+        </template>
+        <template id="silder_card_1" name="Card Silder">
+            <section class="pt-5 pb-5 s_card_silder" style="background:#fff;">
+                <div class="container-fluid">
+                    <div class="text_heading_card_silder">
+                        <h3 class="mb-3">Tittle</h3>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="col-12">
+                            <div class="swiper swiper_card_snippet">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide active">
+                                        <div class="card">
+                                            <img class="img-fluid" src="https://htmldemo.net/latest/latest/img/product/1.webp"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor</h4>
+                                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="img-fluid" src="https://htmldemo.net/latest/latest/img/product/3.webp"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor</h4>
+                                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="img-fluid" src="https://htmldemo.net/latest/latest/img/product/7.webp"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor</h4>
+                                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="img-fluid" src="https://htmldemo.net/latest/latest/img/product/8.webp"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor</h4>
+                                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="img-fluid" src="https://htmldemo.net/latest/latest/img/product/4.webp"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor</h4>
+                                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="img-fluid" src="https://htmldemo.net/latest/latest/img/product/2.webp"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Lorem ipsum dolor</h4>
+                                                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </template>
+    </data>
+</openerp>

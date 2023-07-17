@@ -1,0 +1,45 @@
+<odoo>
+  <template id="index" name="Organization">
+    <t t-call="website.layout">
+
+      <div class="container py-4">
+        <div id="ocop-organization-loop-container">
+          <t t-if="partners">
+            <div id="ocop-organization-loop" style="display:grid;grid-template-columns: repeat(4, minmax(0, 1fr));">
+              <t t-foreach="partners" t-as="partner">
+                <div>
+                  <t t-call="couching_partner.enterprise_card">
+                    <t t-set="partner" t-value="partner" />
+                  </t>
+                </div>
+              </t>
+            </div>
+
+            <div class="d-flex justify-content-center pt-5 pb-3">
+              <t t-call="website.pager"></t>
+            </div>
+          </t>
+
+          <t t-else="">
+            <h4 class="text-center">There are currently no organization.</h4>
+          </t>
+
+        </div>
+      </div>
+      <div class="oe_structure oe_empty" id="edit_couching"></div>
+
+    </t>
+  </template>
+
+  <template id="enterprise_card">
+
+    <a class="card mb-4 border" style="width: 18rem;" t-att-href="partner.website_url">
+      <img style="height:280px" t-attf-src="/web/image?model=res.partner&amp;id={{ partner.id }}&amp;field=image_512" class="card-img-top mb-3 rounded" t-att-alt="partner.name" />
+      <div class="card-body mt-4" style="height:215px">
+        <h5 class="card-title">
+          <t t-out="partner.name"></t>
+        </h5>
+      </div>
+    </a>
+  </template>
+</odoo>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+ 
+    <template id="website_sale.product_custom_text" inherit_id="website_sale.product" active="True" customize_show="True" name="Terms and Conditions" priority="21">
+        <xpath expr="//div[@id='o_product_terms_and_share']" position="inside">
+            <p class="text-muted h6 mt-3">
+                <a href="/terms" class="text-muted">Terms and Conditions</a><br/>
+                30-day money-back guarantee<br/>
+                Shipping: 2-3 Business Days
+            </p>
+            <t t-if="product.description_sale">
+            	<h3 class="font-weight-bold" style='font-size:27px;font-variant: all-petite-caps;'>Description</h3>
+            	<p t-field="product.description_sale" class="text-muted my-2" style='font-family: cursive;word-spacing: 4px;' placeholder="A short description that will also appear on documents." />
+        	</t>
+            <t t-if="is_view_active('website_sale.product_comment')">
+                <a href="#o_product_page_reviews" class="o_product_page_reviews_link text-decoration-none">
+                    <t t-call="portal_rating.rating_widget_stars_static">
+                        <t t-set="rating_avg" t-value="product.rating_avg"/>
+                        <t t-set="trans_text_plural">%s reviews</t>
+                        <t t-set="trans_text_singular">%s review</t>
+                        <t t-set="rating_count" t-value="(trans_text_plural if product.rating_count > 1 else trans_text_singular) % product.rating_count"/>
+                    </t>
+                </a>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="geminate_website_sale_wishlist" inherit_id="website_sale_wishlist.product_add_to_wishlist" name="Geminate Wishlist Button Replace" >
+        <xpath expr="//button[@t-if='product_variant']" position="replace">
+        	<span></span> 
+        </xpath>
+    </template>
+
+    <template id="product_add_to_wishlist" inherit_id="website_sale.product" customize_show="True" name="Wishlist Button" priority="20">
+        <xpath expr="//div[@id='add_to_cart_wrap']" position="after">
+        	<div class='wishlist_compare' style='display: inline-flex;'>
+            	<button t-if="product_variant" type="button" role="button" class="btn btn-outline-primary border-0 my-1 px-2 o_add_wishlist_dyn" t-att-disabled='in_wish or None' t-att-data-product-template-id="product.id" t-att-data-product-product-id="product_variant.id" data-action="o_wishlist" title="Add to wishlist"><i class="fa fa-heart-o fa-2x" role="img" aria-label="Add to wishlist"/></button>
+
+                <t t-if="is_view_active('website_sale_comparison.add_to_compare')">
+		            <t t-set="product_variant" t-value="product_variant or product._create_first_product_variant()"/>
+		            <button t-if="product_variant" type="button" role="button" class="d-none d-md-block btn btn-link p-0 align-self-start o_add_compare_dyn" aria-label="Compare" t-att-data-product-product-id="product_variant.id" data-action="o_comparelist">
+		            	<!-- <i class="fa fa-heart-o fa-2x" role="img" aria-label="Add to wishlist"></i> -->
+	            	<span class="fa fa-exchange mr-2">
+	            	</span>Add to compare</button>
+		        </t>
+    		</div>
+        </xpath>
+    </template>
+ 
+    <template id="geminate_product_reviewreplace" inherit_id="website_sale.product" name="Product Review Replace">
+        <xpath expr="//div[@id='product_details']/t" position="replace">
+        	<span></span>
+    	</xpath>
+	</template>
+
+    <template id="fashion_shop" name="Geminate Fashion Shop" inherit_id="website_sale.products">
+        <xpath expr="//div[@id='wrap']" position="before">
+       	    <section class="ecom_shop_section">
+                <div class="container">
+                    <h4 style="">Shop</h4>
+                </div>
+            </section>
+        </xpath>
+    </template>
+
+    <template id="description_sale" inherit_id="website_sale.product" name="Product Description Replace">
+        <xpath expr="//p[@t-field='product.description_sale']" position="replace">
+        	<span></span>
+    	</xpath>
+	</template>
+
+	<!-- ########################   SHOP MAIN PAGE Search Header    ########################## -->
+ 
+
+<!--     <template id="gem_allproducts_categories" name="Geminate Collapsible Category List" inherit_id="website_sale.products_categories">
+        <xpath expr="//form/li" position="attributes">
+            <attribute name="id">all_product</attribute>
+        </xpath>
+	</template> -->
+ 
+</odoo>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="geminate_headers" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='header-template']" position="inside">
+                <we-button title="Geminate Vertical"
+                           data-name="header_test_opt"
+                           data-customize-website-views="geminate_ecommerce_theme.template_header_geminate_vertical"
+                           data-customize-website-variable="'geminate_vertical'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/header_snippet/header_1.png"/>
+
+
+               <we-button title="Geminate Double header"
+                           data-name="header_test_opt"
+                           data-customize-website-views="geminate_ecommerce_theme.template_header_geminate_vertical_gem_header_2"
+                           data-customize-website-variable="'geminate_double_header'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/header_snippet/header_2.png"/>
+                           
+               <we-button title="Geminate Center"
+                           data-name="header_test_opt"
+                           data-customize-website-views="geminate_ecommerce_theme.template_header_geminate_center"
+                           data-customize-website-variable="'geminate_center'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/header_snippet/header_3.png"/>
+
+                <we-button title="Geminate Left"
+                           data-name="header_test_opt"
+                           data-customize-website-views="geminate_ecommerce_theme.template_header_geminate_left"
+                           data-customize-website-variable="'geminate_left'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/header_snippet/header_4.png"/>
+
+               <we-button title="Geminate Single Header"
+                           data-name="header_test_opt"
+                           data-customize-website-views="geminate_ecommerce_theme.template_header_geminate_single_header"
+                           data-customize-website-variable="'geminate_single_header'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/header_snippet/header_5.png"/>
+
+            </xpath>
+        </template>
+        
+        <template id="geminate_snippets" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+               	<we-button title="Rigth_Side_Social_Links"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_1"
+                           data-customize-website-variable="'ecomerce_footer_1'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_1.png"/>
+
+               	<we-button title="Up_Column_Details"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_2"
+                           data-customize-website-variable="'ecomerce_footer_2'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_2.png"/>
+				 
+				<we-button title="Right_Side_Logo_And_Details"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_3"
+                           data-customize-website-variable="'ecomerce_footer_3'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_3.png"/>
+
+                <we-button title="Bottom_Details_Boxes"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_4"
+                           data-customize-website-variable="'ecomerce_footer_4'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_4.png"/>
+
+                <we-button title="Right_Boxes_And_Newsletter"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_5"
+                           data-customize-website-variable="'ecomerce_footer_5'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_5.png"/>
+
+                <we-button title="Up_Column_Newsletter"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_6"
+                           data-customize-website-variable="'ecomerce_footer_6'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_6.png"/>
+
+                <we-button title="Up_Column_Social_Icon_Right_Side_Form"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_7"
+                           data-customize-website-variable="'ecomerce_footer_7'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_7.png"/>
+
+                <we-button title="Left_Side_Detalis_Box"
+                           data-customize-website-views="geminate_ecommerce_theme.template_footer_8"
+                           data-customize-website-variable="'ecomerce_footer_8'"
+                           data-img="/geminate_ecommerce_theme/static/src/img/footer_snippet/footer_8.png"/>
+
+            </xpath>
+        </template>
+    </data>
+</odoo>

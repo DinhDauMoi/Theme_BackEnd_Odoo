@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_7" inherit_id="website.layout" name="Up_Column_Social_Icon_Right_Side_Form" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="main_gem_footer_7">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="logo_area_ft_7">
+                                        <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 text-centre">
+                                    <a href="#">
+                                        <div class="comn_icon youtube_icon">
+                                            <i class="fa fa-youtube"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="comn_icon insta_icon">
+                                            <i class="fa fa-instagram"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="comn_icon twitter_icon">
+                                            <i class="fa fa-twitter"></i>
+                                        </div>
+                                    </a>
+                                    <a href="#">
+                                        <div class="comn_icon facebook_icon">
+                                            <i class="fa fa-facebook"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <hr/>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <ul style="padding: 0px; list-style: none;">
+                                                <h4>Company</h4>
+                                                <li>
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">About us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Contact us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Blog    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <ul style="padding: 0px; list-style: none;">
+                                                <h4>Services</h4>
+                                                <li>
+                                                    <a href="#">App design</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">web design</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Logo design</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Banner design</a>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                        <div class="col-lg-4 col-md-4 col-sm-4">
+                                            <ul style="padding: 0px; list-style: none;">
+                                                <h4>Courses</h4>
+                                                <li>
+                                                    <a href="#">HTML &amp; CSS</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">JavaScript</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Photography</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Photoshop</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="border_box">
+                                        <h4>Inquire</h4>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <input type="tetx" class="input_design" placeholder="First Name"/>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <input type="tetx" class="input_design" placeholder="Last Name"/>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <input type="email" class="input_design" placeholder="Email Address"/>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <input type="tel" class="input_design" placeholder="Phone Number"/>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <textarea style="width:100%; height:100px; font-weight: 600; padding: 5px; margin-bottom:15px;" placeholder="Message"></textarea>
+                                            </div>
+                                            <div class="col-lg-12" style="text-align: center;">
+                                                <a href="#" class="btn_ft_7_theme">Submit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

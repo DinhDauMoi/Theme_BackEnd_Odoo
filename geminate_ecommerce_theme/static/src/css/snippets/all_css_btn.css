@@ -1,0 +1,563 @@
+/*btn_1*/
+.gem_hover_ef_1 .btn_gem_1 {
+  	border: none;
+  	display: block;
+  	text-align: center;
+  	cursor: pointer;
+  	text-transform: uppercase;
+  	outline: none;
+  	overflow: hidden;
+  	position: relative;
+  	color: #fff;
+  	font-weight: 700;
+  	font-size: 15px;
+  	padding: 17px 60px;
+  	margin: 0 auto;
+  	box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  	border-radius: 3px;
+}
+.gem_hover_ef_1 .btn_gem_1 span {
+  	position: relative; 
+  	z-index: 1;
+}
+.gem_hover_ef_1 .btn_gem_1:after {
+  	content: "";
+  	position: absolute;
+  	left: 0;
+  	top: 0;
+  	height: 490%;
+  	width: 140%;
+  	background: #78c7d2;
+  	-webkit-transition: all .5s ease-in-out;
+  	transition: all .5s ease-in-out;
+  	-webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  	transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.gem_hover_ef_1 .btn_gem_1:hover:after {
+  	-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  	transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+/*btn_2_css_line_up_down*/
+.btn_line_up_down {
+	color: #fff;
+	font-size:15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	position: relative;
+	border-radius: 0 !important;
+	border: none;
+	padding: 17px 60px;
+	transition:all 0.3s ease 0s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+.btn_line_up_down:hover,
+.btn_line_up_down.active:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn_line_up_down:before{
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width:15%;
+    height: 3px;
+    transition:all 0.3s ease 0s;
+}
+.btn_line_up_down:after{
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+    width:15%;
+    height: 3px;
+    transition:all 0.3s ease 0s;
+}
+.btn_line_up_down:hover:before,
+.btn_line_up_down:hover:after,
+.btn_line_up_down.active:before,
+.btn_line_up_down.active:after{
+    width: 100%;
+}
+@media screen and (max-width: 575px){
+    .btn{
+        margin-bottom: 50px !important;
+    }
+}
+/*change_txt_btn_3*/
+.change_txt:hover{
+    cursor: pointer;
+}
+.change_txt {
+    background: transparent; 
+    outline: none;
+    position: relative;
+    border: 2px solid #111;
+    padding: 17px 60px;
+    overflow: hidden;
+    font-size: 15px;
+    margin-top: 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+    display: block;
+    margin: 0 auto;
+}
+.change_txt:hover:before{
+    opacity: 1; 
+    transform: translate(0,0);
+}    
+.change_txt:before{
+    content: attr(data-hover);
+    position: absolute;
+    top: 1.1em; 
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: .8em;
+    opacity: 0;
+    transform: translate(-100%,0);
+    transition: all .3s ease-in-out;
+}    
+.change_txt:hover .content_hover{
+    opacity: 0; 
+    transform: translate(100%,0);
+}
+.change_txt .content_hover{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    font-size: .8em;
+    transition: all .3s ease-in-out;
+}
+
+/*Button What we do Css bnt_4_border_left_right*/
+.gem_border_left_right_efect .btn_svg_gem {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: .8125rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 270px;
+    height: 54px;
+    line-height: 54px;
+    margin-top:1rem;
+}
+.gem_border_left_right_efect .btn_svg_gem .svg_border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.gem_border_left_right_efect .btn_svg_gem .svg_border .rect_border {
+    stroke-width: 2;
+    stroke-dasharray: 300px,16px;
+    stroke-dashoffset: 70px;
+    -webkit-transition: all 400ms ease;
+    transition: all 400ms ease;
+}
+.gem_border_left_right_efect .btn_svg_gem:hover .svg_border .rect_border {
+    stroke-dashoffset: 284px;
+}
+/* ---- luxury btns5---- */
+
+.gem_btn_luxury_shine {
+    margin-top: 100px;
+    text-align: center;
+}
+.gem_btn_luxury_shine .btn_shine_gem{
+  flex: 1 auto;
+  margin:5px;
+  padding:17px 60px;
+  text-align:center;
+  transition: all 0.5s ease-out;
+  cursor:pointer;
+  font-size: 15px;
+}
+.gem_btn_luxury_shine .btn_shine_gem{
+  background:transparent;
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  color:#000;
+}
+.gem_btn_luxury_shine .btn-2_gem_shine{
+  background-image: linear-gradient(45deg, transparent 0%, transparent 75%, rgba(0,0,0,0.7) 75%, transparent 100%);
+}
+.gem_btn_luxury_shine .btn-2_gem_shine:hover{
+  border:1px solid rgba(0,0,0);
+  background-position:150% top;
+  text-decoration: none;
+}
+/*bordr_plus_6*/
+.border_plus_gem_hvr_ef .btn-4_border_plus{
+  position: relative;
+  transition:.4s 0s;
+  padding: 17px 60px;
+  font-size: 15px;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:before,
+.border_plus_gem_hvr_ef .btn-4_border_plus:after,
+.border_plus_gem_hvr_ef .btn-4_border_plus .border_plus_span:before,
+.border_plus_gem_hvr_ef .btn-4_border_plus .border_plus_span:after{
+  content:'';
+  display:block;
+  width: 0;
+  height: 0;
+  background:#000000;
+  position: absolute;
+  margin:auto;
+  transition:.4s .4s;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:before,
+.border_plus_gem_hvr_ef .btn-4_border_plus .border_plus_span:before{
+  height: 1px;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:after,
+.border_plus_gem_hvr_ef .btn-4_border_plus .border_plus_span:after{
+  width: 1px;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus .border_plus_span:before{
+  top: 0;
+  left: 0;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:before{
+  bottom: 0;
+  right: 0;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus .border_plus_span:after{
+  bottom: 0;
+  left: 0;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:after{
+  top: 0;
+  right: 0;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:hover{
+  background:#000;
+  color:#fff!important;
+  transition:.4s .4s;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:hover .border_plus_span:before,
+.border_plus_gem_hvr_ef .btn-4_border_plus:hover:before{
+  width: 100%;
+  transition:.4s 0s;
+}
+.border_plus_gem_hvr_ef .btn-4_border_plus:hover:after,
+.border_plus_gem_hvr_ef .btn-4_border_plus:hover .border_plus_span:after{
+  height: 100%;
+  transition:.4s 0s;
+}
+
+
+/*fade_btn_5_sec*/
+
+.gem_hover_ef_1_comn .main_btn_effect_comn,
+.gem_hover_ef_1_comn .main_btn_effect_comn::after {
+  -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.gem_hover_ef_1_comn .main_btn_effect_comn {
+  background: none;
+  border: 2px solid #000;
+  border-radius: 3px;
+  color: #000;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 17px 60px;
+  position: relative;
+  text-transform: uppercase;
+}
+.gem_hover_ef_1_comn .main_btn_effect_comn::before,
+.gem_hover_ef_1_comn .main_btn_effect_comn::after {
+  background: #000;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+.gem_hover_ef_1_comn .main_btn_effect_comn:hover {
+  color: #fff;
+}
+/* BUTTON 1 */
+.gem_hover_ef_1_comn .btn-1_gem_24::after {
+  height: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.gem_hover_ef_1_comn .btn-1_gem_24:hover:after {
+  height: 100%;
+}
+/* BUTTON 2 */
+.gem_hover_ef_1_comn .btn-2_gem_24::after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0;
+}
+.gem_hover_ef_1_comn .btn-2_gem_24:hover:after {
+  width: 100%;
+}
+/* BUTTON 3 */
+.gem_hover_ef_1_comn .btn-3_gem_24::after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+}
+.gem_hover_ef_1_comn .btn-3_gem_24:hover:after {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+/* BUTTON 4 */
+.gem_hover_ef_1_comn .btn-4_gem_24::before {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.gem_hover_ef_1_comn .btn-4_gem_24::after {
+  background: #fff;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.gem_hover_ef_1_comn .btn-4_gem_24:hover:after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+}
+/* BUTTON 5 */
+.gem_hover_ef_1_comn .btn-5_gem_24 {
+  overflow: hidden;
+}
+.gem_hover_ef_1_comn .btn-5_gem_24::after {
+  /*background-color: #f00;*/
+  height: 100%;
+  left: -35%;
+  top: 0;
+  transform: skew(50deg);
+  transition-duration: 0.6s;
+  transform-origin: top left;
+  width: 0;
+}
+.gem_hover_ef_1_comn .btn-5_gem_24:hover:after {
+  height: 100%;
+  width: 135%;
+}
+
+/*border_effect_btns*/
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
+
+
+.gem_com_border_hvr_eft .border_efecct_comn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 20px 30px;
+  background:#E66666;
+}
+.gem_com_border_hvr_eft .border_span {
+  display: block;
+  padding: 17px 60px;
+}
+.gem_com_border_hvr_eft .border_efecct_comn::before, .gem_com_border_hvr_eft .border_efecct_comn::after{
+  content:"";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #000;
+}
+.gem_com_border_hvr_eft .border_span::before, .gem_com_border_hvr_eft .border_span::after{
+  content:"";
+  width:2px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #000;
+}
+.gem_com_border_hvr_eft .border_efecct_comn:hover::before, .gem_com_border_hvr_eft .border_efecct_comn:hover::after{
+  width: 100%;
+}
+.gem_com_border_hvr_eft .border_efecct_comn:hover .border_span::before, .gem_com_border_hvr_eft .border_efecct_comn:hover .border_span::after{
+  height: 100%;
+}
+/*----- button 1 -----*/
+.gem_com_border_hvr_eft .btn-1_gem_border::before, .gem_com_border_hvr_eft .btn-1_gem_border::after{
+  transition-delay: 0.2s;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border .border_span::before, .gem_com_border_hvr_eft .btn-1_gem_border .border_span::after{
+  transition-delay: 0s;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border::before{
+  right: 0;
+  top: 0;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border::after{
+  left: 0;
+  bottom: 0;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border .border_span::before{
+  left: 0;
+  top: 0;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border .border_span::after{
+  right: 0;
+  bottom: 0;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border:hover::before, .gem_com_border_hvr_eft .btn-1_gem_border:hover::after{
+  transition-delay: 0s;
+}
+.gem_com_border_hvr_eft .btn-1_gem_border:hover .border_span::before, .gem_com_border_hvr_eft .btn-1_gem_border:hover .border_span::after{
+  transition-delay: 0.2s;
+}
+/*--- Button 2 -------*/
+.gem_com_border_hvr_eft .btn-2_gem_border::before, .gem_com_border_hvr_eft .btn-2_gem_border::after{
+  transition-delay: 0s;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border .border_span::before, .gem_com_border_hvr_eft .btn-2_gem_border .border_span::after{
+  transition-delay: 0.2s;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border::before{
+  right: 0;
+  top: 0;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border::after{
+  left: 0;
+  bottom: 0;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border .border_span::before{
+  left: 0;
+  top: 0;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border .border_span::after{
+  right: 0;
+  bottom: 0;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border:hover::before, .gem_com_border_hvr_eft .btn-2_gem_border:hover::after{
+  transition-delay: 0.2s;
+}
+.gem_com_border_hvr_eft .btn-2_gem_border:hover .border_span::before, .gem_com_border_hvr_eft .btn-2_gem_border:hover .border_span::after{
+  transition-delay: 0s;
+}
+/*----- button 3 -----*/
+.gem_com_border_hvr_eft .btn-3_gem_border::after{
+  left: 0;
+  bottom: 0;
+  transition-delay: 0.6s;
+}
+.gem_com_border_hvr_eft .btn-3_gem_border .border_span::after{
+  transition-delay: 0.4s;
+  right: 0;
+  bottom: 0
+}
+.gem_com_border_hvr_eft .btn-3_gem_border::before{
+  right: 0;
+  top: 0;
+  transition-delay: 0.2s;
+}
+.gem_com_border_hvr_eft .btn-3_gem_border .border_span::before{
+  transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+.gem_com_border_hvr_eft .btn-3_gem_border:hover::after{
+  transition-delay: 0s;
+}
+.gem_com_border_hvr_eft .btn-3_gem_border:hover .border_span::after{
+  transition-delay: 0.2s;
+}
+.gem_com_border_hvr_eft .btn-3_gem_border:hover::before{
+  transition-delay: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-3_gem_border:hover .border_span::before{
+  transition-delay: 0.6s;
+}
+/*----- button 4 -----*/
+.gem_com_border_hvr_eft .btn-4_gem_border::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-4_gem_border .border_span::after{
+  right:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-4_gem_border::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-4_gem_border .border_span::before{
+  left: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+/*----- button 5 -----*/
+.gem_com_border_hvr_eft .btn-5_gem_border::after{
+  left:0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-5_gem_border .border_span::after{
+  right:0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-5_gem_border::before{
+  right: 0;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-5_gem_border .border_span::before{
+  left: 0;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+/*----- button 6 -----*/
+.gem_com_border_hvr_eft .btn-6_gem_border::before{
+  left: 50%;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-6_gem_border::after{
+  left: 50%;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-6_gem_border .border_span::before{
+  left: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-6_gem_border .border_span::after{
+  right: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+.gem_com_border_hvr_eft .btn-6_gem_border:hover::before, .gem_com_border_hvr_eft .btn-6_gem_border:hover::after{
+  left: 0;
+}
+.gem_com_border_hvr_eft .btn-6_gem_border:hover .border_span::before, .gem_com_border_hvr_eft .btn-6_gem_border:hover .border_span::after{
+  top: 0;
+}

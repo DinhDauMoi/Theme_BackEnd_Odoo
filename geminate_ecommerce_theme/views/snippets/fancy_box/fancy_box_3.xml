@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="fancy_box_3" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_3_fancy_box" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/fancy_box/fancy_2_box.png"/>
+            </xpath>
+        </template>
+        <template id="s_3_fancy_box" name="Fancy Box 3">
+            <section class="gem_box_ofr_product_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="first_top_banner">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0377/1865/5116/files/1_1cc697d6-1560-4538-b16d-f9bf8af4ce81_900x.jpg?v=1585907871"/>
+                                </a>
+                                <div class="bnr-dsc">House Plants</div>
+                            </div>
+                            <div class="first_bottom_banner">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0377/1865/5116/files/1_2a204b29-82ad-4118-9e71-dbcaa6abd15e_800x.jpg?v=1585907896"/>
+                                </a>
+                                <div class="bnr-dsc">Small Plants</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="first_top_2_banner">
+                                        <a href="#">
+                                            <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0377/1865/5116/files/1_03f4f1d4-52f4-42b5-a8ba-3cdef336d8b6_900x.jpg?v=1585907919"/>
+                                        </a>
+                                        <div class="bnr-dsc">Small Plants</div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="first_top_3_banner">
+                                        <a href="#">
+                                            <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0377/1865/5116/files/1_a179c19b-7bf6-43f9-bda1-bf404530a645_900x.jpg?v=1585907934"/>
+                                        </a>
+                                        <div class="bnr-dsc">Succulents</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="first_bottom_2_banner">
+                                <a href="#">
+                                    <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0377/1865/5116/files/1_1e26b4b6-4f05-45f8-a28f-cd838c542289_900x.jpg?v=1585907952"/>
+                                </a>
+                                <div class="bnr-dsc">Succulents</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

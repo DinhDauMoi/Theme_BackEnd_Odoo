@@ -1,0 +1,200 @@
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus ,.navbar-dark .navbar-nav .nav-link:active {
+    color: map-get($theme-colors, 'primary')!important;
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    color: map-get($theme-colors, 'primary')!important;
+}
+.ecom_abus_team .ecom_abus_member:hover .social {
+    background-color: map-get($theme-colors, 'primary')!important;
+}
+.ecom_abus_team .ecom_abus_member:hover .ecom_abus_member-info-content{
+    background-color: map-get($theme-colors, 'primary')!important;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color:map-get($theme-colors, 'primary')!important;
+}
+.o_pricelist_dropdown .dropdown-toggle {
+    color:map-get($theme-colors, 'primary')!important;
+}
+.o_sortby_dropdown .dropdown-toggle {
+    color:map-get($theme-colors, 'primary')!important;
+}
+.btn-light:not(:disabled):not(.o_wysiwyg_loader):not(.disabled).active{
+    background-color:map-get($theme-colors, 'primary')!important;
+    color: #ffffff;
+}
+#products_grid .oe_search_box{
+    border: 1px solid #ced4da !important;
+}
+#products_grid .oe_search_box:focus ,#products_grid .oe_search_box:hover {
+    border-bottom: 2px solid map-get($theme-colors, 'primary')!important;
+}
+#products_grid .oe_search_button {
+    background:map-get($theme-colors, 'primary')!important;
+    color:white;
+}
+#products_grid .oe_search_button:hover {
+    background-color:   $o-view-background-color !important;
+    color:   map-get($theme-colors, 'primary')!important;
+    border: 1px solid map-get($theme-colors, 'primary')!important;
+}
+#products_grid_before{
+    background:map-get($theme-colors, 'primary')!important;
+}
+.oe_website_sale #products_grid_before #wsale_products_categories_collapse label:hover {
+    color: $o-we-sidebar-tabs-bg !important;
+}
+.oe_website_sale #products_grid_before .custom-control.custom-checkbox label:hover {
+    
+    color: $o-we-sidebar-tabs-bg !important;
+}
+.o_add_wishlist_dyn{
+    color:  $o-view-background-color;
+}
+.o_add_wishlist_dyn:hover{
+    background-color:   $o-view-background-color !important;
+    color:   map-get($theme-colors, 'primary')!important;
+    border: 1px solid map-get($theme-colors, 'primary')!important;
+}
+.o_we_buy_now:hover{
+    background-color:   $o-view-background-color !important;
+    color:   map-get($theme-colors, 'primary')!important;
+    border: 1px solid map-get($theme-colors, 'primary')!important;
+    
+}
+.mainfooter .subscribe-form button:hover {
+    background-color:   $o-view-background-color !important;
+    color:   map-get($theme-colors, 'primary')!important;
+    border: 1px solid map-get($theme-colors, 'primary')!important;
+}
+
+a.bg-white:hover, a.bg-white:focus, button.bg-white:hover, button.bg-white:focus {
+    background-color:   $o-view-background-color !important;
+    color:   map-get($theme-colors, 'primary')!important;
+    border: 1px solid map-get($theme-colors, 'primary')!important;
+}
+.btn-fill-primary:hover, .btn-primary:hover {
+    background-color:   $o-view-background-color !important;
+    color:   map-get($theme-colors, 'primary')!important;
+    border: 1px solid map-get($theme-colors, 'primary')!important;
+
+}
+@media (min-width: 576px){
+    #products_grid.o_wsale_layout_list .oe_product_cart .o_wsale_product_btn {
+        display: grid !important;    
+    }
+    #products_grid.o_wsale_layout_list .oe_product_cart .o_wsale_product_btn .btn {
+        width: 114px;
+        margin: 10px !important;
+    }
+    #products_grid.o_wsale_layout_list .oe_product_cart .o_wsale_product_btn .btn:hover{
+        background-color:   $o-view-background-color !important;
+        color:   map-get($theme-colors, 'primary')!important;
+        border: 1px solid map-get($theme-colors, 'primary')!important;
+    }
+    #products_grid.o_wsale_layout_list .oe_product_cart .o_wsale_product_information_text {
+        text-align: center;
+    }
+}
+
+.ecom_abus_info_why .ecom_span_tittle{
+    color:map-get($theme-colors, 'primary')!important;
+}
+
+.o_wsale_product_information_text {
+    background:map-get($theme-colors, 'primary')!important;
+}
+.o_add_wishlist_dyn {
+    background:map-get($theme-colors, 'primary')!important;   
+}
+.o_add_compare {
+    background:map-get($theme-colors, 'primary')!important;   
+}
+.o_add_wishlist {
+    background:map-get($theme-colors, 'primary')!important;   
+}
+.o_add_wishlist:hover{
+    background:map-get($theme-colors, 'primary')!important; 
+}
+.mainfooter .footer-widget-heading h3::before {
+    background:map-get($theme-colors, 'primary')!important;   
+}
+.mainfooter .footer-widget ul li a:hover {
+    color:map-get($theme-colors, 'primary')!important;
+}
+.o_we_buy_now {
+ background:map-get($theme-colors, 'primary')!important;   
+}
+.snippet_about_us h3:before {
+    border-bottom: 3px solid map-get($theme-colors, 'primary')!important;
+}
+.btn_24:before {
+    background:map-get($theme-colors, 'primary')!important;
+}
+.btn_24:after{
+    background:map-get($theme-colors, 'primary')!important;
+}
+.main_gem_top_brand h1:before {
+    border-bottom: 3px solid map-get($theme-colors, 'primary')!important;
+}
+.gem_fancy_5_box h1:before {
+    border-bottom: 3px solid map-get($theme-colors, 'primary')!important;
+}
+.gem_hot_deals .section-title h2:before {
+    background:map-get($theme-colors, 'primary')!important;   
+}
+.s_testimonial_12 .site-heading h2:before {
+    border-bottom: 3px solid map-get($theme-colors, 'primary')!important;
+}
+.s_team_main .team_section-title h2:before {
+    border-bottom: 3px solid map-get($theme-colors, 'primary')!important;   
+}
+.ecom_page-detail .contact-us-page-icon-content-box,.s_gem_title_section_2 .color_change,.s_gem_title_section_5 .section-title_gem_07 h2 span{
+    color:map-get($theme-colors, 'primary')!important;
+}
+.s_service_main .content-103_main .service-icon i,.s_gem_title_section_1 .s_gem_sec_tittle span,.s_gem_title_section_2 .section-title .subtitle,.s_gem_title_section_6_ani .site-title span,.s_gem_title_section_6_ani .site-title-tagline,.gem_box_ofr_product_4 .promo-title_centre span,.s_gem_hero_big_banner_3 .simple_btn_hero_banner{
+    color: map-get($theme-colors, 'primary')!important;
+}
+.s_service_main .content-103_main .service-icon {
+    border: 2px solid map-get($theme-colors, 'primary')!important;   
+}
+.s_service_main .content-103_main .service-hover,.services .icon,.main_gem_footer_4 .icon_section,.s_gem_title_section_4 .title-block_gem_24 .bottom-title,.s_gem_title_section_6_ani .site-title-tagline::before,.main_gem_banner_7 .one_btn_bn7,.main_gem_footer_1 .upper_top_bg{
+    background:map-get($theme-colors, 'primary')!important;   
+}
+.gem_5box_sec h1:before {
+ border-bottom: 3px solid map-get($theme-colors, 'primary')!important;   
+}
+
+.services .icon-box::before,.services .iconm,.s_team_main .member .social,.main-hero .carousel-caption p,.main-hero .carousel-action .btn-success,.main-hero .carousel-indicators li.active,.s_gem_title_section_1 .s_gem_sec_tittle:before,.s_gem_title_section_1 .s_gem_sec_tittle:after,.s_gem_title_section_6_ani .heading-divider,.gem_box_ofr_product_3 .bnr-dsc,.gem_box_ofr_product_4 .btn_4_box{
+    background:map-get($theme-colors, 'primary')!important;      
+}
+.main-hero .carousel-indicators li.active {
+    border-color:map-get($theme-colors, 'primary')!important;
+}
+.s_gem_title_section_2 .section-title.has-element .subtitle:before, .section-title.has-element .subtitle:after {
+    border-left: 2px solid map-get($theme-colors, 'primary')!important;
+    border-right: 2px solid map-get($theme-colors, 'primary')!important;
+}
+.gem_section-title_3 h5 {
+    border: 2px solid map-get($theme-colors, 'primary')!important;
+}
+
+.s_gem_title_section_4 .title-block_gem_24 .top-title {
+    border: 4px solid map-get($theme-colors, 'primary')!important;
+    border-bottom: 0px!important;
+}
+
+.s_gem_title_section_5 .section-title_gem_07 h2::before,.s_gem_title_section_5 .section-title_gem_07 h2::after{
+    border-top: 2.5px solid map-get($theme-colors, 'primary')!important;
+}
+
+.s_gem_hero_big_banner_3 .simple_btn_hero_banner {
+    border: 3px solid map-get($theme-colors, 'primary')!important;
+}
+
+.mainfooter .subscribe-form button,.main_gem_footer_2 .subscribe_area .sub_btn_ft_2{
+    background:map-get($theme-colors, 'primary')!important;
+}   
+.gem_2box_sec .btn_24,.categories__item_24 .btn_24,.gem_fancy_5_box .btn_24,.gem_new_cole .btn_24{
+    background:map-get($theme-colors, 'primary')!important;
+}

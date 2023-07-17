@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="template_header_geminate_single_header" inherit_id="website.layout" name="Template Header Magazine" active="False">
+	    <xpath expr="//header//nav" position="replace">
+	        <!-- Topbar -->
+	        <div class="oe_structure oe_structure_solo" id="oe_structure_header_magazine_1"/>
+	        <nav class="nav_gem_header_5">
+			    <input type="checkbox"  class="checkbox" id="click_gem_hd_5"/>
+			    <label for="click_gem_hd_5" class="menu-btn_gem_hd_4">
+			      	<i class="fa fa-bars"></i>
+			    </label>
+			    <div class="logo_gem_header_5">
+                    <t t-call="website.placeholder_header_brand">
+                        <t t-set="_link_class" t-valuef="mr-4"/>
+                    </t>
+			    </div>
+			    <t t-set="_nav_class" t-valuef="text-right align-items-sm-end"/>
+                <t t-call="website.navbar_nav" style="display:content !important">
+                    <!-- Menu -->
+                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                        <t t-call="website.submenu">
+                            <t t-set="item_class" t-valuef="nav-item"/>
+                            <t t-set="link_class" t-valuef="nav-link"/>
+                        </t>
+                    </t>
+                    <li class="nav-item">
+                        <!-- Language Selector -->
+                        <t t-call="website.placeholder_header_language_selector">
+                            <t t-set="_div_classes" t-valuef="pb-2"/>
+                        </t>
+                    </li>
+                </t>
+
+				<div class="icon_sec" style="right:35px;">
+                    <!-- Sign In -->
+                    <t t-call="portal.placeholder_user_sign_in">
+                        <t t-set="_item_class" t-valuef="nav-item ml-3"/>
+                        <t t-set="_link_class" t-valuef="nav-link"/>
+                    </t>
+                    <!-- User Dropdown -->
+                    <t t-call="portal.user_dropdown">
+                        <t t-set="_icon" t-value="true"/>
+                        <t t-set="_item_class" t-valuef="nav-item dropdown ml-3"/>
+                        <t t-set="_link_class" t-valuef="nav-link"/>
+                        <t t-set="_dropdown_menu_class" t-valuef="position-absolute dropdown-menu-right"/>
+                    </t>
+                    <!-- Cart -->
+                    <t t-call="website_sale.header_cart_link">
+                        <t t-set="_icon" t-value="True"/>
+                        <t t-set="_item_class" t-value="'nav-item mx-lg-3'"/>
+                        <t t-set="_link_class" t-value="'nav-link'"/>
+                    </t>
+                    <!-- Wishlist -->
+                    <t t-call="website_sale_wishlist.header_wishlist_link">
+                        <t t-set="_icon" t-value="True"/>
+                        <t t-set="_item_class" t-value="'nav-item mr-lg-3'"/>
+                        <t t-set="_link_class" t-value="'nav-link'"/>
+                    </t>
+			    </div>
+		  	</nav>    
+	    </xpath>
+	</template>
+</odoo>

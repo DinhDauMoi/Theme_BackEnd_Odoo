@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="geminate_ecommerce_theme.aboutus" name="About Us">
+            <t t-call="website.layout">
+                <section class="ecom_aboutus_section">
+                    <div class="container">
+                        <h4 style="">About Us</h4>
+                    </div>
+                </section>
+                <section class="ecom_abus_info_why">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <span class="ecom_span_tittle">Who Are We</span>
+                                <h1>Lorem ipsum dolor sit amet,</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing elit.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nostrud consectetur adipiscing elit.</p>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <h2 class="eco_text_vision">Our Vision</h2>
+                                        <ul class="eco_ul_vision" style="list-style-type: circle;padding-left:22px;">
+                                            <li>Sed ut perspiciatis unde</li>
+                                            <li>omnis iste natus error sit voluptatem</li>
+                                            <li> accusantium doloremque</li>
+                                            <li>totam rem aperiam</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12">
+                                        <h2 class="eco_text_mission">Our Mission</h2>
+                                        <ul class="eco_ul_vision" style="list-style-type: circle;padding-left:22px;">
+                                            <li>eaque ipsa quae ab illo inventore</li>
+                                            <li>veritatis et quasi architecto beatae</li>
+                                            <li>vitae dicta sunt explicabo.</li>
+                                            <li>Nemo enim ipsam voluptatem quia</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img class="img-fluid" src="/geminate_ecommerce_theme/static/src/img/aboutUs/about-whoarewe-img.png"/>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section  class="ecom_abus_team">
+                      <div class="container">
+                        <div class="ecom_abus_title">
+                            <h1 style="font-weight:800; margin-bottom:50px; text-align: center;">Nemo enim ipsam voluptatem quia</h1>
+                        </div>
+                        <div class="row">
+                          <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="ecom_abus_member">
+                              <img src="https://bootstrapmade.com/demo/templates/Ninestars/assets/img/team/team-1.jpg" class="img-fluid" alt=""/>
+                              <div class="ecom_abus_member-info">
+                                <div class="ecom_abus_member-info-content">
+                                  <h4>Walter White</h4>
+                                  <span>Chief Executive Officer</span>
+                                </div>
+                                <div class="social">
+                                  <a href=""><i class="fa fa-twitter"></i></a>
+                                  <a href=""><i class="fa fa-facebook"></i></a>
+                                  <a href=""><i class="fa fa-instagram"></i></a>
+                                  <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="ecom_abus_member">
+                              <img src="https://bootstrapmade.com/demo/templates/Ninestars/assets/img/team/team-2.jpg" class="img-fluid" alt=""/>
+                              <div class="ecom_abus_member-info">
+                                <div class="ecom_abus_member-info-content">
+                                  <h4>Sarah Jhonson</h4>
+                                  <span>Product Manager</span>
+                                </div>
+                                <div class="social">
+                                  <a href=""><i class="fa fa-twitter"></i></a>
+                                  <a href=""><i class="fa fa-facebook"></i></a>
+                                  <a href=""><i class="fa fa-instagram"></i></a>
+                                  <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="ecom_abus_member">
+                              <img src="https://bootstrapmade.com/demo/templates/Ninestars/assets/img/team/team-3.jpg" class="img-fluid" alt=""/>
+                              <div class="ecom_abus_member-info">
+                                <div class="ecom_abus_member-info-content">
+                                  <h4>William Anderson</h4>
+                                  <span>CTO</span>
+                                </div>
+                                <div class="social">
+                                  <a href=""><i class="fa fa-twitter"></i></a>
+                                  <a href=""><i class="fa fa-facebook"></i></a>
+                                  <a href=""><i class="fa fa-instagram"></i></a>
+                                  <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="ecom_abus_member">
+                              <img src="https://bootstrapmade.com/demo/templates/Ninestars/assets/img/team/team-4.jpg" class="img-fluid" alt=""/>
+                              <div class="ecom_abus_member-info">
+                                <div class="ecom_abus_member-info-content">
+                                  <h4>Amanda Jepson</h4>
+                                  <span>Accountant</span>
+                                </div>
+                                <div class="social">
+                                  <a href=""><i class="fa fa-twitter"></i></a>
+                                  <a href=""><i class="fa fa-facebook"></i></a>
+                                  <a href=""><i class="fa fa-instagram"></i></a>
+                                  <a href=""><i class="fa fa-linkedin"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="ecom_clients">
+                  <div class="container">
+                    <div class="ecom_abus_title">
+                            <h1 style="font-weight:800; margin-bottom:50px; text-align: center;">Nemo enim ipsam voluptatem quia</h1>
+                        </div>
+                    <div class="row no-gutters clients-wrap_ecom">
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-1.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-2.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-3.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-4.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-5.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-6.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-7.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6">
+                        <div class="ecom_client-logo_24">
+                          <img src="https://bootstrapmade.com/demo/templates/KnightOne/assets/img/clients/client-8.png" class="img-fluid" alt=""/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="ecom_aboutus_customer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-12" style="margin-bottom:70px;">
+                                <div class="ecom_txt_customer">
+                                    <h3>Lorem ipsum dolor sit amet<br/>consectetur adipiscing elit</h3>
+                                    
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="ecom_image_cus">
+                                    <img class="img-fluid" src="/geminate_ecommerce_theme/static/src/img/aboutUs/con_cus_1.png"/>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-6 col-md-6 col-sm-12 ecom_image_cus_2">
+                                <img class="img-fluid" src="/geminate_ecommerce_theme/static/src/img/aboutUs/con_cus_2.png"/>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="ecom_txt_customer">
+                                    <h3>Lorem ipsum dolor sit amet<br/>consectetur adipiscing elit</h3>
+                                    
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+
+                                    <p>consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur</p>
+                                </div>
+                            </div>          
+                        </div>
+                    </div>
+                </section>
+            </t>
+        </template>
+
+        <record id="aboutus_page" model="website.page">
+            <field name="url">/aboutus</field>
+            <field name="is_published">True</field>
+            <field name="view_id" ref="aboutus"/>
+            <field name="track">True</field>
+        </record>
+
+        <record id="menu_aboutus" model="website.menu">
+            <field name="name">About us</field>
+            <field name="url">/aboutus</field>
+            <field name="page_id" ref="geminate_ecommerce_theme.aboutus_page"/>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">60</field>
+        </record>
+
+    </data>
+</odoo>

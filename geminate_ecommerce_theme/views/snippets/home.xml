@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<template id="home_snippets" inherit_id="website.snippets">
+	        <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+	            <t t-snippet="geminate_ecommerce_theme.home_s_offerbox" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/two_ofr_box.png"/>
+	            <t t-snippet="geminate_ecommerce_theme.home_s_new_collection" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/new_+.png"/>
+	            <t t-snippet="geminate_ecommerce_theme.home_s_offer_zone" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/ofr_zone.png"/>
+	            <t t-snippet="geminate_ecommerce_theme.home_s_terms" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/terms_1.png"/>
+	            <t t-snippet="geminate_ecommerce_theme.home_s_top_brands" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/ex_brand.png"/>
+	            <t t-snippet="geminate_ecommerce_theme.home_s_trending_prod" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/trending.png"/>
+	            <t t-snippet="geminate_ecommerce_theme.home_s_most_popular" t-thumbnail="/geminate_ecommerce_theme/static/src/img/snippets/mo_pop.png"/>
+	        </xpath>
+	    </template>
+	    
+	    <template id="home_s_offerbox" name="Offer Box">
+	  		<section class="gem_2box_sec col-lg-12" style="padding-left:0%; padding-right:0%; padding-top:2%;">
+	  			<div class="container-fluid">
+	  				<div class="row">
+	  					<div class="col-lg-6 col-md-6 col-sm-12 left_sec" style="position:relative; margin-bottom:12px;">
+							<a href="">
+								<img src="https://img.freepik.com/free-photo/joyful-girl-with-curly-brown-hair-dancing-purple-background-with-kissing-face-expression_197531-7071.jpg?w=900&amp;t=st=1675687834~exp=1675688434~hmac=a239596cdab02feb61242f021615e75f81a48794e7bbd1669b8eed4fd5cda42c" 
+								style="width:100%; border-radius:5px;" class="img-fluid"/>
+								<span class="left_txt" style="position:absolute; top:30%; left:50px;">	
+									<h4 style="font-weight:bold;">Men Cloth</h4>
+									
+									<h5 style="font-weight:bold;">Hot fashion Trends 2021</h5>
+									
+									<a href="#" class="a_left" style="position:absolute; top:60%; left:47px;"> 
+										<button class="btn-24">
+											<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+										</button>
+									</a>
+								</span>
+							</a>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 right_sec" style="position: relative;">
+							<a href="">
+								<img src="https://img.freepik.com/free-photo/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow_197531-11084.jpg?w=900&amp;t=st=1675687788~exp=1675688388~hmac=f68966ab89f8eac8f8902564291c89d84e3edb60ed6c7a3caaa508b20e158f80" style="width:100%; border-radius:5px;" class="img-fluid"/>
+								<span class="right_txt" style="position:absolute; top:30%; left:50px;">
+									<h4 style="font-weight:bold;">Women Cloth</h4>
+									
+									<h5 style="font-weight:bold;">Styles Of The Year collection</h5>
+									
+									<a href="#" class="a_left" style="position:absolute; top:60%; left:47px;"> 
+										<button class="btn-24">
+											<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+										</button>
+									</a>
+								</span>
+							</a>
+						</div>
+	  				</div>
+	  			</div>
+	  		</section>
+	  	 </template>
+
+ 	    <template id="home_s_new_collection" name="New Collection">
+			<section class="gem_new_cole" style="padding-top: 10px;">
+				<div class="container-fluid">
+					<div class="gem_new_cole_img gem_img-block_24" style="position: relative;">
+						<span class="shine_24"></span>
+						<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/banner_of.jpg" style="height:auto; width:100%"/>
+						<span class="left_txt_24" style=" position:absolute; top:25%; left:auto; text-transform: capitalize; right:20px;">
+							
+							<h4 style="font-size:30px; font-weight: bold;">new collection of 2021</h4>
+							
+							<h5 style="font-weight:bold; margin-bottom:20px;">Hot fashion Trends 2021</h5>
+								
+								<a href="#" class="a_left" style="position:absolute; top:100%; left:-4px;"> 
+									<button class="btn-24">
+										<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+									</button>
+								</a>
+						</span>
+					</div>
+				</div>
+			</section>
+	  	 </template>
+
+	    <template id="home_s_offer_zone" name="Offer Zone">
+			<section class="gem_fancy_5_box" style="padding-top:30px; padding-left:0px;">
+				<div class="" style="">
+					<div class="row">
+						<div class="col-lg-4 col-sm-4 col-md-4 text-center" style="">
+							<div class="gem_img-block_24">
+			  					<span class="shine_24"></span>
+				  				<img class="img_bg_24" src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/fn_img_1.png" style=" margin-bottom: 15px;"/>
+				  			</div>
+				  			<div class="gem_img-block_24">
+			  					<span class="shine_24"></span>
+				  				<img class="img_sm_24" src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/fn_img_2.png" style=" margin-bottom: 15px;"/>
+				  			</div>
+						</div>
+						<div class="col-lg-4 col-sm-4 col-md-4 text-center" style="padding-top:50px; padding-left:0px; margin-bottom: 15px;">
+							<div class="gem_offer_zone">
+								<h1 style="margin-bottom:20px; color:#000!important;">OFFER ZONE</h1>
+								<p>
+									Save now with our amazing Stock Offers <br/>on many sofas, dining and beds.
+									Act fast - limited availability.
+								</p>
+								<a href="#" class="a_left" style=" left:47px;"> 
+									<button class="btn-24">
+										<span class="border_span btn_24 btn-lg badge-primary">Mega Sale</span>
+									</button>
+								</a>
+							</div>
+							<div class="gem_img-block_24" style="margin-top:25%;">
+								<span class="shine_24"></span>
+								<img class="img_cn_24" src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/fn_img_3.png" style="margin-left:20px;"/>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-4 col-md-4 text-center" style="	">
+							<div class="gem_img-block_24">
+								<span class="shine_24"></span>
+								<img class="img_bg_24" src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/fn_img_4.png" style="margin-bottom: 15px;"/>
+							</div>
+
+							<div class="gem_img-block_24">
+								<span class="shine_24"></span>
+								<img class="img_sm_24" src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/fn_img_5.png" style=""/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	  	 </template>
+
+	    <template id="home_s_terms" name="Home Terms">
+	  		<section class="gem_terms_24 col-lg-12" style="padding-top:10px;">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="gem_pulse_24 col-lg-3 col-sm-6 col-md-6">
+							<div id="image_24" class="ter_img_1" style="float:left; padding:12px;border: 1px solid #000; display: inline-block; border-radius:50%;
+							border-style: dashed;">
+			        			<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/terms_1.png" style="width:50px; height:50px;"/>
+			    			</div>
+			    			<div id="texts_24" style="float:left; margin-left: 11px; margin-top: 11px;"> 
+			        			<h6 style="font-weight: bold;">Safe Payment</h6>
+			        			<h6 style="font-weight: bold;">100% secure payment</h6>
+			    			</div>
+						</div>
+						<div class="gem_pulse_24 col-lg-3 col-sm-6">
+							<div id="image_24" class="ter_img_2" style="float:left; padding:12px;border: 1px solid #000; display: inline-block; border-radius:50%;
+							border-style: dashed;">
+			        			<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/terms_2.png" style="width:50px; height:50px;"/>
+			    			</div>
+			    			<div id="texts_24" style="float:left; margin-left: 11px; margin-top: 11px;"> 
+			        			<h6 style="font-weight: bold;">Help Center</h6>
+			        			<h6 style="font-weight: bold;">24 X 7 Quick support</h6>
+			    			</div>
+						</div>
+						<div class="gem_pulse_24 col-lg-3 col-sm-6">
+							<div id="image_24" class="ter_img_3" style="float:left; padding:12px;border: 1px solid #000; display: inline-block; border-radius:50%;
+							border-style: dashed;">
+			        			<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/terms_3.png" style="width:50px; height:50px;"/>
+			    			</div>
+			    			<div id="texts_24" style="float:left; margin-left: 11px; margin-top: 11px;"> 
+			        			<h6 style="font-weight: bold;">30 days Free Returns</h6>
+			        			<h6 style="font-weight: bold;">No Questions Asked</h6>
+			    			</div>
+						</div>
+						<div class="gem_pulse_24 col-lg-3 col-sm-6">
+							<div id="image_24" class="ter_img_4" style="float:left; padding:12px;border: 1px solid #000; display: inline-block; border-radius:50%;
+							border-style: dashed;">
+			        			<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/terms_4.png" style="width:50px; height:50px;"/>
+			    			</div>
+			    			<div id="texts_24" style="float:left; margin-left: 11px; margin-top: 11px;"> 
+			        			<h6 style="font-weight: bold;">Renowned Customers</h6>
+			        			<h6 style="font-weight: bold;">22k+ Happy Customers</h6>
+			    			</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	  	 </template>
+	    <template id="home_s_top_brands" name="Top Brands">
+			<section class="main_gem_top_brand col-lg-12" style="padding-top: 15px;">
+				<div class="title_gem_brand">
+					<h1 class="text-center" style="margin-bottom:20px; color:#000!important;">Explore Top Brands</h1>
+				</div>
+				<div class="left_side_image">
+					<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/services-left-dec.png" style="width:261px; height: 368px; position:absolute;"/>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 main_img">
+							<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/top_brands.png" style="width:80%;"/>
+						</div>
+						<div class="col-lg-6 brand_logo" style="padding-top:70px;">
+							<div class="container">
+								<div class="te_brand_slider_3 row" style="padding:10px;">
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_.png" style="height:110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_2.png" style="max-height:110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_3.png" style="max-height:110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand" style="border-right:none;">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_4.png" style="max-height:110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand" style="border-bottom: none;">
+										<img src="./geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_5.png" style="max-height:110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand" style="border-bottom: none;">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_6.png" style="max-height: 110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand" style="border-bottom: none;">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_7.png" style="max-height:110px;"/>
+									</div>
+									<div class="col-lg-3 col-sm-3 col-md-3 border_top_brand" style="border-right:none; border-bottom: none;">
+										<img src="/geminate_ecommerce_theme/static/src/img/main_image/home_page/logo_8.png" style="max-height:110px;"/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+	  	 </template>
+	  	 <template id="home_s_trending_prod" name="Trending Product">
+			<section class="gem_trending_24_sec" style="margin-top:10px;">
+				<div class="container-fluid">
+					<div class="row">
+					<div class="col-lg-3 col-sm-6 col-md-6 te_col_5_main">
+					  <div class="tre_image_24">
+					    <img class="img-fluid" src="https://img.freepik.com/premium-photo/fashionable-woman-coat-keychains-gesturing-with-her-hands-beige-background_163305-117748.jpg?w=360"/>
+					  </div>
+					  <div class="te_4_col_content">
+					    <div class="te_s_5_img">
+					      <img src="https://cdn-icons-png.flaticon.com/512/732/732084.png" class="img-fluid"/>
+					    </div>
+					    <p class="o_default_snippet_text">Lorem ipsum consectetur dolor sit amet, adipiscing elit.</p>
+					    <div class="te_extra_btn">
+					      <i class="fa fa-plus"></i>
+					      <a href="#" class="o_default_snippet_text">Explore</a>
+					    </div>
+					  </div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6 te_col_5_main">
+					  <div class="tre_image_24">
+					    <img class="img-fluid" src="https://img.freepik.com/free-photo/fashion-portrait-young-elegant-woman_1328-2683.jpg?w=360&amp;t=st=1675688326~exp=1675688926~hmac=da4cf97141b9d305ac0bbaa0a4a04fad48ce33b5e4fdd81cd8a44a7559c3399d"/>
+					  </div>
+					  <div class="te_4_col_content">
+					    <div class="te_s_5_img">
+					      <img src="https://cdn-icons-png.flaticon.com/512/732/732160.png" class="img-fluid"/>
+					    </div>
+					    <p class="o_default_snippet_text">Lorem ipsum consectetur dolor sit amet, adipiscing elit.</p>
+					    <div class="te_extra_btn">
+					      <i class="fa fa-plus"></i>
+					      <a href="#" class="o_default_snippet_text">Explore</a>
+					    </div>
+					  </div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6 te_col_5_main">
+					  <div class="tre_image_24">
+					    <img class="img-fluid" src="https://img.freepik.com/free-photo/fashion-portrait-young-elegant-woman_1328-2630.jpg?w=360&amp;t=st=1675688362~exp=1675688962~hmac=58a1e921a31e45048ab5e26c26cfcfca8c2da1da8304c8518667597961599347"/>
+					  </div>
+					  <div class="te_4_col_content">
+					    <div class="te_s_5_img">
+					      <img src="https://cdn-icons-png.flaticon.com/512/47/47137.png" class="img-fluid"/>
+					    </div>
+					    <p class="o_default_snippet_text">Lorem ipsum consectetur dolor sit amet, adipiscing elit.</p>
+					    <div class="te_extra_btn">
+					      <i class="fa fa-plus"></i>
+					      <a href="#" class="o_default_snippet_text">Explore</a>
+					    </div>
+					  </div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6 te_col_5_main">
+					  <div class="tre_image_24">
+					    <img class="img-fluid" src="https://img.freepik.com/free-photo/portrait-smiley-teenage-girl-using-smartphone_23-2149085855.jpg?w=360&amp;t=st=1675688387~exp=1675688987~hmac=28c34efda9674bc1b2bcf9e1c6da3f77283a88d7485e3f61abd128cd377b4900"/>
+					  </div>
+					  <div class="te_4_col_content">
+					    <div class="te_s_5_img">
+					      <img src="https://cdn-icons-png.flaticon.com/512/732/732107.png" class="img-fluid"/>
+					    </div>
+					    <p class="o_default_snippet_text">Lorem ipsum consectetur dolor sit amet, adipiscing elit.</p>
+					    <div class="te_extra_btn">
+					      <i class="fa fa-plus"></i>
+					      <a href="#" class="o_default_snippet_text">Explore</a>
+					    </div>
+					  </div>
+					</div>
+					</div>
+				</div>
+			</section>
+	  	 </template>
+	  	<template id="home_s_most_popular" name="Most Popular">
+	  		<section class="gem_5box_sec">
+				<div class="title_gem_brand">
+					<h1 style="color:#000!important">Most Popular</h1>
+				</div>
+			    <div class="container-fluid">
+			        <div class="row">
+			            <div class="col-lg-4 col-sm-6 p-24">
+			            	<div class="categories__item_24 women_image categories__large__item_24 set-bg_24"
+			                	style="background: url(/geminate_ecommerce_theme/static/src/img/main_image/home_page/category-1.jpg);">
+			                	<div class="categories__text">
+			                    	<h4>Women’s fashion</h4>
+			                    	<a href="#" class="a_left" style="position:absolute; top:57%; left:6.3%;"> 
+										<button class="btn-24">
+											<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+										</button>
+									</a>
+			                	</div>
+			            	</div>
+			        	</div>
+			        	<div class="col-lg-4 col-sm-6 p-24">
+			        		<div class="categories__item_24 categories__item_31 set-bg_24" 
+			        		style="background: url(/geminate_ecommerce_theme/static/src/img/main_image/home_page/category-2.jpg);">
+			                	<div class="men_h4 categories__text">
+			                		<h4>Men’s fashion</h4>
+			                    	<a href="#" class="a_left men_btn" style="position:absolute; top:57%; left:6.3%;"> 
+										<button class="btn-24">
+											<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+										</button>
+									</a>
+			                    </div>
+			                 </div>
+			        	</div>
+			        	<div class="col-lg-4">
+			            	<div class="row">
+			                	<div class="col-lg-12 col-md-6 col-sm-6 p-24">
+			                    	<div class="categories__item_24 set-bg_24" style="background: url(/geminate_ecommerce_theme/static/src/img/main_image/home_page/category-3.jpg);">
+			                        	<div class="categories__text" style="margin-top: -9.5%;">
+			                            	<h4>Kid’s fashion</h4>
+			                            	<a href="#" class="a_left" style="position:absolute; top:57%; left:6.2%;"> 
+										<button class="btn-24">
+											<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+										</button>
+									</a>
+			                        	</div>
+			                    	</div>
+			                	</div>
+			                	<div class="col-lg-12 col-md-6 col-sm-6 p-24">
+			                    	<div class="categories__item_24 set-bg_24" style="background: url(/geminate_ecommerce_theme/static/src/img/main_image/home_page/category-4.jpg);">
+			                        	<div class="categories__text" style="margin-top:-5%">
+			                            	<h4 style="opacity:1px!important;">Cosmetics</h4>
+			                            	<a href="#" class="a_left" style="position:absolute; top:60%; left:6.5%;"> 
+												<button class="btn-24">
+													<span class="border_span btn_24 btn-lg badge-primary">Shop Now</span>
+												</button>
+											</a>
+			                        	</div>
+			                    	</div>
+			                	</div>
+			            	</div>
+			        	</div>
+			   		</div>
+				</div>
+			</section>
+	  	 </template>
+    </data>
+</odoo>

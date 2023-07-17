@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_5" inherit_id="website.layout" name="Right_Boxes_And_Newsletter" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="main_gem_footer_5">
+                        <div class="footer-newsletter_ft_gem">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h4>Our Newsletter</h4>
+                                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <form>
+                                            <input type="email" name="email" class="email_ft_5"/>
+                                            <input type="submit" value="Subscribe" class="btn_ft_5_gem badge-primary"/>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main_details_bg">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-9">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-4 text-centre">
+                                                <h4 class="comn_h4_ft_5">Useful Links</h4>
+                                                <ul style="padding: 0px; list-style: none;">
+                                                    <li>
+                                                        <a href="#">Home</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">About us</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Services</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Privacy policy</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-4 text-centre">
+                                                <h4 class="comn_h4_ft_5">Our Services</h4>
+                                                <ul style="padding: 0px; list-style: none;">
+                                                    <li>
+                                                        <a href="#">Web Design</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Web Development</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Marketing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Graphic Design</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-4 text-centre">
+                                                <h4 class="comn_h4_ft_5">Information</h4>
+                                                <ul style="padding: 0px; list-style: none;">
+                                                    <li>
+                                                        <a href="#">Privacy Policy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Refund Policy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Term &amp; conditions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">Legal</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 right_side_area">
+                                        <div class="logo_area_ft_gem">
+                                            <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                            <p style="font-size:13px; font-weight: 700;">Lorem ipsum dolor sit amet<br/>consectetur adipiscing elit</p>
+                                        </div>
+                                        <div class="social_area_ft_5_gem" style="text-align: center;">
+                                            <h3 style="font-size:23px; font-weight:700; text-transform: uppercase;">Follow US </h3>
+                                            <a href="#" style="display:inline-block;">
+                                                <div class="icon_bg">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/footer_3/facebook.png"/>
+                                                </div>
+                                            </a>
+                                            <a href="#" style="display:inline-block;">
+                                                <div class="icon_bg">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/footer_3/instagram.png"/>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="icon_bg" style="display:inline-block;">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/footer_3/twitter.png"/>
+                                                </div>
+                                            </a>
+                                            <a href="#">
+                                                <div class="icon_bg" style="display:inline-block;">
+                                                    <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/footer_3/youtube.png"/>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

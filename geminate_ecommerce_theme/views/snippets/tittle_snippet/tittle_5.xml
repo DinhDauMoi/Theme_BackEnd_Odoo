@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="bottom_two_border_tittle" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_5_tittle" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/tittle/tittle_5.png"/>
+            </xpath>
+        </template>
+        <template id="s_5_tittle" name="Tittle 5">
+            <div class="s_gem_title_section_5">
+                <div class="container">
+                    <div class="section-title_gem_07">
+                        <h2>
+                            Check <span>Our Best</span> Feature
+                        </h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using orem psum is that it has a more-or-less normal distribution.</p>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template id="tittle_btn5_snippet_options" inherit_id="website.snippet_options" name="tittle_btn5 snippet options">
+            <xpath expr="//*[@t-set='so_content_addition_selector']" position="inside">, .s_gem_title_section_5</xpath>
+        </template>
+    </data>
+</odoo>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_8" inherit_id="website.layout" name="Left_Side_Detalis_Box" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="main_gem_footer_8">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="box_shadow_design">
+                                        <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                                        <div class="social_icn_ft_8" style="display:inline-block; margin-bottom: 25px;">
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/facebook.png" style="width:30px;"/>
+                                            </a>
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/instagram.png" style="width:30px;"/>
+                                            </a>
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/twitter.png" style="width:30px;"/>
+                                            </a>
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/youtube.png" style="width:30px;"/>
+                                            </a>
+                                        </div>
+                                        <div class="other_details">
+                                            <a href="tel:+4733378901" style="display: block;">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/phone-call_1.png" style="display:inline-flex;"/>
+                                                <span style="font-weight: 700;">+4733378901</span>
+                                            </a>
+                                            <br/>
+                                            <a href="" style="display:block;">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/email_1.png" style="display:inline-flex;"/>
+                                                <span style="font-weight: 700;">demo@123.gmailcom</span>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                                <div class="company_section" style="margin-left:50px;">
+                                                    <h4>Company</h4>
+                                                    <ul style="list-style: none; padding: 0; text-align: center;">
+                                                        <li>
+                                                            <a href="#">Home</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">About us</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Contact us</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Blog</a>
+                                                        </li>
+                                                    </ul> 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                                <div class="service_section" style="margin-left: 50px;">
+                                                    <h4>Services</h4>
+                                                    <ul style="list-style: none; padding: 0;">
+                                                        <li>
+                                                            <a href="#">App design</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">web design</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Logo design</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Banner design</a>
+                                                        </li>
+                                                    </ul> 
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                                <div class="courses_section" style="margin-left: 50px;">
+                                                    <h4>Courses</h4>
+                                                    <ul style="list-style: none; padding: 0;">
+                                                        <li>
+                                                            <a href="#">HTML &amp; CSS</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">JavaScript</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Photography</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Photoshop</a>
+                                                        </li>
+                                                    </ul> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

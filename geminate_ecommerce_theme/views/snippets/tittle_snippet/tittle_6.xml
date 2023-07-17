@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="ani_boder_tittle" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_6_tittle" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/tittle/tittle_6.png"/>
+            </xpath>
+        </template>
+        <template id="s_6_tittle" name="Tittle Animation Border">
+            <div class="s_gem_title_section_6_ani">
+                <div class="container">
+                    <div class="site-heading text-center">
+                        <span class="site-title-tagline">Services</span>
+                        <h2 class="site-title">
+                            Best<span>Services</span>
+                        </h2>
+                        <div class="heading-divider"></div>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <template id="tittle_btn6_snippet_options" inherit_id="website.snippet_options" name="tittle_btn6 snippet options">
+            <xpath expr="//*[@t-set='so_content_addition_selector']" position="inside">, .s_gem_title_section_6_ani</xpath>
+        </template>
+    </data>
+</odoo>

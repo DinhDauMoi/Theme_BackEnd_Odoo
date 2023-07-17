@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_3" inherit_id="website.layout" name="Right_Side_Logo_And_Details" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                   <section class="main_gem_footer_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-9 padding-0px">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="first_ul_list">
+                                        <h4 class="comn_h4">Company</h4>
+                                        <ul style="list-style: none; padding: 0px;">
+                                            <li>
+                                                <a href="#">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Contact Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Blog</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="sec_ul_list">
+                                        <h4 class="comn_h4">Quick Links</h4>
+                                        <ul style="list-style: none; padding: 0px;">
+                                            <li>
+                                                <a href="#">My account</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Cart</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">whishlist</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Product compare</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="three_ul_list">
+                                        <h4 class="comn_h4">Information</h4>
+                                        <ul style="list-style: none; padding: 0px;">
+                                            <li>
+                                                <a href="#">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Refund Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Term &amp; conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Legal</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="four_ul_list">
+                                        <h4 class="comn_h4">Categories</h4>
+                                        <ul style="list-style: none; padding: 0px;">
+                                            <li>
+                                                <a href="#">Appliances</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Computers &amp; Laptop</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Cameras</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mobile Phones</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 text-centre padding-0px">
+                            <div class="logo_place" style="float:right;">
+                                <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                <p style="text-align:left; font-size:13px; font-weight: 700;">Lorem ipsum dolor sit amet<br/>consectetur adipiscing elit</p>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="social_icons_ft_3" style="float:right; display: flex;">
+                                <div class="bg_deisgn fb_hvr">
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="bg_deisgn in_hvr">
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="bg_deisgn tw_hvr">
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div class="bg_deisgn yo_hvr">
+                                    <a href="#">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

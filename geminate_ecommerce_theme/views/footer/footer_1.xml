@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <template id="template_footer_1" inherit_id="website.layout" name="Rigth_Side_Social_Links" active="False">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <section class="main_gem_footer_1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-6 detalis_box">
+                                            <ul style="list-style:none; padding-left:0px;">
+                                                <a href="#"><img src="/geminate_ecommerce_theme/static/src/img/logo1.png" class="img-fluid" alt="logo"/></a>
+                                                <li>
+                                                    <a href="#"><span>A108 Street<br/> NY 535022, USA</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6 link_box_2 comn_link_box">
+                                            <ul  class="ul_comn_class_ft_1" style="list-style:none; padding-left:0px;">
+                                                <h4>Useful Links</h4>
+                                                <li>
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">About us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Terms of service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Privacy policy</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6 link_box_3 comn_link_box">
+                                            <ul class="ul_comn_class_ft_1" style="list-style:none; padding-left:0px;">
+                                                <h4>Useful Links</h4>
+                                                <li>
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">About us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Terms of service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Privacy policy</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6 link_box_4 comn_link_box">
+                                            <ul class="ul_comn_class_ft_1" style="list-style:none; padding-left:0px;">
+                                                <h4>Useful Links</h4>
+                                                <li>
+                                                    <a href="#">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">About us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Services</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Terms of service</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Privacy policy</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 right_side_detalis_box">
+                                    <div class="upper_top_bg">
+                                        <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/talk.png" class="img-fluid"/>
+                                        <h5>Let's Talk</h5>
+                                    </div>
+                                    <div class="comn_icon_section" style="margin-top:25px;">
+                                        <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/email.png" style="width:35px; height:35px; float:left; margin-right:15px;"/>
+                                        <span>
+                                            <a href="#">De3mo@gmail.com</a>
+                                        </span>
+                                    </div>
+                                    <div class="comn_icon_section" style="margin-top:30px;">
+                                        <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/phone.png" style="width:35px; height:35px; float:left; margin-right:15px;"/>
+                                        <span>
+                                            <a href="tel:+4733378901">+47 333 78 901</a>
+                                        </span>
+                                    </div>
+                                    <div class="social_icons" style="margin-top:40px; display:flex;">
+                                        <div class="comn_icon_ft_1 fb_icon_ft_1">
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/facebook.png"/>
+                                            </a>
+                                        </div>
+                                        <div class="comn_icon_ft_1 in_icon_ft_1">
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/instagram.png"/>
+                                            </a>
+                                        </div>
+                                        <div class="comn_icon_ft_1 tw_icon_ft_1">
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/twitter.png"/>
+                                            </a>
+                                        </div>
+                                        <div class="comn_icon_ft_1 yo_icon_ft_1">
+                                            <a href="#">
+                                                <img src="/geminate_ecommerce_theme/static/src/img/main_image/footer/youtube.png"/>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+        </template>
+    </data>
+</odoo>

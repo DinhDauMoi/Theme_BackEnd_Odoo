@@ -1,0 +1,75 @@
+.s_counts {
+  padding: 70px 0 60px;
+}
+.s_counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.s_counts .count-box i {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  width: 56px;
+  height: 56px;
+  line-height: 2;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.s_counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #062b5b;
+}
+.s_counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px; 
+  text-transform: uppercase; 
+  letter-spacing: -.5px; 
+  font-weight:700;
+  font-family:'Montserrat', sans-serif;
+}
+
+.s_counts [aria-hidden="true"], [aria-hidden="1"] {
+  display: block!important;
+}
+
+@media (min-width:260px) and (max-width: 667px) and (orientation: portrait){
+.s_counts .count-box i {
+  margin-left: -27px;
+}
+}
+
+@media (min-width:667px) and (max-width: 667px) and (orientation: landscape){
+.s_counts .count-box i {
+  margin-left: -27px;
+}
+}
+
+@media (min-width:740px) and (max-width:740px) and (orientation: landscape){
+.s_counts .count-box i {
+  margin-left: -27px;
+}
+}
+
+@media (min-width:720px) and (max-width:720px) and (orientation: landscape){
+.s_counts .count-box i {
+  margin-left: -27px;
+}
+}
+
+@media (min-width:653px) and (max-width:653px) and (orientation: landscape){
+.s_counts .count-box i {
+  margin-left: -27px;
+}
+}
+

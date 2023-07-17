@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <template id="ecommerce_contact_us" name="Geminate Ecommerce Contact Us" inherit_id="website.contactus">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                
+                <section class="ecom_contact_banner">
+                    <div class="container">
+                        <h1 class="ecom_banner_h1">Contact Us</h1>
+                    </div>
+                </section>
+
+                <section class="ecom_contact_form">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <img class="img-fluid" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&amp;raw_url=true&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1470" style="border-radius:0px 10px 10px 0px;"/>
+                            </div>
+                            <div class="col-lg-5 s_website_form" data-vcss="001">
+                                <form id="contactus_form" action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required ecom_form" data-mark="*" data-model_name="mail.mail" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-pre-fill="true">
+                                    <h4>Get In Touch</h4>
+                                    <p style="width:400px; font-weight: bold; margin-bottom:30px;">We have a great team to collaborate with! With your support, we can achieve great heights of success together.</p>
+                                    <div class="s_website_form_rows row s_col_no_bgcolor">
+                                        <div class="form-group col-lg-6 col-md-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="char" data-name="Field">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                <div class="col-sm">
+                                                    <input id="contact1" type="text" class="ecom_form-control form-control s_website_form_input" name="name" placeholder='Name *' required="" data-fill-with="name"/>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-lg-6 col-md-12 s_website_form_field s_website_form_custom" data-type="char" data-name="Field">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                <div class="col-sm">
+                                                    <input id="contact2" type="tel" class="ecom_form-control form-control s_website_form_input" name="phone" placeholder='Phone' data-fill-with="phone"/>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group col-lg-6 col-md-12 s_website_form_field s_website_form_required" data-type="email" data-name="Field">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                <div class="col-sm">
+                                                    <input id="contact3" placeholder="Email *" type="email" class="ecom_form-control form-control s_website_form_input" name="email_from" required="" data-fill-with="email"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-6 col-md-12 s_website_form_field s_website_form_custom" data-type="char" data-name="Field">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+
+                                                <div class="col-sm">
+                                                    <input id="contact4" placeholder="Your Company" type="text" class="ecom_form-control form-control s_website_form_input" name="company" data-fill-with="commercial_company_name"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                  
+                                        <div class="form-group col-12 s_website_form_field s_website_form_required" data-type="char" data-name="Field">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                <div class="col-sm">
+                                                    <input id="contact5" placeholder="Subject *" type="text" class="ecom_form-control form-control s_website_form_input" name="subject" required=""/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="text" data-name="Field">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                <div class="col-sm">
+                                                    <textarea id="contact6" placeholder="Message *" class="ecom_form-control form-control s_website_form_input" name="description" required=""></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-12 s_website_form_field s_website_form_dnone">
+                                            <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                <div class="col-sm">
+                                                    <input id="contact7" type="hidden" class="form-control ecom_form-control s_website_form_input" name="email_to"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-12 s_website_form_submit text-center" data-name="Submit Button">
+                                            <div style="width:auto; text-align:center;" class="s_website_form_label"/>
+                                            <a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send">Submit</a>
+                                            <span id="s_website_form_result"></span>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>  
+                    </div>
+                </section>
+
+                <section class="ecom_page-detail">
+                    <div class="container">
+                        <div class="ecom_page_three">
+                            <div class="row">
+                                <div class="col-lg-4 text-centre_page_detail">
+                                    <div class="contact-us-page-icon-content-box">
+                                        <span>
+                                            <i class="fa fa-envelope"></i>
+                                        </span> 
+                                    </div>
+                                    <div class="contact-us-page-txt-content-box">
+                                        <h4>E-mail Address</h4>
+                                        <p>
+                                            <a t-attf-href="mailto:{{request.env.company.email}}" target="_blank" style="color:#000;"><t t-esc='request.env.company.email'/></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 text-centre_page_detail">
+                                    <div class="contact-us-page-icon-content-box">
+                                        <span>
+                                            <i class="fa fa-headphones"></i>
+                                        </span> 
+                                    </div>
+                                    <div class="contact-us-page-txt-content-box">
+                                        <h4>Phone Number</h4>
+                                        <p>
+                                            <a t-attf-href="tel:{{request.env.company.phone}}"><t  t-esc='request.env.company.phone'/></a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 text-centre_page_detail">
+                                    <div class="contact-us-page-icon-content-box">
+                                        <span>
+                                            <i class="fa fa-map-marker"></i>
+                                        </span> 
+                                    </div>
+                                    <div class="contact-us-page-txt-content-box">
+                                        <h4>Address</h4>
+                                        <p>
+                                            <t t-if='request.env.company.street' t-esc='request.env.company.street'/>
+                                            <t t-if='request.env.company.street2' t-esc='request.env.company.street2'/>
+                                            <t t-if='request.env.company.city' t-esc='request.env.company.city'/>
+                                            <t t-if='request.env.company.state_id' t-esc='request.env.company.state_id.name'/>
+                                            <t t-if='request.env.company.country_id' t-esc='request.env.company.country_id.name'/>
+                                            <t t-if='request.env.company.zip' t-esc='request.env.company.zip'/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="ecom_gmap geminate_contact_form" style="margin-top:-40px;">
+                    <div class="map-responsive">
+                        <div id="map_canvas" style="width: 100%; height: 300px !important;" />
+                    </div>
+                   <!--  <div class="responsive-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.9588387436097!2d72.63956251759859!3d23.061970579524576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86221b696d87%3A0x9d0766bf7fa4a96!2sGeminate%20Consultancy%20Services!5e0!3m2!1sen!2sin!4v1653389401470!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div> -->
+                </section>
+            </xpath>
+        </template>
+    </data>
+</odoo>

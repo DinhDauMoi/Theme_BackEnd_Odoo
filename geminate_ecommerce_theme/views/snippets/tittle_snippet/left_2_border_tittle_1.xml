@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="title_lft_border" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_structure']/div[hasclass('o_panel_body')]" position="inside">
+                <t t-snippet="geminate_ecommerce_theme.s_left_2_border" t-thumbnail="/geminate_ecommerce_theme/static/src/img/extra_snippet/tittle/tittle_1.png"/>
+            </xpath>
+        </template>
+        <template id="s_left_2_border" name="Tittle 1">
+            <div class="s_gem_title_div_1">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="s_gem_sec_tittle">
+                      <span class="title">Lorem ipsum dolor sit amet</span>
+                      <h2>Find Your Career You Deserve it</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </template>
+        <template id="tittle_btn1_snippet_options" inherit_id="website.snippet_options" name="tittle_btn1 snippet options">
+            <xpath expr="//*[@t-set='so_content_addition_selector']" position="inside">, .s_gem_title_div_1</xpath>
+        </template>
+    </data>
+</odoo>

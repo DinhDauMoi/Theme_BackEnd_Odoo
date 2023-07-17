@@ -1,0 +1,103 @@
+
+.s_services_main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.s_services_main .icon-box {
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  width: 100%;
+}
+.s_services_main .icon-box .icon_services {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+.s_services_main .icon-box .icon_services i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+.s_services_main .icon-box .icon_services svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.s_services_main .icon-box .icon_services svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+.s_services_main .icon-box h4 {
+  font-weight: 600;
+  margin: 10px 0 15px 0;
+  font-size: 22px;
+}
+.s_services_main .icon-box h4 a {
+  color: #434175;
+  transition: ease-in-out 0.3s;
+}
+.s_services_main .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.s_services_main .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+.s_services_main .iconbox-blue i {
+  color: #47aeff;
+}
+.s_services_main .iconbox-blue:hover .icon_services i {
+  color: #fff;
+}
+.s_services_main .iconbox-blue:hover .icon_services path {
+  fill: #47aeff;
+}
+.s_services_main .iconbox-orange i {
+  color: #ffa76e;
+}
+.s_services_main .iconbox-orange:hover .icon_services i {
+  color: #fff;
+}
+.s_services_main .iconbox-orange:hover .icon_services path {
+  fill: #ffa76e;
+}
+.s_services_main .iconbox-pink i {
+  color: #e80368;
+}
+.s_services_main .iconbox-pink:hover .icon_services i {
+  color: #fff;
+}
+.s_services_main .iconbox-pink:hover .icon_services path {
+  fill: #e80368;
+}
+.s_services_main .iconbox-teal i {
+  color: #11dbcf;
+}
+.s_services_main .iconbox-teal:hover .icon_services i {
+  color: #fff;
+}
+.s_services_main .iconbox-teal:hover .icon_services path {
+  fill: #11dbcf;
+}
+.s_services_main .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    color: #434175;
+}
+.s_services_main .section-title {
+    text-align: center;
+}

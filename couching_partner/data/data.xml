@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Website Nav  -->
+        <record id="menu_htx" model="website.menu">
+            <field name="name">Tư vấn</field>
+            <field name="url">/organization</field>
+            <field name="parent_id" ref="website.main_menu" />
+            <field name="sequence" type="int">47</field>
+        </record>
+
+    </data>
+</odoo>

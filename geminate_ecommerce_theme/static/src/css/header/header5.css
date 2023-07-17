@@ -1,0 +1,309 @@
+.nav_gem_header_4{
+   display: flex;
+   height: 80px;
+   width: 100%;
+   background: #000;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 50px 0 50px;
+   flex-wrap: wrap;
+}
+.nav_gem_header_4 ul.navbar-nav > li > a{
+   padding: 0px 20px!important;
+}
+.nav_gem_header_4 ul.navbar-nav > li > a i {
+   color: #000!important;
+}
+.nav_gem_header_4 ul#top_menu.navbar-nav > li > a {
+   background: none;
+   color: #fff
+}
+.nav_gem_header_4 #top_menu {
+   display: contents;
+}
+.serch_box_hd_4 .s_text_block  {
+   float: right;
+   margin-top: 2px;
+}
+.logo_gem_header_3{
+   color: #fff;
+   font-size: 40px;
+   font-weight: 900;
+   display: contents;
+   text-transform: uppercase;
+}
+.nav_gem_header_4 ul{
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+.nav_gem_header_4 ul li{
+   margin: 0 5px;
+}
+.nav_gem_header_4 ul li a{
+   color: #000;
+   text-decoration: none;
+   font-size: smaller;
+   font-weight: 500;
+   padding: 8px 15px;
+   border-radius: 5px;
+   letter-spacing: 1px;
+   transition: all 0.3s ease;
+   display: block;
+   background: #fff;
+}
+/*.nav_gem_header_4 ul li a:active, .nav_gem_header_4 ul li a:focus,
+.nav_gem_header_4 ul li a:hover{
+color: #000!important;
+background: #fff!important;
+}*/
+.nav_gem_header_4 .menu-btn_gem_hd_4 i{
+   color: #fff;
+   font-size: 22px;
+   cursor: pointer;
+   display: none;
+}
+.checkbox{
+   display: none;
+}
+.background_circle_hd_4 {
+   background: white;
+   padding: 10px;
+   border-radius: 10px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: inline-flex;
+   margin-left:10px;
+   width: 42px;
+   height: 42px;
+}
+.design_inner_header_4 {
+   border: none;
+   border-radius: 10px;
+   height: 35px;
+   width: 100%;
+   padding-left:10px;
+   font-weight: 700;
+   margin-right: 10px;
+   margin-top: 20px;
+}
+.serch_box_hd_4 i{
+   transform: translate(-100%, -182%);
+   font-weight: 700;
+   margin-top: 3px;
+   float: right;
+}
+.nav_gem_header_4 .badge-primary {
+   display: inline-block;
+   padding: 0.25em 0.4em;
+   font-size: 75%;
+   font-weight: 700;
+   line-height: 1;
+   text-align: center;
+   border-radius:4px;
+   color: #fff;
+   position: absolute;
+   margin-left: 5px;
+   margin-top: 5px;
+}
+.nav_gem_header_4 .my_wish_quantity.badge-primary {
+   margin-left: 7px!important;
+}
+
+.detalis_hd_4 {
+   background: #424040;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   font-weight: 700;
+   padding: 5px 0px 5px 0px;
+}
+.detalis_hd_4 .fb_icon{
+   background:#3b5998;
+}
+.detalis_hd_4 .fb_icon i {
+   color: #fff;
+}
+.detalis_hd_4 .insta_icon{
+   background: #f2003c;
+}
+.detalis_hd_4 .insta_icon i {
+   color: #fff;
+}
+.detalis_hd_4 .tw_icon{
+   background: #1c96e8;
+}
+.detalis_hd_4 .tw_icon i {
+   color: #fff;
+}
+.detalis_hd_4 .link_icon{
+   background: #0A66C2;
+}
+.detalis_hd_4 .link_icon i {
+   color: #fff;
+}
+
+.detalis_hd_4 .social_bg_design_comn_hd_4 {
+   padding: 10px;
+   width: 42px;
+   height: 42px;
+   text-align: center;
+   border-radius: 10px;
+   margin-left: 10px;
+   color: #000;
+   align-items: center;
+   justify-content: center;
+   display: inline-flex;
+   margin-top: 0px!important;
+}
+.social_bg_design_comn_hd_4 i {
+   font-size:18px;
+}
+.comn_upper_header_details {
+   background: #fff;
+   padding: 10px;
+   width: 35px;
+   height: 35px;
+   text-align: center;
+   border-radius: 50px;
+   color: #000;
+   float: left;
+   margin-top: 10px;
+}
+.dropdown-toggle_header_4::after {
+   display: inline-block;
+   margin-left: 0.455em;
+   vertical-align: 0.255em;
+   content: "";
+   border-top: 0.3em solid;
+   border-right: 0.3em solid transparent;
+   border-bottom: 0;
+   border-left: 0.3em solid transparent;
+}
+@media (max-width: 1000px){
+   .nav_gem_header_4{
+      padding: 0 40px 0 50px;
+   }
+   .nav_gem_header_4 ul.navbar-nav > li > a {
+      padding: 0px 0px!important;
+   }
+}
+@media (max-width: 920px) {
+   .nav_gem_header_4 .menu-btn_gem_hd_4 i{
+      display: block;
+   }
+   #click_gem_hd_4:checked ~ .menu-btn_gem_hd_4 i:before{
+      content: "\f00d";
+   }
+   .nav_gem_header_4 #top_menu{
+      position: absolute;
+      top: 193px;
+      left: -100%;
+      background: #000;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+   } 
+   #click_gem_hd_4:checked ~ ul{
+      left: 0;
+   }
+   .nav_gem_header_4 ul li{
+   }
+   .nav_gem_header_4 ul li a{
+      display: block;
+      font-size: 20px;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+   }
+
+   #click_gem_hd_4:checked ~ ul li a{
+      text-align: center;
+   }
+   nav ul li a.active,
+   nav ul li a:hover{
+      background: none;
+      color: cyan;
+   }
+}
+@media (min-width:460px) and (max-width: 914px){
+   .logo_gem_header_3 {
+      font-size:40px!important;
+   }
+}
+@media (min-width:280px) and (max-width:450px){  
+   .nav_gem_header_4 .navbar-brand.logo img {
+      display: none;
+   }
+}
+@media (min-width:280px) and (max-width:574px){ 
+   .nav_gem_header_4 ul {
+      top: 189px;
+   }
+   .nav_gem_header_4 .logo{
+      display: none;
+   }
+
+}
+@media (max-width: 991px) {
+   .text-centre-4 {
+      text-align: center;
+   }
+   .logo_gem_header_3 {
+      font-size:20px;
+   }
+   .nav_gem_header_4 .menu-btn_gem_hd_4 i {
+      font-size: 35px;
+   }
+   .s_text_block .btn {
+      margin-bottom: 0px!important;
+   }
+   .serch_box_hd_4 .s_text_block {
+      display: block;
+      text-align: center;
+      float: unset;
+      margin-top: 20px;
+   }
+   .nav_gem_header_4 ul.navbar-nav > li > a i {
+      width: 40px;
+      background:#fff!important;
+   }
+   .nav_gem_header_4 .badge-primary {
+      border-radius: 0px;
+      margin-left: 26px;
+      margin-top: 11px;
+   }
+
+   .nav_gem_header_4 ul li a{
+      background: none;
+   }
+
+   .nav_gem_header_4 ul.navbar-nav > li > a i{
+      float: left;
+   }
+
+   .nav_gem_header_4 .my_wish_quantity.badge-primary {
+      margin-left: 28px!important;
+   }
+
+   .nav_gem_header_4 ul.navbar-nav > li > a i {
+      margin-top: 15px;
+   }
+}
+@media (min-width: 741px) and (max-width: 992px){
+   .nav_gem_header_4 .navbar-brand {
+      position: initial;
+   }
+}
+@media (max-width: 1000px){
+   .icon_sec_head_4 .navbar-nav {
+      margin-bottom: 12px!important;
+   }
+}
+
+@media (min-width: 567px) and (max-width: 767px){
+   .nav_gem_header_4 .menu-btn_gem_hd_4 i{
+      margin-left: -155px;
+   }
+}
+
